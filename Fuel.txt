@@ -1,0 +1,17 @@
+Ferrari
+Track				per lap	per minute	avg time	25m fuel	45m fuel	60m fuel
+Barcelona								
+Hungaroring								
+Imola									1:42.5
+Kyalami									1:43.0
+Laguna Seca								
+Misano
+Monza									1:49.0
+Mount Panorama							2:04.0
+Nürburgring								1:56.5
+Paul Ricard
+Silverstone								1:59.7
+Spa										2:19.0
+Suzuka								
+Zandvoort
+Zolder
