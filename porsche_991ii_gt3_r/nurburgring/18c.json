@@ -1,0 +1,119 @@
+{
+	"carName": "porsche_991ii_gt3_r",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 69, 72, 64, 66 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 3, 3 ],
+			"toe": [ 38, 38, 55, 55 ],
+			"staticCamber": [ -5.1022977828979492, -5.1010880470275879, -0.18323788046836853, -0.18148300051689148 ],
+			"toeOutLinear": [ -0.00025400356389582157, -0.00025403627660125494, -0.0059358743019402027, -0.0059358277358114719 ],
+			"casterLF": 11,
+			"casterRF": 11,
+			"steerRatio": 3
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 2,
+			"abs": 3,
+			"eCUMap": 7,
+			"fuelMix": 0,
+			"telemetryLaps": 30
+		},
+		"strategy":
+		{
+			"fuel": 13,
+			"nPitStops": 0,
+			"tyreSet": 1,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 62,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 68, 73, 64, 69 ]
+					},
+					"tyreSet": 10,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 43,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 68, 73, 64, 69 ]
+					},
+					"tyreSet": 11,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 28,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 68, 73, 64, 69 ]
+					},
+					"tyreSet": 12,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 28,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 68, 73, 64, 69 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				}
+			],
+			"fuelPerLap": 2.9897251129150391
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 5,
+			"aRBRear": 3,
+			"wheelRate": [ 7, 7, 4, 4 ],
+			"bumpStopRateUp": [ 9, 9, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 1, 1, 50, 50 ],
+			"brakeTorque": 20,
+			"brakeBias": 45
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 10, 10, 8, 8 ],
+			"bumpFast": [ 6, 6, 5, 5 ],
+			"reboundSlow": [ 12, 12, 5, 5 ],
+			"reboundFast": [ 7, 7, 12, 12 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 2, 11, 15, 18 ],
+			"rodLength": [ 50.515663146972656, 50.515663146972656, -51.404930114746094, -51.404930114746094 ],
+			"splitter": 2,
+			"rearWing": 9,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 6
+		}
+	},
+	"trackBopType": 27
+}
