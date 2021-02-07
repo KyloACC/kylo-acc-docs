@@ -8,7 +8,7 @@ Laguna Seca
 Misano
 Monza									1:49.0
 Mount Panorama							2:04.0
-Nürburgring								1:56.5
+Nürburgring			3.00	1.55		1:56.0		44			75			98
 Paul Ricard
 Silverstone								1:59.7
 Spa										2:19.0
