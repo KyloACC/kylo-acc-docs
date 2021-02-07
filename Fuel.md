@@ -1,9 +1,8 @@
-#Ferrari Fuel Cheatsheet
+# Ferrari Fuel Cheatsheet
 | Track         | Fuel per lap  | per minute  | average time | 25m fuel | 45m fuel | 60m fuel |
 |:-------------:|:-------------:|:-----------:|:------------:|:--------:|:--------:|:--------:|
 | Barcelona     |               |             |              |          |          |          |
 | Hungaroring   |               |             |              |          |          |          |
-| Imola         |               |             |              |          |          |          |
 | Imola         | 2.95          | 1.75        | 1:42.5       | 48       | 83       | 108      |
 | Kyalami       |               |             | 1:43.0       |          |          |          |
 | Laguna Seca   |               |             |              |          |          |          |
