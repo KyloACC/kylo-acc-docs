@@ -12,7 +12,7 @@
 | Nürburgring   | 3.00          | 1.55        | 1:56.0       | 44       | 75       | 98       |
 | Paul Ricard   |               |             |              |          |          |          |
 | Silverstone   |               |             | 1:59.7       |          |          |          |
-| Spa           |               |             | 2:19.0       |          |          |          |
+| Spa           |               |             | 2:19.0       | 48       | 83       | 109      |
 | Suzuka        |               |             |              |          |          |          |
 | Zandvoort     |               |             |              |          |          |          |
 | Zolder        |               |             | 1:29.0       |          |          |          |
