@@ -4,7 +4,7 @@
 | Barcelona     |               |             |              |          |          |          |
 | Hungaroring   |               |             |              |          |          |          |
 | Imola         | 2.95          | 1.73        | 1:42.5       | 48       | 83       | 108      |
-| Kyalami       |               |             | 1:43.0       |          |          |          |
+| Kyalami       | 2.8           |             | 1:43.0       |          |          |          |
 | Laguna Seca   |               |             |              |          |          |          |
 | Misano        |               |             |              |          |          |          |
 | Monza         |               |             | 1:49.0       |          |          |          |
