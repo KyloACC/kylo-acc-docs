@@ -8,7 +8,7 @@
 | Laguna Seca   |               |             |              |          |          |          |
 | Misano        |               |             |              |          |          |          |
 | Monza         |               |             | 1:49.0       |          |          |          |
-| Mount Panorama|               |             | 2:04.0       |          |          |          |
+| Mount Panorama| 3.60          | 1.75        | 2:04.0       | 49       | 83       | 110      |
 | Nürburgring   | 3.00          | 1.55        | 1:56.0       | 44       | 75       | 98       |
 | Paul Ricard   |               |             |              |          |          |          |
 | Silverstone   |               |             | 1:59.7       |          |          |          |
