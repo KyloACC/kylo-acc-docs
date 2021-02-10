@@ -2,6 +2,7 @@
 | Track         | Fuel per lap  | per minute  | average time | 25m fuel | 45m fuel | 60m fuel |
 |:-------------:|:-------------:|:-----------:|:------------:|:--------:|:--------:|:--------:|
 | Barcelona     |               |             |              |          |          |          |
+| Donington     | 2.4           |             |              |          |          |          |
 | Hungaroring   |               |             |              |          |          |          |
 | Imola         | 2.95          | 1.73        | 1:42.5       | 48       | 83       | 108      |
 | Kyalami       | 2.8           | 1.64        | 1:43.0       | 46       | 79       | 103      |
