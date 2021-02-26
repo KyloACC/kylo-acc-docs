@@ -2,8 +2,8 @@
 
 | Monday         | Tuesday  | Wednesday  | Thursday | Friday | Saturday | Sunday |
 |:-------------:|:-------------:|:-----------:|:------------:|:--------:|:--------:|:--------:|
-| **01**<br> | **02**<br> AOR League Race @ Zandvoort 	| **03**<br> SOP British GT @ Oulton 			| **04**<br> | **05**<br> - RCI Championship @ Snetterton 	| 06 - RCI Night-Championship @ Suzuka   									| 07 |
-| **08**<br> | **09**<br> - AOR League Race @ Spa 		| **10**<br> SOP British GT @ Donington 		| **11**<br> | **12**<br> - RCI Championship @ Silverstone 	| 13 - Best of British Simgrid @ Oulton & RCI Night-Championship @ ?		| 14 |
-| **15**<br> | **16**<br>              					| **17**<br> SOP British GT @ Brands Hatchs 	| **18**<br> | **19**<br> - RCI Championship @ Misano 		| 20 - Best of British Simgrid @ Donington 									| 21 |
-| **22**<br> | **23**<br>       						| **24**<br>									| **25**<br> | **26**<br> - RCI Championship @ Donington 	| 27 - Best of British Simgrid @ Silverstone & RCI Night-Championship @ ?   | 28 |
-| **29**<br> | **30**<br>      							| **31**<br> SOP British GT @ Spa  				|    |       								|      																		|    | 
+| **01**<br> | **02**<br> AOR League Race @ Zandvoort 	| **03**<br> SOP British GT @ Oulton 			| **04**<br> | **05**<br> - RCI Championship @ Snetterton 	| **06**<br> - RCI Night-Championship @ Suzuka   									| **07**<br> |
+| **08**<br> | **09**<br> - AOR League Race @ Spa 		| **10**<br> SOP British GT @ Donington 		| **11**<br> | **12**<br> - RCI Championship @ Silverstone 	| **13**<br> - Best of British Simgrid @ Oulton & RCI Night-Championship @ ?		| **14**<br> |
+| **15**<br> | **16**<br>              					| **17**<br> SOP British GT @ Brands Hatchs 	| **18**<br> | **19**<br> - RCI Championship @ Misano 		| **20**<br> - Best of British Simgrid @ Donington 									| **21**<br> |
+| **22**<br> | **23**<br>       						| **24**<br>									| **25**<br> | **26**<br> - RCI Championship @ Donington 	| **27**<br> - Best of British Simgrid @ Silverstone & RCI Night-Championship @ ?   | **28**<br> |
+| **29**<br> | **30**<br>      							| **31**<br> SOP British GT @ Spa  				|    		 |			       								| 		     																		|    	 | 
