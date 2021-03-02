@@ -27,4 +27,4 @@
 | Oulton Park   | 2.53          | 1.59        | 1:36         | 45       | 77       | 100      |
 
 
-[Wolfram-Calculation](https://www.wolframalpha.com/input/?i=CEILING((2.53+/+(1+minute+36+seconds))+\*+25+mins)+++5)
+[Wolfram-Calculation](https://www.wolframalpha.com/input/?i=CEILING((2.53+/+(1+minute+36+seconds))+\*+25+mins)+\++5)
