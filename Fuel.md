@@ -16,7 +16,7 @@
 | Snetterton    | 2.80          | 1.55        | 1:48.5       | 44       | 75       | 98       |
 | Spa           | 4.00          | 1.73        | 2:19.0       | 48       | 83       | 109      |
 | Suzuka        |               |             |              |          |          |          |
-| Zandvoort     |               |             |              |          |          |          |
+| Zandvoort     | 2.5           | 1.56        | 1:36         | 44       | 75       | 99       |
 | Zolder        |               |             | 1:29.0       |          |          |          |
 
 
@@ -24,4 +24,4 @@
 # Porsche Fuel Cheatsheet
 | Track         | Fuel per lap  | per minute  | average time | 25m fuel | 45m fuel | 60m fuel |
 |:-------------:|:-------------:|:-----------:|:------------:|:--------:|:--------:|:--------:|
-| Oulton Park   | 2.53          |             |              |          |          |          |
+| Oulton Park   | 2.53          | 1.59        | 1:36         | 45       | 77       | 100      |
