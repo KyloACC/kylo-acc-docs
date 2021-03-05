@@ -24,6 +24,7 @@
 # Porsche Fuel Cheatsheet
 | Track         | Fuel per lap  | per minute  | average time | 25m fuel | 45m fuel | 60m fuel |
 |:-------------:|:-------------:|:-----------:|:------------:|:--------:|:--------:|:--------:|
+| Oulton Park   | 2.5           | 1.7         | 1:28.5       | 48       | 82       | 107      |
 | Oulton Park   | 2.6           | 1.625       | 1:36         | 46       | 79       | 103      |
 
 
