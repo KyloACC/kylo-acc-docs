@@ -12,4 +12,7 @@ $time2 = ($minute * 60 + $second)
 $laps = [math]::ceiling( (($maxtime*60) / $time2))
 $result = [math]::round([math]::ceiling($fuel_per_minute * $maxtime) + $fuel)
 
-" $result litres of fuel for $laps laps and one extra lap."
+"$result"
+""
+""
+"$result litres of fuel for $laps laps and one extra lap. [Laptime: $minute minute(s) and $second seconds] & [Race length: $maxtime minutes] & [$fuel litres per lap]"
