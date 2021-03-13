@@ -13,4 +13,3 @@ $fuel2 = [math]::Floor($fuel_per_minute * 45) + 6
 $fuel3 = [math]::Floor($fuel_per_minute * 60) + 6
 
 "| $track 	| $fuel 		| $fuel_per_minute 		| $time 			| $fuel1 		| $fuel2		 | $fuel3 		|"
- | Snetterton 	| 2.75			| 1.528 		| 1:48			| 44		| 74		| 97 		|
