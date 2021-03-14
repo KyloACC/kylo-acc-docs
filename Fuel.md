@@ -20,7 +20,6 @@
 | Zolder    	|             	|        		| 1:29.0		| 			|      		|     		|
 
 
-
 # Porsche Fuel Cheatsheet
 | Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
 |:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
