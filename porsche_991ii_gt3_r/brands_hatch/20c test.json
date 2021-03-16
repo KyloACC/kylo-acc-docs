@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 65, 78, 59, 67 ]
+			"tyrePressure": [ 61, 74, 57, 68 ]
 		},
 		"alignment":
 		{
-			"camber": [ 0, 0, 0, 0 ],
+			"camber": [ 0, 0, 5, 5 ],
 			"toe": [ 30, 30, 55, 55 ],
-			"staticCamber": [ -5.1627650260925293, -5.1574888229370117, -0.44663536548614502, -0.43951693177223206 ],
-			"toeOutLinear": [ -8.605264883954078e-05, -8.5981155280023813e-05, -0.0059424331411719322, -0.0059422729536890984 ],
+			"staticCamber": [ -5.1625800132751465, -5.1572961807250977, -0.092631496489048004, -0.083092376589775085 ],
+			"toeOutLinear": [ -8.593819075031206e-05, -8.5946376202628016e-05, -0.0059120310470461845, -0.0059116613119840622 ],
 			"casterLF": 11,
 			"casterRF": 11,
 			"steerRatio": 3
@@ -24,13 +24,13 @@
 			"abs": 3,
 			"eCUMap": 7,
 			"fuelMix": 0,
-			"telemetryLaps": 10
+			"telemetryLaps": 99
 		},
 		"strategy":
 		{
-			"fuel": 18,
+			"fuel": 13,
 			"nPitStops": 0,
-			"tyreSet": 7,
+			"tyreSet": 5,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.2870173454284668
+			"fuelPerLap": 2.2138469219207764
 		}
 	},
 	"advancedSetup":
@@ -374,10 +374,10 @@
 		{
 			"aRBFront": 2,
 			"aRBRear": 1,
-			"wheelRate": [ 2, 2, 5, 5 ],
+			"wheelRate": [ 1, 1, 5, 5 ],
 			"bumpStopRateUp": [ 5, 5, 2, 2 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 3, 3, 50, 50 ],
+			"bumpStopWindow": [ 5, 5, 50, 50 ],
 			"brakeTorque": 20,
 			"brakeBias": 50
 		},
@@ -390,11 +390,11 @@
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 4, 11, 14, 18 ],
-			"rodLength": [ 56.626094818115234, 56.626094818115234, -52.996246337890625, -52.996246337890625 ],
+			"rideHeight": [ 4, 11, 17, 18 ],
+			"rodLength": [ 57.105056762695313, 57.105056762695313, -50.312114715576172, -50.312114715576172 ],
 			"splitter": 1,
 			"rearWing": 11,
-			"brakeDuct": [ 3, 2 ]
+			"brakeDuct": [ 2, 2 ]
 		},
 		"drivetrain":
 		{
