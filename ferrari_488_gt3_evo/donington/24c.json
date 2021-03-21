@@ -9,10 +9,10 @@
 		},
 		"alignment":
 		{
-			"camber": [ 0, 0, 16, 16 ],
+			"camber": [ 0, 0, 13, 13 ],
 			"toe": [ 32, 32, 50, 50 ],
-			"staticCamber": [ -4.0741419792175293, -4.0711112022399902, -2.2730789184570313, -2.2686595916748047 ],
-			"toeOutLinear": [ 0.00092559604672715068, 0.00092562130885198712, -0.0004128009604755789, -0.00041227255132980645 ],
+			"staticCamber": [ -4.144010066986084, -4.1404290199279785, -2.5174756050109863, -2.5133028030395508 ],
+			"toeOutLinear": [ 0.00090686336625367403, 0.00090675929095596075, -0.00042688104440458119, -0.00042713701259344816 ],
 			"casterLF": 46,
 			"casterRF": 46,
 			"steerRatio": 4
@@ -30,7 +30,7 @@
 		{
 			"fuel": 13,
 			"nPitStops": 0,
-			"tyreSet": 0,
+			"tyreSet": 8,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.388399600982666
+			"fuelPerLap": 2.4055137634277344
 		}
 	},
 	"advancedSetup":
@@ -374,31 +374,31 @@
 		{
 			"aRBFront": 25,
 			"aRBRear": 4,
-			"wheelRate": [ 7, 7, 3, 3 ],
+			"wheelRate": [ 5, 5, 0, 0 ],
 			"bumpStopRateUp": [ 5, 5, 2, 2 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 10, 10, 50, 50 ],
 			"brakeTorque": 20,
-			"brakeBias": 35
+			"brakeBias": 40
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 4, 4, 8, 8 ],
-			"bumpFast": [ 1, 1, 0, 0 ],
-			"reboundSlow": [ 11, 11, 11, 11 ],
-			"reboundFast": [ 2, 2, 4, 4 ]
+			"bumpSlow": [ 7, 7, 7, 7 ],
+			"bumpFast": [ 1, 1, 3, 3 ],
+			"reboundSlow": [ 11, 11, 8, 8 ],
+			"reboundFast": [ 2, 2, 3, 3 ]
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 6, 5, 18 ],
-			"rodLength": [ -34.133045196533203, -34.133045196533203, -20.979469299316406, -20.979469299316406 ],
+			"rideHeight": [ 3, 6, 3, 18 ],
+			"rodLength": [ -28.21312141418457, -28.21312141418457, -18.413385391235352, -18.413385391235352 ],
 			"splitter": 0,
 			"rearWing": 14,
 			"brakeDuct": [ 2, 2 ]
 		},
 		"drivetrain":
 		{
-			"preload": 6
+			"preload": 13
 		}
 	},
 	"trackBopType": 20
