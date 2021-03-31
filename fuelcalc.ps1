@@ -2,8 +2,11 @@ $fuel = Read-Host -Prompt 'Input fuel per lap here'
 [string]$time = Read-Host -Prompt 'Input lap time here'
 [int]$maxtime = Read-Host -Prompt 'Input race length here'
 
+
+[int]$temp = ($time.Length-2)
 [int]$minute = $time.Substring(0,1)
-[int]$second = $time.Substring(2,2)
+[decimal]$second = $time.Substring(2,$temp)
+
 
 $time2 = ($minute * 60 + $second)
 
