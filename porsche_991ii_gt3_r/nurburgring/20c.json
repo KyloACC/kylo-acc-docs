@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 65, 66, 62, 62 ]
+			"tyrePressure": [ 65, 67, 60, 62 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 3, 3 ],
-			"toe": [ 30, 30, 30, 30 ],
-			"staticCamber": [ -5.0727963447570801, -5.0724077224731445, -0.15999254584312439, -0.1599944680929184 ],
-			"toeOutLinear": [ -2.5153247406706214e-05, -2.518028486520052e-05, -0.0049008224159479141, -0.0049008443020284176 ],
+			"toe": [ 30, 30, 25, 25 ],
+			"staticCamber": [ -5.0732135772705078, -5.0723967552185059, -0.16799837350845337, -0.16622589528560638 ],
+			"toeOutLinear": [ -2.5230427127098665e-05, -2.519937879696954e-05, -0.0046916007995605469, -0.0046915081329643726 ],
 			"casterLF": 15,
 			"casterRF": 15,
 			"steerRatio": 3
@@ -28,9 +28,9 @@
 		},
 		"strategy":
 		{
-			"fuel": 13,
+			"fuel": 14,
 			"nPitStops": 0,
-			"tyreSet": 3,
+			"tyreSet": 6,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 3.0776536464691162
+			"fuelPerLap": 3.0948164463043213
 		}
 	},
 	"advancedSetup":
@@ -374,7 +374,7 @@
 		{
 			"aRBFront": 5,
 			"aRBRear": 3,
-			"wheelRate": [ 7, 7, 4, 4 ],
+			"wheelRate": [ 7, 7, 3, 3 ],
 			"bumpStopRateUp": [ 9, 9, 2, 2 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 1, 1, 50, 50 ],
@@ -383,15 +383,15 @@
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 3, 3, 17, 17 ],
-			"bumpFast": [ 6, 7, 1, 1 ],
-			"reboundSlow": [ 17, 17, 2, 2 ],
-			"reboundFast": [ 6, 6, 13, 13 ]
+			"bumpSlow": [ 1, 1, 10, 10 ],
+			"bumpFast": [ 8, 8, 8, 8 ],
+			"reboundSlow": [ 17, 17, 8, 8 ],
+			"reboundFast": [ 6, 6, 10, 10 ]
 		},
 		"aeroBalance":
 		{
 			"rideHeight": [ 0, 11, 14, 18 ],
-			"rodLength": [ 48.545944213867188, 48.545944213867188, -52.361927032470703, -52.361927032470703 ],
+			"rodLength": [ 48.577125549316406, 48.577125549316406, -51.222904205322266, -51.222904205322266 ],
 			"splitter": 2,
 			"rearWing": 12,
 			"brakeDuct": [ 2, 2 ]
