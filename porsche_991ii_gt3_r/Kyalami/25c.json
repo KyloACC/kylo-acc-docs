@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 64, 72, 61, 65 ]
+			"tyrePressure": [ 70, 68, 65, 63 ]
 		},
 		"alignment":
 		{
-			"camber": [ 0, 0, 3, 3 ],
-			"toe": [ 35, 35, 35, 35 ],
-			"staticCamber": [ -5.056431770324707, -5.0531649589538574, -0.15835928916931152, -0.15481290221214294 ],
-			"toeOutLinear": [ -0.00016587240679655224, -0.00016585523553658277, -0.0051094568334519863, -0.0051094307564198971 ],
+			"camber": [ 25, 25, 18, 18 ],
+			"toe": [ 30, 30, 30, 30 ],
+			"staticCamber": [ -5.0567431449890137, -5.0575804710388184, -0.15712469816207886, -0.15889212489128113 ],
+			"toeOutLinear": [ -4.7774959966773167e-05, -4.7813126002438366e-05, -0.004901067353785038, -0.0049011530354619026 ],
 			"casterLF": 11,
 			"casterRF": 11,
 			"steerRatio": 5
@@ -28,9 +28,9 @@
 		},
 		"strategy":
 		{
-			"fuel": 14,
+			"fuel": 13,
 			"nPitStops": 0,
-			"tyreSet": 6,
+			"tyreSet": 5,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -39,14 +39,14 @@
 					"tyres":
 					{
 						"tyreCompound": 0,
-						"tyrePressure": [ 54, 58, 51, 53 ]
+						"tyrePressure": [ 57, 53, 56, 53 ]
 					},
 					"tyreSet": 2,
 					"frontBrakePadCompound": 1,
 					"rearBrakePadCompound": 1
 				}
 			],
-			"fuelPerLap": 2.6093804836273193
+			"fuelPerLap": 2.8239679336547852
 		}
 	},
 	"advancedSetup":
@@ -60,20 +60,20 @@
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 1, 1, 50, 50 ],
 			"brakeTorque": 20,
-			"brakeBias": 42
+			"brakeBias": 45
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 6, 6, 13, 13 ],
-			"bumpFast": [ 7, 7, 5, 5 ],
-			"reboundSlow": [ 13, 13, 5, 5 ],
-			"reboundFast": [ 5, 5, 12, 12 ]
+			"bumpSlow": [ 9, 9, 10, 10 ],
+			"bumpFast": [ 5, 5, 6, 6 ],
+			"reboundSlow": [ 12, 12, 12, 12 ],
+			"reboundFast": [ 5, 5, 4, 4 ]
 		},
 		"aeroBalance":
 		{
 			"rideHeight": [ 0, 11, 14, 18 ],
-			"rodLength": [ 49.578704833984375, 49.578704833984375, -50.514873504638672, -50.514873504638672 ],
-			"splitter": 2,
+			"rodLength": [ 49.253585815429688, 49.253585815429688, -50.877784729003906, -50.877784729003906 ],
+			"splitter": 1,
 			"rearWing": 11,
 			"brakeDuct": [ 2, 2 ]
 		},
@@ -82,5 +82,5 @@
 			"preload": 6
 		}
 	},
-	"trackBopType": 28
+	"trackBopType": 16
 }
