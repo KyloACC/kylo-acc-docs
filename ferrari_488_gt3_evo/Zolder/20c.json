@@ -11,8 +11,8 @@
 		{
 			"camber": [ 2, 2, 3, 3 ],
 			"toe": [ 30, 30, 50, 50 ],
-			"staticCamber": [ -2.8621077537536621, -2.8577167987823486, -1.9177261590957642, -1.9128803014755249 ],
-			"toeOutLinear": [ 0.00099687452893704176, 0.00099694461096078157, -0.00044821173651143909, -0.0004481891228351742 ],
+			"staticCamber": [ -2.8624064922332764, -2.8575394153594971, -1.9180898666381836, -1.9126327037811279 ],
+			"toeOutLinear": [ 0.00099696789402514696, 0.0009968228405341506, -0.00044927510316483676, -0.00044850114500150084 ],
 			"casterLF": 46,
 			"casterRF": 46,
 			"steerRatio": 4
@@ -30,7 +30,7 @@
 		{
 			"fuel": 13,
 			"nPitStops": 0,
-			"tyreSet": 4,
+			"tyreSet": 2,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 1
 				}
 			],
-			"fuelPerLap": 2.3580548763275146
+			"fuelPerLap": 2.4000000953674316
 		}
 	},
 	"advancedSetup":
@@ -374,7 +374,7 @@
 		{
 			"aRBFront": 27,
 			"aRBRear": 2,
-			"wheelRate": [ 8, 8, 3, 3 ],
+			"wheelRate": [ 6, 6, 1, 1 ],
 			"bumpStopRateUp": [ 4, 4, 2, 2 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 3, 3, 50, 50 ],
@@ -383,17 +383,17 @@
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 8, 8, 7, 7 ],
-			"bumpFast": [ 2, 2, 4, 4 ],
-			"reboundSlow": [ 7, 7, 5, 5 ],
-			"reboundFast": [ 5, 5, 8, 8 ]
+			"bumpSlow": [ 8, 8, 9, 9 ],
+			"bumpFast": [ 2, 2, 2, 2 ],
+			"reboundSlow": [ 8, 8, 5, 5 ],
+			"reboundFast": [ 5, 5, 10, 10 ]
 		},
 		"aeroBalance":
 		{
 			"rideHeight": [ 0, 6, 0, 18 ],
-			"rodLength": [ -36.324752807617188, -36.324752807617188, -27.717870712280273, -27.717870712280273 ],
+			"rodLength": [ -33.849132537841797, -33.849132537841797, -25.170757293701172, -25.170757293701172 ],
 			"splitter": 0,
-			"rearWing": 9,
+			"rearWing": 10,
 			"brakeDuct": [ 2, 2 ]
 		},
 		"drivetrain":
