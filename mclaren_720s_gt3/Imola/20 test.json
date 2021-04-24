@@ -5,32 +5,32 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 69, 63, 63, 59 ]
+			"tyrePressure": [ 71, 67, 63, 58 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 38, 38, 25, 25 ],
-			"staticCamber": [ -4.6018095016479492, -4.6052036285400391, -4.3645644187927246, -4.367835521697998 ],
-			"toeOutLinear": [ 0.001703911810182035, 0.0017037081997841597, 0.00051612535025924444, 0.00051602325402200222 ],
+			"staticCamber": [ -4.5998516082763672, -4.6062183380126953, -4.3726439476013184, -4.3809084892272949 ],
+			"toeOutLinear": [ 0.0017076382646337152, 0.0017076648073270917, 0.00051812984747812152, 0.00051821250235661864 ],
 			"casterLF": 11,
 			"casterRF": 11,
 			"steerRatio": 1
 		},
 		"electronics":
 		{
-			"tC1": 2,
+			"tC1": 1,
 			"tC2": 6,
 			"abs": 3,
 			"eCUMap": 0,
 			"fuelMix": 0,
-			"telemetryLaps": 5
+			"telemetryLaps": 99
 		},
 		"strategy":
 		{
-			"fuel": 16,
+			"fuel": 13,
 			"nPitStops": 0,
-			"tyreSet": 3,
+			"tyreSet": 1,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -46,36 +46,36 @@
 					"rearBrakePadCompound": 1
 				}
 			],
-			"fuelPerLap": 2.8304412364959717
+			"fuelPerLap": 2.8151905536651611
 		}
 	},
 	"advancedSetup":
 	{
 		"mechanicalBalance":
 		{
-			"aRBFront": 6,
-			"aRBRear": 1,
+			"aRBFront": 9,
+			"aRBRear": 6,
 			"wheelRate": [ 2, 2, 3, 3 ],
 			"bumpStopRateUp": [ 5, 5, 2, 2 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 5, 5, 40, 40 ],
+			"bumpStopWindow": [ 5, 5, 50, 50 ],
 			"brakeTorque": 20,
-			"brakeBias": 55
+			"brakeBias": 25
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 35, 35, 30, 30 ],
-			"bumpFast": [ 27, 27, 36, 36 ],
-			"reboundSlow": [ 35, 35, 32, 32 ],
-			"reboundFast": [ 39, 39, 36, 36 ]
+			"bumpSlow": [ 16, 16, 20, 20 ],
+			"bumpFast": [ 12, 12, 14, 14 ],
+			"reboundSlow": [ 25, 25, 22, 22 ],
+			"reboundFast": [ 24, 24, 24, 24 ]
 		},
 		"aeroBalance":
 		{
 			"rideHeight": [ 8, 6, 9, 18 ],
-			"rodLength": [ 66.215080261230469, 66.215080261230469, 39.214653015136719, 39.214653015136719 ],
+			"rodLength": [ 66.484504699707031, 66.484504699707031, 39.66180419921875, 39.66180419921875 ],
 			"splitter": 0,
-			"rearWing": 5,
-			"brakeDuct": [ 4, 3 ]
+			"rearWing": 7,
+			"brakeDuct": [ 2, 2 ]
 		},
 		"drivetrain":
 		{
