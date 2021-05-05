@@ -419,12 +419,14 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 fTyrePressureFR_temp = math.floor((fTyrePressureFR*100)/iTyrePressureCount) / 100
                 fTyrePressureRL_temp = math.floor((fTyrePressureRL*100)/iTyrePressureCount) / 100
                 fTyrePressureRR_temp = math.floor((fTyrePressureRR*100)/iTyrePressureCount) / 100
+                # calculates average pressures when lap is completed
 
 
                 fTyrePressureFL = 0
                 fTyrePressureFR = 0
                 fTyrePressureRL = 0
                 fTyrePressureRR = 0
+                # sets the pressures back to 0 for next lap
 
             avgFuel5Laps = -1
             if len(last5Laps) == 5:
@@ -435,6 +437,7 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
             fTyrePressureRL = fTyrePressureRL + physics['wheelsPressure'][2]
             fTyrePressureRR = fTyrePressureRR + physics['wheelsPressure'][3]
             iTyrePressureCount += 1
+            # adds up the pressure at the moment to a sum, every 0.5s, and a count.
 
             os.system("cls")
             print(
@@ -446,9 +449,10 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
             if test == 1:
                 with open("fuel.txt", "a") as f:
                   f.write(f"L: {lap} --- Fuel: {physics['fuel']:.3f} --- Fuel this Lap: {fuelUsedThisLap:.3f} --- Laptime: {sMinutes}:{sSeconds}.{sms}\n")
+                  # writes Lap, fuel at crossing of line, fuel used last lap and lap time of last lap to fuel.txt
                 with open("tyres.txt", "a") as f:
                   f.write(f"L: {lap} --- {fTyrePressureFL_temp}-{fTyrePressureFR_temp}-{fTyrePressureRL_temp}-{fTyrePressureRR_temp} \n")
-
+                  # writes Lap and average tyre pressures of the last lap to file tyres.txt  
 
                 
 
