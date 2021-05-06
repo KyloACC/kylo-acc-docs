@@ -1,3 +1,7 @@
 L: 2 --- Fuel: 10.409 --- Fuel this Lap: 0.000 --- Laptime: 01:55.659
 L: 3 --- Fuel: 8.132 --- Fuel this Lap: 2.276 --- Laptime: 03:05.574
 L: 0 --- Fuel: 0.000 --- Fuel this Lap: 8.132 --- Laptime: 00:00.0
+L: 1 --- Fuel: 10.438 --- Fuel this Lap: -9.438 --- Laptime: 056:24.402
+L: 2 --- Fuel: 7.079 --- Fuel this Lap: 3.359 --- Laptime: 01:57.390
+L: 3 --- Fuel: 3.762 --- Fuel this Lap: 3.317 --- Laptime: 01:57.108
+L: 0 --- Fuel: 0.000 --- Fuel this Lap: 3.762 --- Laptime: 00:00.0

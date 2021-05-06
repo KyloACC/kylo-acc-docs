@@ -4,6 +4,7 @@ import copy
 import os
 from enum import Enum
 import math
+import time
 
 
 
@@ -135,6 +136,18 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
     fTyrePressureRL = 0.0
     fTyrePressureRR = 0.0
     iTyrePressureCount = 1
+    sMinutes = "0"
+    sSeconds = "0"
+    sms = "0"
+    LapsToGo = 0
+    sessionTimemax = 1
+    sessionTimeLeft = 1
+    fuelStartLap = 1
+    fuelUsedThisLap = 1
+    FuelPerLap = 1
+    Lapscompleted = 1
+    race_started = False
+    counter = 0
 
     while(True):
         newData = False
@@ -386,6 +399,21 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
         if (pPacketID % 166 == 0 and pPacketID != 0):
             test = 0
 
+            if race_started == False and graphics['GlobalGreen'] == True and graphics['GlobalRed'] == False:
+               
+                print(
+                    f"Green Green Green, Let's go"
+                )
+                race_started = True
+                sessionTimemax = graphics['sessionTimeLeft']
+                stintTimemax = graphics['driverStintTimeLeft']
+                if graphics['driverStintTimeLeft'] > graphics['driverStintTotalTimeLeft']:
+                    stintTimemax = graphics['driverStintTotalTimeLeft']
+                fuelmax = physics['fuel']
+                print(
+                    f"Race has started. Everything has been set"
+                )      
+
             if lap != graphics["completedLaps"]:
                 test = 1
 
@@ -426,7 +454,15 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 fTyrePressureFR = 0
                 fTyrePressureRL = 0
                 fTyrePressureRR = 0
-                # sets the pressures back to 0 for next lap
+                # sets the pressures back to 0 for next lap 
+                Lapscompleted = graphics['completedLaps']
+                if Lapscompleted == 0:
+                    Lapscompleted = 1
+                LapsToGo = graphics['sessionTimeLeft'] / (sessionTimemax / Lapscompleted)
+                FuelPerLap = graphics['usedFuel'] / Lapscompleted
+                FuelToEnd = LapsToGo * FuelPerLap
+                FuelToEnd = physics['fuel'] - FuelToEnd                   
+
 
             avgFuel5Laps = -1
             if len(last5Laps) == 5:
@@ -439,12 +475,24 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
             iTyrePressureCount += 1
             # adds up the pressure at the moment to a sum, every 0.5s, and a count.
 
-            os.system("cls")
-            print(
-                f"ID: {pPacketID}\nLap: {lap}\nFuel: {physics['fuel']:.3f}\nFuelThisLap: {fuelUsedThisLap:.3f}\n5 Laps avg: {avgFuel5Laps:.3f}")
-            print("Breakdown of the 5 laps average...")
-            for i, lapConso in enumerate(last5Laps):
-                print(f"Lap {i}: {lapConso:.3f}")
+            # os.system("cls")
+            if (pPacketID % 100 == 0 and pPacketID != 0):
+                print(
+                    f"Red? => {graphics['GlobalRed']} & Green? => {graphics['GlobalGreen']}" 
+                )
+                print(
+                    f"L: {lap} --- Fuel: {physics['fuel']:.3f} --- Fuel this Lap: {fuelUsedThisLap:.3f} --- Laptime: {sMinutes}:{sSeconds}.{sms}\n")
+                print(
+                    f"LapsToGo:  {LapsToGo} = {graphics['sessionTimeLeft']} / ({sessionTimemax} / {Lapscompleted}) \n"
+                    f"FuelPerLap:  {FuelPerLap} =  {graphics['usedFuel']} / {Lapscompleted} \n"
+                    f"FuelToEnd: {physics['fuel']} - {LapsToGo} * {FuelPerLap} \n"
+                    f"---------- {counter} ----------\n"
+                )
+                counter += 1    
+            # below  are not comments
+            # print("Breakdown of the 5 laps average...")
+            # for i, lapConso in enumerate(last5Laps):
+            #    print(f"Lap {i}: {lapConso:.3f}")
 
             if test == 1:
                 with open("fuel.txt", "a") as f:
@@ -453,6 +501,12 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 with open("tyres.txt", "a") as f:
                   f.write(f"L: {lap} --- {fTyrePressureFL_temp}-{fTyrePressureFR_temp}-{fTyrePressureRL_temp}-{fTyrePressureRR_temp} \n")
                   # writes Lap and average tyre pressures of the last lap to file tyres.txt  
+                with open("log.txt", "a") as f:
+                    f.write(
+                        f"LapsToGo:  {LapsToGo} = {graphics['sessionTimeLeft']} / ({sessionTimemax} / {Lapscompleted}) \n"
+                        f"FuelPerLap:  {FuelPerLap} =  {graphics['usedFuel']} / {Lapscompleted} \n"
+                        f"FuelToEnd: {physics['fuel']} - {LapsToGo} * {FuelPerLap} \n"
+                        )  
 
                 
 
