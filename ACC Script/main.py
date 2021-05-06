@@ -148,6 +148,8 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
     Lapscompleted = 1
     race_started = False
     counter = 0
+    FuelToEnd = 0
+    fuelmax = 0
 
     while(True):
         newData = False
@@ -415,11 +417,13 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 )      
 
             if lap != graphics["completedLaps"]:
-                test = 1
+                print(
+                    f"Lap completed"
+                )
 
                 last_lap = graphics['iLastTime']
                 iMinutes = math.floor(last_lap / 60000)
-                sMinutes = f"0{iMinutes}"
+                sMinutes = f"{iMinutes}"
 
                 last_lap = last_lap - iMinutes*60000
                 iSeconds = math.floor(last_lap / 1000)
@@ -458,11 +462,14 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 Lapscompleted = graphics['completedLaps']
                 if Lapscompleted == 0:
                     Lapscompleted = 1
-                LapsToGo = sessionTimemax / (graphics['sessionTimeLeft'] / Lapscompleted)
-                FuelPerLap = fuelmax / Lapscompleted
+                LapsToGo = math.ceil(graphics['sessionTimeLeft'] / (sessionTimemax / Lapscompleted))
+                FuelPerLap = (fuelmax-physics['fuel']) / Lapscompleted
                 FuelToEnd = LapsToGo * FuelPerLap
                 FuelToEnd = fuelmax - FuelToEnd
 
+                print(
+                    f"File writing."
+                )
                 # File Stuff here
                 with open("fuel.txt", "a") as f:
                     f.write(f"L: {lap} --- Fuel: {physics['fuel']:.3f} --- Fuel this Lap: {fuelUsedThisLap:.3f} --- Laptime: {sMinutes}:{sSeconds}.{sms}\n")
@@ -473,7 +480,7 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 with open("log.txt", "a") as f:
                     f.write(
                         f"LapsToGo:  {LapsToGo} = ({sessionTimemax} /{graphics['sessionTimeLeft']} / {Lapscompleted}) \n"
-                        f"FuelPerLap:  {FuelPerLap} =  {fuelmax} / {Lapscompleted} \n"
+                        f"FuelPerLap:  {FuelPerLap} =  {fuelmax}- {physics['fuel']} / {Lapscompleted} \n"
                         f"FuelToEnd: {FuelToEnd} = fuelmax - {LapsToGo} * {FuelPerLap} \n"
                         )
 
@@ -498,7 +505,7 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                     f"L: {lap} --- Fuel: {physics['fuel']:.3f} --- Fuel this Lap: {fuelUsedThisLap:.3f} --- Laptime: {sMinutes}:{sSeconds}.{sms}\n")
                 print(
                     f"LapsToGo:  {LapsToGo} = {graphics['sessionTimeLeft']} / ({sessionTimemax} / {Lapscompleted}) \n"
-                    f"FuelPerLap:  {FuelPerLap} =  {graphics['usedFuel']} / {Lapscompleted} \n"
+                    f"FuelPerLap:  {FuelPerLap} =  {fuelmax}-{physics['fuel']} / {Lapscompleted} \n"
                     f"FuelToEnd: {FuelToEnd} = {physics['fuel']} - {LapsToGo} * {FuelPerLap} \n"
                     f"---------- {counter} ----------\n"
                 )
@@ -506,23 +513,7 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
             # below  are not comments
             # print("Breakdown of the 5 laps average...")
             # for i, lapConso in enumerate(last5Laps):
-            #    print(f"Lap {i}: {lapConso:.3f}")
-
-            if test == 1:
-                with open("fuel.txt", "a") as f:
-                  f.write(f"L: {lap} --- Fuel: {physics['fuel']:.3f} --- Fuel this Lap: {fuelUsedThisLap:.3f} --- Laptime: {sMinutes}:{sSeconds}.{sms}\n")
-                  # writes Lap, fuel at crossing of line, fuel used last lap and lap time of last lap to fuel.txt
-                with open("tyres.txt", "a") as f:
-                  f.write(f"L: {lap} --- {fTyrePressureFL_temp}-{fTyrePressureFR_temp}-{fTyrePressureRL_temp}-{fTyrePressureRR_temp} \n")
-                  # writes Lap and average tyre pressures of the last lap to file tyres.txt  
-                with open("log.txt", "a") as f:
-                    f.write(
-                        f"LapsToGo:  {LapsToGo} = {graphics['sessionTimeLeft']} / ({sessionTimemax} / {Lapscompleted}) \n"
-                        f"FuelPerLap:  {FuelPerLap} =  {graphics['usedFuel']} / {Lapscompleted} \n"
-                        f"FuelToEnd: {physics['fuel']} - {LapsToGo} * {FuelPerLap} \n"
-                        )  
-
-                
+            #    print(f"Lap {i}: {lapConso:.3f}")     
 
 
 
