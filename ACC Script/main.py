@@ -458,10 +458,24 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 Lapscompleted = graphics['completedLaps']
                 if Lapscompleted == 0:
                     Lapscompleted = 1
-                LapsToGo = graphics['sessionTimeLeft'] / (sessionTimemax / Lapscompleted)
-                FuelPerLap = graphics['usedFuel'] / Lapscompleted
+                LapsToGo = sessionTimemax / (graphics['sessionTimeLeft'] / Lapscompleted)
+                FuelPerLap = fuelmax / Lapscompleted
                 FuelToEnd = LapsToGo * FuelPerLap
-                FuelToEnd = physics['fuel'] - FuelToEnd                   
+                FuelToEnd = fuelmax - FuelToEnd
+
+                # File Stuff here
+                with open("fuel.txt", "a") as f:
+                    f.write(f"L: {lap} --- Fuel: {physics['fuel']:.3f} --- Fuel this Lap: {fuelUsedThisLap:.3f} --- Laptime: {sMinutes}:{sSeconds}.{sms}\n")
+                    # writes Lap, fuel at crossing of line, fuel used last lap and lap time of last lap to fuel.txt
+                with open("tyres.txt", "a") as f:
+                    f.write(f"L: {lap} --- {fTyrePressureFL_temp}-{fTyrePressureFR_temp}-{fTyrePressureRL_temp}-{fTyrePressureRR_temp} \n")
+                    # writes Lap and average tyre pressures of the last lap to file tyres.txt  
+                with open("log.txt", "a") as f:
+                    f.write(
+                        f"LapsToGo:  {LapsToGo} = ({sessionTimemax} /{graphics['sessionTimeLeft']} / {Lapscompleted}) \n"
+                        f"FuelPerLap:  {FuelPerLap} =  {fuelmax} / {Lapscompleted} \n"
+                        f"FuelToEnd: {FuelToEnd} = fuelmax - {LapsToGo} * {FuelPerLap} \n"
+                        )
 
 
             avgFuel5Laps = -1
@@ -485,7 +499,7 @@ def read_shared_memory(physicSM: accSM, graphicSM: accSM):
                 print(
                     f"LapsToGo:  {LapsToGo} = {graphics['sessionTimeLeft']} / ({sessionTimemax} / {Lapscompleted}) \n"
                     f"FuelPerLap:  {FuelPerLap} =  {graphics['usedFuel']} / {Lapscompleted} \n"
-                    f"FuelToEnd: {physics['fuel']} - {LapsToGo} * {FuelPerLap} \n"
+                    f"FuelToEnd: {FuelToEnd} = {physics['fuel']} - {LapsToGo} * {FuelPerLap} \n"
                     f"---------- {counter} ----------\n"
                 )
                 counter += 1    
