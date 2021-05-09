@@ -17,5 +17,5 @@ $fuel3 = [math]::Floor($fuel_per_minute * 60) + 6
 "| $track 	| $fuel 		| $fuel_per_minute 		| $time 			| $fuel1 		| $fuel2		 | $fuel3 		|"
 
 "$Car 
-| $track 	| $fuel 		| $fuel_per_minute 		| $time 			| $fuel1 		| $fuel2		| $fuel3 		|" | Out-File -FilePath 'C:\Users\lucaz\Documents\Assetto Corsa Competizione\Setups\fuel_calc.txt' -Append
+| $track 		| $fuel 			| $fuel_per_minute 		| $time 		| $fuel1 		| $fuel2		| $fuel3 		|" | Out-File -FilePath 'C:\Users\lucaz\Documents\Assetto Corsa Competizione\Setups\fuel_calc.txt' -Append
 
