@@ -36,6 +36,7 @@
 | Donington     | 2.5           | 1.71     		| 1:28         	| 48       	| 82       	| 108      	|
 | Monza 		| 3.65 			| 2.028 		| 1:48.5 		| 56 		| 97		| 127 		|
 | Oulton Park 	| 2.6 			| 1.642 		| 1:35 			| 47		| 79 		| 104 		|
+| Paul Ricard 	| 3.1 			| 1.603 		| 1:56.5 		| 46 		| 78		| 102 		|
 | Silverstone 	| 3.25 			| 1.639 		| 1:59 			| 46 		| 79		| 104 		|
 
 [Wolfram-Calculation](https://www.wolframalpha.com/input/?i=CEILING((2.53+/+(1+minute+36+seconds))+*+25+mins)+%2B+5)
