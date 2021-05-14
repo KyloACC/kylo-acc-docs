@@ -1,3 +1,23 @@
+# Porsche Fuel Cheatsheet
+| Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
+|:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
+| Donington     | 2.5           | 1.7         	| 1:28.5 		| 48       	| 82       	| 107      	|
+| Kyalami 		| 2.9 			| 1.723 		| 1:41.75 		| 49 		| 83		| 109 		|
+| Monza 		| 3.35 			| 1.844 		| 1:49.0 		| 52 		| 88		| 116 		|
+| Oulton Park   | 2.6           | 1.625       	| 1:36       	| 46       	| 79       	| 103  		|
+| Snetterton 	| 2.75			| 1.528 		| 1:48			| 44		| 74		| 97 		|
+| Spa 			| 4 			| 1.714 		| 2:20 			| 48 		| 83		| 108 		|
+
+
+# McLaren Fuel Cheatsheet
+| Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
+|:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
+| Donington     | 2.5           | 1.71     		| 1:28         	| 48       	| 82       	| 108      	|
+| Monza 		| 3.65 			| 2.028 		| 1:48.5 		| 56 		| 97		| 127 		|
+| Oulton Park 	| 2.6 			| 1.642 		| 1:35 			| 47		| 79 		| 104 		|
+| Paul Ricard 	| 3.1 			| 1.603 		| 1:56.5 		| 46 		| 78		| 102 		|
+| Silverstone 	| 3.25 			| 1.639 		| 1:59 			| 46 		| 79		| 104 		|
+
 # Ferrari Fuel Cheatsheet
 | Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
 |:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
@@ -18,25 +38,5 @@
 | Suzuka 		| 3.3 			| 1.623 	  	| 2:02 		 	| 46 		| 79 	   	| 103 	  	|
 | Zandvoort     | 2.5           | 1.56 			| 1:36.0       	| 44       	| 75       	| 99       	|
 | Zolder    	|             	|        		| 1:29.0		| 			|      		|     		|
-
-
-# Porsche Fuel Cheatsheet
-| Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
-|:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
-| Donington     | 2.5           | 1.7         	| 1:28.5 		| 48       	| 82       	| 107      	|
-| Monza 		| 3.4 			| 1.872 		| 1:49.5 		| 52 		| 90		| 118 		|
-| Oulton Park   | 2.6           | 1.625       	| 1:36       	| 46       	| 79       	| 103  		|
-| Snetterton 	| 2.75			| 1.528 		| 1:48			| 44		| 74		| 97 		|
-| Spa 			| 4 			| 1.714 		| 2:20 			| 48 		| 83		| 108 		|
-
-
-# McLaren Fuel Cheatsheet
-| Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
-|:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
-| Donington     | 2.5           | 1.71     		| 1:28         	| 48       	| 82       	| 108      	|
-| Monza 		| 3.65 			| 2.028 		| 1:48.5 		| 56 		| 97		| 127 		|
-| Oulton Park 	| 2.6 			| 1.642 		| 1:35 			| 47		| 79 		| 104 		|
-| Paul Ricard 	| 3.1 			| 1.603 		| 1:56.5 		| 46 		| 78		| 102 		|
-| Silverstone 	| 3.25 			| 1.639 		| 1:59 			| 46 		| 79		| 104 		|
 
 [Wolfram-Calculation](https://www.wolframalpha.com/input/?i=CEILING((2.53+/+(1+minute+36+seconds))+*+25+mins)+%2B+5)
