@@ -12,6 +12,7 @@
 # McLaren Fuel Cheatsheet
 | Track         | Fuel per lap  | per minute  	| average time 	| 25m fuel 	| 45m fuel 	| 60m fuel 	|
 |:-------------:|:-------------:|:-------------:|:-------------:|:---------:|:---------:|:---------:|
+| Barcelona 	| 2.66 			| 1.506 		| 1:46 			| 43 		| 73		| 96 		|
 | Donington     | 2.5           | 1.71     		| 1:28         	| 48       	| 82       	| 108      	|
 | Monza 		| 3.65 			| 2.028 		| 1:48.5 		| 56 		| 97		| 127 		|
 | Oulton Park 	| 2.6 			| 1.642 		| 1:35 			| 47		| 79 		| 104 		|
