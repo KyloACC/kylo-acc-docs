@@ -38,11 +38,11 @@ The lower the ABS is, the shorter the braking distance is. Unless you get locked
 
 # MECHANICAL GRIP
 
-## Antiroll Bar Front
+## Antiroll-Bar Front
 if you suffer from understeering on the way into a corner, soften it    
 stiffen it if oversteering   
 
-## Antiroll Bar Rear
+## Antiroll-Bar Rear
 if you suffer from understeering out of the corner and drifting wide, stiffen it   
 soften it if oversteering   
 
@@ -71,18 +71,18 @@ Rebound should be the same or higher than it, but ignore it because you will nee
 
 # AERO
 
-## Ride height
+## Ride Height
 lowering it reduces the overall drag on the car, making it faster in a straight line   
 Find a front ride height that works over the kerbs and bumps and then adjust the rear ride height accordingly until you find a good balance. The key to ride height is having it low enough for a low COG but not too low you have no rotation. Combine these changes with the wing.    
 
-## rear wing/splitter
+## Rear Wing/Splitter
 lowering it leads to faster top speed but leads to less downforce/high speed corner grip and more oversteer if you do not adjust the rear ride height to compensate.   
 making it higher leads to lower top speed but a more stable car and less tyre wear through less sliding. Can cause understeer if you do not adjust the rear ride height to compensate.    
 use the splitter as a balance tool after you have finished tweaking the ride height/wing. If you have understeer increase the splitter, if you have oversteeer reduce the splitter. It has no drag penalty so run it as high as you can.    
 
 *When starting out, add a click on the wing and adjust the ride heights to get back to the aerobalance% which it had before*   
 
-## brake ducts
+## Brake Ducts
 if the brake duct is low, it will keep the brakes hot for a longer period of time   
 if high, cools it down faster. The aim is to combine the two with tyre temperatures. Keep brakes green round the lap as long as possible. However if the track is hot you may need to increase the brake ducts to control the tyre temperatures.    
 
