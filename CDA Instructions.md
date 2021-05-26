@@ -1,13 +1,16 @@
 ## CDA INSTRUCTIONS
 
-Oversteer under braking/mid-corner: Raise differential preload  
+**Braking/Mid-Corner**
+Oversteer: Raise differential preload  
 
-Understeer under braking/mid-corner: Lower differential preload  
+Understeer: Lower differential preload  
 
-Oversteer under power on exit: Lower differential preload   
+**Under power on exit**
+Oversteer: Lower differential preload   
 
-Understeer under power on exit: Raise differential preload   
-  
+Understeer: Raise differential preload   
+
+**In general**  
 Oversteer > Increase Rear toe > Lower straight-line speed
 
 Understeer > Decrease Rear toe > Increase straight-line speed
