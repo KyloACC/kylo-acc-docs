@@ -27,7 +27,7 @@ Understeer: Soften front springs
 Understeer: Raise rear ride height   
 
 **In fast Corners**   
-Understeer: Increase front bump stop range and stiffen the rate
+Understeer: Increase front bump stop range and stiffen the rate   
 Understeer: Stiffen rear springs    
 Understeer: Lower rear wing   
 Oversteer: Soften rear springs        
