@@ -1,32 +1,29 @@
 ## CDA INSTRUCTIONS
 
 **Braking/Mid-Corner**   
-Oversteer: Raise differential preload  
-
+Oversteer: Raise differential preload   
 Understeer: Lower differential preload  
 
-**Under power on exit**
+**Under power on exit**   
 Oversteer: Lower differential preload   
-
 Understeer: Raise differential preload   
 
-**In general**  
-Oversteer > Increase Rear toe > Lower straight-line speed
+**In general**   
+Oversteer > Increase Rear toe > Lower straight-line speed   
+Understeer > Decrease Rear toe > Increase straight-line speed   
 
-Understeer > Decrease Rear toe > Increase straight-line speed
 
+**Under Braking**
+Oversteer: Lower bump stop range and soften the rate   
+Understeer: Increase front bump stop range and stiffen the rate   
 
-Oversteer under braking: Lower bump stop range and soften the rate
+**In slow corners**
+Oversteer: Increase rear bump stop range   
+Understeer: Lower rear bump stop range   
 
-Understeer under braking: Increase front bump stop range and stiffen the rate
-
-Oversteer in slow corners: Increase rear bump stop range 
-
-Understeer in slow corners: Lower rear bump stop range
-
-Understeer in fast corners: Increase front bump stop range and stiffen the rate 
-
-Oversteer in fast corners: Lower bump stop range and soften the rate 
+**In fast Corners**
+Understeer: Increase front bump stop range and stiffen the rate    
+Oversteer: Lower bump stop range and soften the rate   
 
 
 Oversteer in fast corners: Stiffen front springs 
