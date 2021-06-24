@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 64, 65, 62, 62 ]
+			"tyrePressure": [ 62, 64, 61, 61 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 38, 38, 25, 25 ],
-			"staticCamber": [ -4.6085605621337891, -4.6080942153930664, -4.4710683822631836, -4.4710731506347656 ],
-			"toeOutLinear": [ 0.0016257655806839466, 0.001626070006750524, 0.00053661351557821035, 0.00053661968559026718 ],
+			"staticCamber": [ -4.6080198287963867, -4.6070733070373535, -4.538139820098877, -4.5381288528442383 ],
+			"toeOutLinear": [ 0.0015840110136196017, 0.0015839798143133521, 0.00054937234381213784, 0.00054939539404585958 ],
 			"casterLF": 11,
 			"casterRF": 11,
 			"steerRatio": 2
@@ -30,7 +30,7 @@
 		{
 			"fuel": 13,
 			"nPitStops": 0,
-			"tyreSet": 1,
+			"tyreSet": 3,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -46,7 +46,7 @@
 					"rearBrakePadCompound": 1
 				}
 			],
-			"fuelPerLap": 2.9890778064727783
+			"fuelPerLap": 2.9521970748901367
 		}
 	},
 	"advancedSetup":
@@ -56,23 +56,23 @@
 			"aRBFront": 9,
 			"aRBRear": 6,
 			"wheelRate": [ 4, 4, 4, 4 ],
-			"bumpStopRateUp": [ 8, 8, 3, 3 ],
+			"bumpStopRateUp": [ 11, 11, 3, 3 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 0, 0, 45, 45 ],
+			"bumpStopWindow": [ 3, 3, 45, 45 ],
 			"brakeTorque": 20,
-			"brakeBias": 30
+			"brakeBias": 25
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 22, 22, 31, 31 ],
-			"bumpFast": [ 28, 26, 10, 10 ],
-			"reboundSlow": [ 20, 20, 28, 28 ],
+			"bumpSlow": [ 22, 22, 29, 29 ],
+			"bumpFast": [ 28, 26, 13, 13 ],
+			"reboundSlow": [ 18, 18, 28, 28 ],
 			"reboundFast": [ 14, 14, 10, 10 ]
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 4, 6, 12, 18 ],
-			"rodLength": [ 59.720115661621094, 59.720115661621094, 40.954730987548828, 40.954730987548828 ],
+			"rideHeight": [ 2, 6, 14, 18 ],
+			"rodLength": [ 57.764877319335938, 57.764877319335938, 42.958198547363281, 42.958198547363281 ],
 			"splitter": 0,
 			"rearWing": 7,
 			"brakeDuct": [ 2, 2 ]
