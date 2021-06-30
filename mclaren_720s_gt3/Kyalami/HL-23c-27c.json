@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 63, 62, 63, 61 ]
+			"tyrePressure": [ 61, 61, 61, 61 ]
 		},
 		"alignment":
 		{
 			"camber": [ 8, 8, 13, 13 ],
 			"toe": [ 38, 38, 25, 25 ],
-			"staticCamber": [ -4.8075218200683594, -4.8079733848571777, -4.5734195709228516, -4.5750608444213867 ],
-			"toeOutLinear": [ 0.0015870113857090473, 0.0015870053321123123, 0.00051761075155809522, 0.00051765050739049911 ],
+			"staticCamber": [ -4.8047175407409668, -4.8047294616699219, -4.6400003433227539, -4.6399946212768555 ],
+			"toeOutLinear": [ 0.001541441073641181, 0.0015415622619912028, 0.00053055258467793465, 0.00053055293392390013 ],
 			"casterLF": 11,
 			"casterRF": 11,
 			"steerRatio": 2
@@ -28,9 +28,9 @@
 		},
 		"strategy":
 		{
-			"fuel": 14,
+			"fuel": 0,
 			"nPitStops": 0,
-			"tyreSet": 3,
+			"tyreSet": 8,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -46,7 +46,7 @@
 					"rearBrakePadCompound": 1
 				}
 			],
-			"fuelPerLap": 2.7585732936859131
+			"fuelPerLap": 2.8499999046325684
 		}
 	},
 	"advancedSetup":
@@ -55,24 +55,24 @@
 		{
 			"aRBFront": 9,
 			"aRBRear": 6,
-			"wheelRate": [ 2, 2, 4, 4 ],
-			"bumpStopRateUp": [ 10, 10, 2, 2 ],
+			"wheelRate": [ 3, 3, 4, 4 ],
+			"bumpStopRateUp": [ 7, 7, 2, 2 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 4, 4, 50, 50 ],
+			"bumpStopWindow": [ 1, 1, 50, 50 ],
 			"brakeTorque": 20,
 			"brakeBias": 25
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 26, 26, 20, 20 ],
+			"bumpSlow": [ 26, 26, 17, 17 ],
 			"bumpFast": [ 31, 31, 23, 23 ],
-			"reboundSlow": [ 14, 14, 22, 22 ],
+			"reboundSlow": [ 16, 16, 23, 23 ],
 			"reboundFast": [ 18, 18, 23, 23 ]
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 2, 6, 9, 18 ],
-			"rodLength": [ 60.803535461425781, 60.803535461425781, 38.228500366210938, 38.228500366210938 ],
+			"rideHeight": [ 0, 6, 11, 18 ],
+			"rodLength": [ 57.13775634765625, 57.13775634765625, 39.915313720703125, 39.915313720703125 ],
 			"splitter": 0,
 			"rearWing": 7,
 			"brakeDuct": [ 2, 2 ]
