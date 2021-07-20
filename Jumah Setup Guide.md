@@ -6,7 +6,7 @@
 Dry: 27.3-27.8   
 Wet: 29.5-30.5   
   
-##Temperatures    
+## Temperatures    
 Dry: 60°-90°   
 Wet: 40°-70°      
 
