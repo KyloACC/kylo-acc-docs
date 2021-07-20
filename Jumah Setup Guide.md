@@ -18,12 +18,12 @@ I = Inner
 Refers to Temperatures.     
 
 ## Toe Front
-Increase => More responsiveness, pointing the tyres outwards to improve the initial turn in of the car.
+Increase => More responsiveness, pointing the tyres outwards to improve the initial turn in of the car.   
 Decrease => More Stable & Lower Tyre Temperatures   
 
 ## Toe Rear
-Increase => Increases stability & reduces top speed.
-Decrease => Increases top speed & car will be more oversteery.   
+Increase => Increases stability & reduces top speed.   
+Decrease => Increases top speed & car will be more oversteery.    
 
 ## Camber
 Increase => More Grip, less straight-line traction, slower acceleration and longer braking.   
