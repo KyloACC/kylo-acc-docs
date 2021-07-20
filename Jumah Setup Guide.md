@@ -39,12 +39,12 @@ The lower the ABS is, the shorter the braking distance is. Unless you get locked
 # MECHANICAL GRIP
 
 ## Antiroll-Bar Front
-Understeer into corner: Soften
-Oversteer into corner: Stiffen
+Understeer into corner: Soften   
+Oversteer into corner: Stiffen   
 
 ## Antiroll-Bar Rear
-Oversteer out of corner: Soften
-Understeer out of corner: Stiffen
+Oversteer out of corner: Soften     
+Understeer out of corner: Stiffen   
 
 ## Preload
 increasing preload will give a more stable car on corner entry but can cause exit oversteer   
