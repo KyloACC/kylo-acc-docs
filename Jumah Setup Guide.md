@@ -3,25 +3,33 @@
 # TYRES
 
 ## PSI
-27.3-27.8 optimum for dry, around 29.5-31 psi for wet   
+Dry: 27.3-27.8   
+Wet: 29.5-30.5   
+  
+##Temperatures    
+Dry: 60°-90°   
+Wet: 40°-70°      
 
-## OMI/IMO
-these are related to tyre temperatures. OMI stands for outer,middle, inner face of the tyre and the numbers relate to the temperature of the tyre. Optimal tyre temperatres go from 75-95 degrees.    
+## OMI/IMO   
+O = Outer   
+M = Middle   
+I = Inner   
+
+Refers to Temperatures.     
 
 ## Toe Front
-Increasing toe on the front increases the responsiveness. Pointing the tyres outwards to improve the initial turn in of the car.    
-Lowering front toe points the tyres inwards. Use this to make the car more stable/reduce tyre temperatures.    
+Increase => More responsiveness, pointing the tyres outwards to improve the initial turn in of the car.
+Decrease => More Stable & Lower Tyre Temperatures   
 
 ## Toe Rear
-Increasing rear toe improves the stability of the car as the tyres are pointed outwards. They will scrub more though and you lose top speed the greater the number.   
-Lowering rear toe increases straight line speed and creates less scrub as the tyres are pointing inwards. The car will be more oversteer the closer you go to 0.    
+Increase => Increases stability & reduces top speed.
+Decrease => Increases top speed & car will be more oversteery.   
 
 ## Camber
-if you want more grip, add a negative camber, allowing the tire to be in more contact with the road, but leads to less straight-line traction thus slower acceleration and longer braking zones   
+Increase => More Grip, less straight-line traction, slower acceleration and longer braking.   
 
 ## Caster
-only change caster if you feel the steering is too light for you. It adjusts the steering geometry and adds/takes away max camber.    
-
+Increase to increase the feedback.
 
 # Brakes & ABS
 
