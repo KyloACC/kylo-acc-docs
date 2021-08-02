@@ -1,0 +1,86 @@
+{
+	"carName": "alpine_a110_gt4",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 55, 57, 54, 56 ]
+		},
+		"alignment":
+		{
+			"camber": [ 8, 8, 14, 14 ],
+			"toe": [ 30, 30, 60, 60 ],
+			"staticCamber": [ -3.7939910888671875, -3.7927107810974121, -0.85279542207717896, -0.85122710466384888 ],
+			"toeOutLinear": [ -7.5814867159351707e-05, -7.5812262366525829e-05, 0.0020358141046017408, 0.0020357875619083643 ],
+			"casterLF": 14,
+			"casterRF": 14,
+			"steerRatio": 4
+		},
+		"electronics":
+		{
+			"tC1": 1,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 13,
+			"nPitStops": 0,
+			"tyreSet": 2,
+			"frontBrakePadCompound": 1,
+			"rearBrakePadCompound": 1,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 46, 56, 44, 53 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.3261604309082031
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 2,
+			"aRBRear": 0,
+			"wheelRate": [ 2, 2, 1, 1 ],
+			"bumpStopRateUp": [ 3, 3, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 0, 0, 0, 0 ],
+			"brakeTorque": 20,
+			"brakeBias": 75
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 8, 8, 13, 13 ],
+			"bumpFast": [ 0, 0, 0, 0 ],
+			"reboundSlow": [ 12, 12, 10, 10 ],
+			"reboundFast": [ 0, 0, 0, 0 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 10, 6, 20, 18 ],
+			"rodLength": [ 3.4342408180236816, 3.4342408180236816, -70.743202209472656, -70.743202209472656 ],
+			"splitter": 0,
+			"rearWing": 2,
+			"brakeDuct": [ 2, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 5
+		}
+	},
+	"trackBopType": 8
+}
