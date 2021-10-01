@@ -1,0 +1,86 @@
+{
+	"carName": "mclaren_570s_gt4",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 50, 60, 40, 45 ]
+		},
+		"alignment":
+		{
+			"camber": [ 10, 10, 18, 18 ],
+			"toe": [ 40, 40, 45, 45 ],
+			"staticCamber": [ -5.022709846496582, -5.0150852203369141, -4.6554231643676758, -4.6514348983764648 ],
+			"toeOutLinear": [ 0.0027243869844824076, 0.0027243893127888441, -0.00068562536034733057, -0.00068539119092747569 ],
+			"casterLF": 13,
+			"casterRF": 13,
+			"steerRatio": 4
+		},
+		"electronics":
+		{
+			"tC1": 1,
+			"tC2": 0,
+			"abs": 2,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 0,
+			"nPitStops": 0,
+			"tyreSet": 2,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 42, 52, 27, 37 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.9600000381469727
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 0,
+			"aRBRear": 1,
+			"wheelRate": [ 0, 0, 0, 0 ],
+			"bumpStopRateUp": [ 7, 7, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 36, 36, 50, 50 ],
+			"brakeTorque": 20,
+			"brakeBias": 0
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 16, 16, 15, 15 ],
+			"bumpFast": [ 0, 0, 0, 0 ],
+			"reboundSlow": [ 28, 28, 20, 20 ],
+			"reboundFast": [ 0, 0, 0, 0 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 0, 18 ],
+			"rodLength": [ 111.6138916015625, 111.6138916015625, 73.075897216796875, 73.075897216796875 ],
+			"splitter": 0,
+			"rearWing": 0,
+			"brakeDuct": [ 5, 4 ]
+		},
+		"drivetrain":
+		{
+			"preload": 0
+		}
+	},
+	"trackBopType": 6
+}
