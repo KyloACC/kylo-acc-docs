@@ -1,0 +1,86 @@
+{
+	"carName": "porsche_718_cayman_gt4_mr",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 45, 58, 40, 53 ]
+		},
+		"alignment":
+		{
+			"camber": [ 5, 5, 13, 13 ],
+			"toe": [ 25, 25, 55, 55 ],
+			"staticCamber": [ -4.8554539680480957, -4.8358469009399414, -4.2785372734069824, -4.2670211791992188 ],
+			"toeOutLinear": [ 0.00064519792795181274, 0.00062373903347179294, 0.00050196261145174503, 0.00050436786841601133 ],
+			"casterLF": 15,
+			"casterRF": 15,
+			"steerRatio": 3
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 13,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 35, 48, 30, 43 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.119999885559082
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 3,
+			"aRBRear": 2,
+			"wheelRate": [ 1, 1, 3, 3 ],
+			"bumpStopRateUp": [ 0, 0, 0, 0 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 0, 0, 0, 0 ],
+			"brakeTorque": 20,
+			"brakeBias": 35
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 6, 6, 7, 7 ],
+			"bumpFast": [ 4, 4, 5, 5 ],
+			"reboundSlow": [ 8, 8, 8, 8 ],
+			"reboundFast": [ 0, 0, 0, 0 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 11, 31, 18 ],
+			"rodLength": [ 37.104255676269531, 37.104255676269531, 37.71038818359375, 37.71038818359375 ],
+			"splitter": 0,
+			"rearWing": 4,
+			"brakeDuct": [ 2, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 2
+		}
+	},
+	"trackBopType": 18
+}
