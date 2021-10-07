@@ -5,7 +5,7 @@ sirfoch*
 gwatch.exe
 ukog*
 headwuend*
-Schubert*
+Schubert[A-Za-z-_]*.json
 *mp4
 *mp3
 *mkv
