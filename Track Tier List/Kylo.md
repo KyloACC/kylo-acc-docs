@@ -1,4 +1,4 @@
-| Tier         |: Track     :|
+| Tier         | Track     |
 |:--------------:|:-----------:|
 | S | Kyalami, Nürburgring, Silverstone |
 | A | Autodromo Enzo e Dino Ferrari |
