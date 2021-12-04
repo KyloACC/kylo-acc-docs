@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<Workbook Locale="German_Germany.1252" DefaultLocale="C" Version="200" Name="Teaching" Profile="Circuit" Active="Worksheets">
+ <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Worksheet (3)">
+  <Worksheet Version="200" Name="Worksheet" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,153" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="0" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Barcelona" BandMode="1" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="2" ScaleMin="0" ScaleMax="1">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="0" Value="0" Color="0,0,248"/>
+        <Line Index="2" Enabled="0" Value="0" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="Corr Speed">
+        <Trace Id="Corr Speed" DisplayUnit="km/h" DisplayDPS="1" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+    <MoTeC.Bar Version="100" Name="Bar (1)" Caption="BRAKE" PosPC="0,618,387,1000" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="0" MaximumValue="100" Style="2,0,0" OriginStyle="1,0,0" CustomOrigin="0" ColorBanding="1" ColorBandLines="1">
+     <GaugeData Id="BRAKE" DisplayUnit="%" DisplayDPS="0" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Bar>
+    <MoTeC.Light Version="100" Name="Status Light" Caption="Corr Speed" PosPC="587,739,687,839" ShowCaption="0" AutoCaption="1" UseDefaultFont="1" OverrideColor="0" BackgroundColor="255,255,255" ForegroundColor="0,0,0" DynamicFont="1" Threshold="100" ActiveLow="0">
+     <GaugeData Id="Corr Speed" DisplayUnit="km/h" DisplayDPS="1" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Light>
+    <MoTeC.TrackPos Version="100" Name="Track Position" PosPC="700,400,1000,700" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="7"/>
+       <SizeSchemeEntry Name="Detail" INTValue="1"/>
+       <SizeSchemeEntry Name="Material" INTValue="1"/>
+      </SizeScheme>
+     </TrackMapWindow>
+    </MoTeC.TrackPos>
+    <MoTeC.Bar Version="100" Name="Bar" Caption="THROTTLE" PosPC="0,533,388,618" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="0" MaximumValue="100" OriginStyle="1,0,0" CustomOrigin="0" ColorBanding="1" ColorBandLines="1">
+     <GaugeData Id="THROTTLE" DisplayUnit="%" DisplayDPS="0" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Bar>
+    <MoTeC.Color Version="100" Name="Color Time/Distance Graph" PosPC="0,154,1000,324" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="0" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="0" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="" BandMode="0" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1" ShowLaneLines="0">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="0" ScaleMax="1">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="0,0,0"/>
+        <Line Index="1" Enabled="0" Value="0" Color="0,0,248"/>
+        <Line Index="2" Enabled="0" Value="0" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="Corr Speed">
+        <Trace Id="Corr Speed" DisplayUnit="km/h" DisplayDPS="1" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+     <EvenWidthBandAxis PaletteMode="1" GradientMode="2" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="50" DataMax="250" BandWidth="12.5" BandCount="16">
+      <ColorBand Flags="2" Min="50" Max="50" Color="64,64,255" Visible="1"/>
+      <ColorBand Flags="7" Min="50" Max="62.5" Color="64,107,255" Visible="1"/>
+      <ColorBand Flags="7" Min="62.5" Max="75" Color="64,155,255" Visible="1"/>
+      <ColorBand Flags="7" Min="75" Max="87.5" Color="64,198,255" Visible="1"/>
+      <ColorBand Flags="7" Min="87.5" Max="100" Color="64,245,255" Visible="1"/>
+      <ColorBand Flags="7" Min="100" Max="112.5" Color="64,255,222" Visible="1"/>
+      <ColorBand Flags="7" Min="112.5" Max="125" Color="64,255,179" Visible="1"/>
+      <ColorBand Flags="7" Min="125" Max="137.5" Color="64,255,131" Visible="1"/>
+      <ColorBand Flags="7" Min="137.5" Max="150" Color="64,255,88" Visible="1"/>
+      <ColorBand Flags="7" Min="150" Max="162.5" Color="88,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="162.5" Max="175" Color="131,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="175" Max="187.5" Color="179,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="187.5" Max="200" Color="222,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="200" Max="212.5" Color="255,245,64" Visible="1"/>
+      <ColorBand Flags="7" Min="212.5" Max="225" Color="255,198,64" Visible="1"/>
+      <ColorBand Flags="7" Min="225" Max="237.5" Color="255,155,64" Visible="1"/>
+      <ColorBand Flags="15" Min="237.5" Max="250" Color="255,107,64" Visible="1"/>
+      <ColorBand Flags="1" Min="250" Max="250" Color="255,64,64" Visible="1"/>
+     </EvenWidthBandAxis>
+    </MoTeC.Color>
+    <MoTeC.NumericGauge Version="100" Name="Numeric" Caption="roll rate" PosPC="700,699,1000,1000" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" DynamicFont="1">
+     <GaugeData Id="roll rate" DisplayUnit="" DisplayDPS="2" Visible="1"/>
+     <ColorBandGroup>
+      <ColorBand Flags="7" Min="-1" Max="1" Color="128,255,0" Visible="1"/>
+     </ColorBandGroup>
+    </MoTeC.NumericGauge>
+    <MoTeC.Scatter Version="100" Name="Scatter" PosPC="495,323,1000,604" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="GEAR" ZChannel="" XScaleMode="1" XScaleMin="0" XScaleMax="7" YScaleMode="1" YScaleMin="0" YScaleMax="280" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="64,64,255" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="0" LinePointMode="1" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
+     <Trace YChannel="Corr Speed" Visible="1" YDelay="0"/>
+     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="210,210,210" AxisChanColor="47,151,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
+      <ColorBand Flags="2" Min="-1" Max="-1" Color="64,64,255" Visible="1"/>
+      <ColorBand Flags="7" Min="-1" Max="-0.8" Color="64,136,255" Visible="1"/>
+      <ColorBand Flags="7" Min="-0.8" Max="-0.6" Color="64,203,255" Visible="1"/>
+      <ColorBand Flags="7" Min="-0.6" Max="-0.4" Color="64,255,236" Visible="1"/>
+      <ColorBand Flags="7" Min="-0.4" Max="-0.2" Color="64,255,169" Visible="1"/>
+      <ColorBand Flags="7" Min="-0.2" Max="0" Color="64,255,98" Visible="1"/>
+      <ColorBand Flags="7" Min="0" Max="0.2" Color="98,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="0.2" Max="0.4" Color="169,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="0.4" Max="0.6" Color="236,255,64" Visible="1"/>
+      <ColorBand Flags="7" Min="0.6" Max="0.8" Color="255,203,64" Visible="1"/>
+      <ColorBand Flags="15" Min="0.8" Max="1" Color="255,136,64" Visible="1"/>
+      <ColorBand Flags="1" Min="1" Max="1" Color="255,64,64" Visible="1"/>
+     </EvenWidthBandAxis>
+    </MoTeC.Scatter>
+    <MoTeC.Histogram Version="100" Name="Histogram" PosPC="0,324,495,524" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="1" SecondChannel="" XScaleMode="0" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="100" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="-1" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1">
+     <HistoTrace Id="Corr Speed" Visible="1"/>
+     <HistoMainBins>
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="2.07228e-05" DataMax="256.482" BandWidth="5.12964" BandCount="50">
+       <ColorBand Flags="2" Min="2.07228e-05" Max="2.07228e-05" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="2.07228e-05" Max="5.12966" Color="64,79,255" Visible="1"/>
+       <ColorBand Flags="7" Min="5.12966" Max="10.2593" Color="64,92,255" Visible="1"/>
+       <ColorBand Flags="7" Min="10.2593" Max="15.3889" Color="64,107,255" Visible="1"/>
+       <ColorBand Flags="7" Min="15.3889" Max="20.5186" Color="64,126,255" Visible="1"/>
+       <ColorBand Flags="7" Min="20.5186" Max="25.6482" Color="64,140,255" Visible="1"/>
+       <ColorBand Flags="7" Min="25.6482" Max="30.7779" Color="64,155,255" Visible="1"/>
+       <ColorBand Flags="7" Min="30.7779" Max="35.9075" Color="64,169,255" Visible="1"/>
+       <ColorBand Flags="7" Min="35.9075" Max="41.0371" Color="64,184,255" Visible="1"/>
+       <ColorBand Flags="7" Min="41.0371" Max="46.1668" Color="64,198,255" Visible="1"/>
+       <ColorBand Flags="7" Min="46.1668" Max="51.2964" Color="64,213,255" Visible="1"/>
+       <ColorBand Flags="7" Min="51.2964" Max="56.4261" Color="64,232,255" Visible="1"/>
+       <ColorBand Flags="7" Min="56.4261" Max="61.5557" Color="64,245,255" Visible="1"/>
+       <ColorBand Flags="7" Min="61.5557" Max="66.6853" Color="64,255,251" Visible="1"/>
+       <ColorBand Flags="7" Min="66.6853" Max="71.815" Color="64,255,236" Visible="1"/>
+       <ColorBand Flags="7" Min="71.815" Max="76.9446" Color="64,255,222" Visible="1"/>
+       <ColorBand Flags="7" Min="76.9446" Max="82.0743" Color="64,255,207" Visible="1"/>
+       <ColorBand Flags="7" Min="82.0743" Max="87.2039" Color="64,255,193" Visible="1"/>
+       <ColorBand Flags="7" Min="87.2039" Max="92.3335" Color="64,255,179" Visible="1"/>
+       <ColorBand Flags="7" Min="92.3335" Max="97.4632" Color="64,255,159" Visible="1"/>
+       <ColorBand Flags="7" Min="97.4632" Max="102.593" Color="64,255,146" Visible="1"/>
+       <ColorBand Flags="7" Min="102.593" Max="107.722" Color="64,255,131" Visible="1"/>
+       <ColorBand Flags="7" Min="107.722" Max="112.852" Color="64,255,117" Visible="1"/>
+       <ColorBand Flags="7" Min="112.852" Max="117.982" Color="64,255,102" Visible="1"/>
+       <ColorBand Flags="7" Min="117.982" Max="123.111" Color="64,255,88" Visible="1"/>
+       <ColorBand Flags="7" Min="123.111" Max="128.241" Color="64,255,73" Visible="1"/>
+       <ColorBand Flags="7" Min="128.241" Max="133.371" Color="73,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="133.371" Max="138.5" Color="88,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="138.5" Max="143.63" Color="102,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="143.63" Max="148.76" Color="117,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="148.76" Max="153.889" Color="131,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="153.889" Max="159.019" Color="146,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="159.019" Max="164.148" Color="159,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="164.148" Max="169.278" Color="179,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="169.278" Max="174.408" Color="193,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="174.408" Max="179.537" Color="207,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="179.537" Max="184.667" Color="222,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="184.667" Max="189.797" Color="236,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="189.797" Max="194.926" Color="251,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="194.926" Max="200.056" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="200.056" Max="205.186" Color="255,232,64" Visible="1"/>
+       <ColorBand Flags="7" Min="205.186" Max="210.315" Color="255,213,64" Visible="1"/>
+       <ColorBand Flags="7" Min="210.315" Max="215.445" Color="255,198,64" Visible="1"/>
+       <ColorBand Flags="7" Min="215.445" Max="220.575" Color="255,184,64" Visible="1"/>
+       <ColorBand Flags="7" Min="220.575" Max="225.704" Color="255,169,64" Visible="1"/>
+       <ColorBand Flags="7" Min="225.704" Max="230.834" Color="255,155,64" Visible="1"/>
+       <ColorBand Flags="7" Min="230.834" Max="235.963" Color="255,140,64" Visible="1"/>
+       <ColorBand Flags="7" Min="235.963" Max="241.093" Color="255,126,64" Visible="1"/>
+       <ColorBand Flags="7" Min="241.093" Max="246.223" Color="255,107,64" Visible="1"/>
+       <ColorBand Flags="7" Min="246.223" Max="251.352" Color="255,92,64" Visible="1"/>
+       <ColorBand Flags="15" Min="251.352" Max="256.482" Color="255,79,64" Visible="1"/>
+       <ColorBand Flags="1" Min="256.482" Max="256.482" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </HistoMainBins>
+     <HistoColorBands>
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="47,151,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="0" DataMax="0" BandWidth="0" BandCount="10"/>
+     </HistoColorBands>
+    </MoTeC.Histogram>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Worksheet (1)" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Acceleration Report">
+    <MoTeC.AccelReport Version="100" Name="Acceleration Report" PosPC="0,0,1000,557" ShowCaption="1" AutoCaption="0" GenSummaryMin="1" GenSummaryMax="1" ShowSpeedPoints="1" ShowOverlayRegions="1" HSplitter.Pos="6469" VSplitter.Pos="1492">
+     <Settings Speeds="60,100,140,180,220,260"/>
+    </MoTeC.AccelReport>
+    <MoTeC.List Version="100" Name="Channel List" PosPC="394,594,528,747" ShowCaption="1" AutoCaption="0" UseDefaultFont="1" Datum="0" Delta="0" ShowHeading="0" AutoSizeColumns="1" NameColumnWidth="180" ValueColumnWidth="96" DeltaColumnWidth="96" DatumColumnWidth="96">
+     <GaugeData Id="RPMS" DisplayUnit="1/min" DisplayDPS="0" Visible="1"/>
+     <GaugeData Id="Corr Speed" DisplayUnit="km/h" DisplayDPS="1" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.List>
+    <MoTeC.Dial Version="100" Name="Dial" Caption="RPMS" PosPC="165,585,313,885" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="5557" MaximumValue="9398" IndicatorColor="186,117,255" OverrideColor="0" IndicatorColorBands="0" IndicatorStyle="0" DialColorBands="1" ColorBandStyle="1">
+     <GaugeData Id="RPMS" DisplayUnit="1/min" DisplayDPS="0" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Dial>
+    <MoTeC.Light Version="100" Name="Status Light" Caption="BRAKE" PosPC="739,679,838,788" ShowCaption="0" AutoCaption="1" UseDefaultFont="1" OverrideColor="0" BackgroundColor="255,255,255" ForegroundColor="0,0,0" DynamicFont="1" Threshold="0" ActiveLow="0">
+     <GaugeData Id="BRAKE" DisplayUnit="%" DisplayDPS="0" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Light>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Worksheet (2)" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,329" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="0" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="0" ScaleMax="300">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="0" Value="0" Color="0,0,248"/>
+        <Line Index="2" Enabled="0" Value="0" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="SPEED">
+        <Trace Id="SPEED" DisplayUnit="km/h" DisplayDPS="1" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Worksheet (3)" LinkTo="Laps" LockByGPSTime="0"/>
+ </Worksheets>
+</Workbook>

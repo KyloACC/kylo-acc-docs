@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Maths Locale="German_Germany.1252" DefaultLocale="C" Id="Setup specific values">
+ <MathConstants>
+  <MathConstant Name="PI" Value="3.14159265" Unit=""/>
+  <MathConstant Name="Wheelrate front" Value="150000" Unit="N/m"/>
+  <MathConstant Name="Wheelrate rear" Value="142000" Unit="N/m"/>
+ </MathConstants>
+ <MathItems>
+  <MathExpression Id="Ingame RH Front" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="55" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="Ingame RH Rear" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="56
+" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="Rake Offset Adjustment" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="6.5" SampleRate="0" Unit="mm"/>
+ </MathItems>
+</Maths>
