@@ -1,8 +1,21 @@
+14/12/21 - ROS Pro Series /w Porsche - Race 1: Nürburgring
 15/12/21 - SOP Motorsport European GT3 Sprint Series /w McLaren 720s - Race 6: Oulton Park
 16/12/21 - 949 GT3 Series /w Porsche - Race 4: Hungaroring
 17/12/21 - RDC Friday Night Lights /w Porsche - Race 6: Bathurst
 18/12/21 - RCI Nightowl /w Porsche - Race 5: Barcelona
 30/12/21 - 949 GT3 Series /w Porsche - Race 5: Oulton Park
+04/01/22 - ROS Pro Series /w Porsche - Race 2: Paul Ricard
+06/01/22 - OTL GT3 S10 /w Porsche - Race 0: Misano
 06/01/22 - 949 GT3 Series /w Porsche - Race 6: Suzuka
 13/01/22 - 949 GT3 Series /w Porsche - Race 7: Spa
+18/01/22 - ROS Pro Series /w Porsche - Race 3: Kyalami
+20/01/22 - OTL GT3 S10 /w Porsche - Race 1: Silverstone
 20/01/22 - 949 GT3 Series /w Porsche - Race 8: Kyalami
+27/01/22 - OTL GT3 S10 /w Porsche - Race 2: Paul Ricard
+01/02/22 - ROS Pro Series /w Porsche - Race 4: Spa
+03/02/22 - OTL GT3 S10 /w Porsche - Race 3: Bathurst
+10/02/22 - OTL GT3 S10 /w Porsche - Race 4: Oulton Park
+15/02/22 - ROS Pro Series /w Porsche - Race 5: Monza
+17/02/22 - OTL GT3 S10 /w Porsche - Race 5: Monza
+24/02/22 - OTL GT3 S10 /w Porsche - Race 6: Brands Hatch
+01/03/22 - ROS Pro Series /w Porsche - Race 6: Silverstone
