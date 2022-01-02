@@ -1,15 +1,17 @@
-04/01/22 - ROS Pro Series /w Porsche - Race 2: Paul Ricard
-06/01/22 - OTL GT3 S10 /w Porsche - Race 0: Misano
-06/01/22 - 949 GT3 Series /w Porsche - Race 6: Suzuka
-13/01/22 - 949 GT3 Series /w Porsche - Race 7: Spa
-18/01/22 - ROS Pro Series /w Porsche - Race 3: Kyalami
-20/01/22 - OTL GT3 S10 /w Porsche - Race 1: Silverstone
-20/01/22 - 949 GT3 Series /w Porsche - Race 8: Kyalami
-27/01/22 - OTL GT3 S10 /w Porsche - Race 2: Paul Ricard
-01/02/22 - ROS Pro Series /w Porsche - Race 4: Spa
-03/02/22 - OTL GT3 S10 /w Porsche - Race 3: Bathurst
-10/02/22 - OTL GT3 S10 /w Porsche - Race 4: Oulton Park
-15/02/22 - ROS Pro Series /w Porsche - Race 5: Monza
-17/02/22 - OTL GT3 S10 /w Porsche - Race 5: Monza
-24/02/22 - OTL GT3 S10 /w Porsche - Race 6: Brands Hatch
-01/03/22 - ROS Pro Series /w Porsche - Race 6: Silverstone
+02/01/22 - LFM 3h Endurance Race Series - Week 1: Nürburgring /w Schubert
+04/01/22 - ROS Pro Series - Race 2: Paul Ricard
+06/01/22 - OTL GT3 S10 - Race 0: Misano
+06/01/22 - 949 GT3 Series - Race 6: Suzuka
+13/01/22 - 949 GT3 Series - Race 7: Spa
+18/01/22 - ROS Pro Series - Race 3: Kyalami
+20/01/22 - OTL GT3 S10 - Race 1: Silverstone
+20/01/22 - 949 GT3 Series - Race 8: Kyalami
+25/01/22 - AOR S9 Tier $AORTIER - Race 1: Paul Ricard
+27/01/22 - OTL GT3 S10 - Race 2: Paul Ricard
+01/02/22 - ROS Pro Series - Race 4: Spa
+03/02/22 - OTL GT3 S10 - Race 3: Bathurst
+10/02/22 - OTL GT3 S10 - Race 4: Oulton Park
+15/02/22 - ROS Pro Series - Race 5: Monza
+17/02/22 - OTL GT3 S10 - Race 5: Monza
+24/02/22 - OTL GT3 S10 - Race 6: Brands Hatch
+01/03/22 - ROS Pro Series - Race 6: Silverstone
