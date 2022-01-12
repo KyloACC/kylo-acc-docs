@@ -153,7 +153,7 @@
   <Worksheet Version="200" Name="Section Times" LinkTo="Laps" LockByGPSTime="0">
    <Controls Active="Report [1]">
     <MoTeC.TimeReport TimeFormat="8" SplitterPos="6684" ChartShowKey="1" ChartScaleMode="0" Version="100" Name="Report [1]" Caption="Time Report - Track Sections (All Laps)" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" TelemetryZoom="0">
-     <SectTimesReportGen Version="4" FilterRanges="1" InclusiveSamples="0" DataExtent="1" HeaderIndex="0" RowGroupName="Outings:Laps:Track Sections:Hungaroring">
+     <SectTimesReportGen Version="4" FilterRanges="1" InclusiveSamples="0" DataExtent="0" HeaderIndex="0" RowGroupName="Outings:Laps:Track Sections:Barcelona">
       <ReportRange HeaderGroup="Events"/>
       <ReportRange HeaderGroup="Vehicles"/>
       <ReportRange HeaderGroup="Sessions"/>

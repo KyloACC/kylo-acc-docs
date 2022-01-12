@@ -6,8 +6,8 @@
   <MathConstant Name="Wheelrate rear" Value="142000" Unit="N/m"/>
  </MathConstants>
  <MathItems>
-  <MathExpression Id="Ingame RH Front" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="45" SampleRate="0" Unit="mm"/>
-  <MathExpression Id="Ingame RH Rear" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="65" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="Ingame RH Front" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="53" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="Ingame RH Rear" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="78" SampleRate="0" Unit="mm"/>
   <MathExpression Id="Rake Offset Adjustment" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="-0.2
 " SampleRate="0" Unit="mm"/>
  </MathItems>

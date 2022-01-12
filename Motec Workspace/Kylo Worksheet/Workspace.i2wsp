@@ -1,25 +1,22 @@
 <?xml version="1.0"?>
-<Analysis Locale="English_Germany.0" DefaultLocale="C" Version="103" ShowOverlays="1" ExcludeUntrusted="1" IncludeOverlays="0" GraphTimeFormat="4" RemoveOnChanDblClick="1" TelemetryTrackName="Barcelona" ProfileId="Circuit" VideoDefaultViews="" SetupSheetPasswdReqd="0" LapTimeDisplayFormat="0" LapTimeDisplayUnit="mph" LapNameInOut="0" AutoLapNumber="0" SplitterPos="2011">
+<Analysis Locale="English_Germany.0" DefaultLocale="C" Version="103" ShowOverlays="1" ExcludeUntrusted="1" IncludeOverlays="0" GraphTimeFormat="4" RemoveOnChanDblClick="1" TelemetryTrackName="Barcelona" ProfileId="Circuit" VideoDefaultViews="" SetupSheetPasswdReqd="0" LapTimeDisplayFormat="0" LapTimeDisplayUnit="mph" LapNameInOut="0" AutoLapNumber="0" SplitterPos="1468">
  <Resources/>
  <LatGTrackGen LateralGChannel="glat"/>
  <DataSelect SelectFastestOnLoad="1" DefaultShowDisabled="0" MainColorSource="0">
   <Explore HRef="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC"/>
   <DataSources TelemetryEnabled="1">
-   <LoggedDataSource Name="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\mount_panorama-porsche_991ii_gt3_r-6-2021.11.29-18.34.57.ld"/>
-   <LoggedDataSource Name="C:\Users\lucaz\Downloads\Mp_Motec_488_Evo\Mp Motec 488 Evo\mount_panorama-ferrari_488_gt3_evo-8-2021.12.01-18.27.09.ld"/>
-   <LoggedDataSource Name="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\mount_panorama-porsche_991ii_gt3_r-4-2021.11.29-23.52.09.ld"/>
+   <LoggedDataSource Name="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\Kyalami-porsche_991ii_gt3_r-13-2022.01.11-23.48.45.ld"/>
   </DataSources>
   <View Name="Laps" Color="128,240,0" View="Laps">
-   <Main Range.Id="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\mount_panorama-porsche_991ii_gt3_r-6-2021.11.29-18.34.57.ld::::Lap 12"/>
-   <Ref Range.Id="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\mount_panorama-porsche_991ii_gt3_r-6-2021.11.29-18.34.57.ld::::Lap 12"/>
+   <Main Range.Id="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\Kyalami-porsche_991ii_gt3_r-13-2022.01.11-23.48.45.ld::::Lap 17"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings">
-   <Main Range.Id="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\mount_panorama-porsche_991ii_gt3_r-4-2021.11.29-23.52.09.ld::::23:52:09,  "/>
+   <Main Range.Id="C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC\Kyalami-porsche_991ii_gt3_r-13-2022.01.11-23.48.45.ld::::23:48:45,  "/>
   </View>
  </DataSelect>
  <ChannelsWindow/>
  <CAN/>
- <MoTeC.TrackPos Version="100" Name="TrackPosCtrl.inner" PosPC="0,0,200,366" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="" ShowDataLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="0" LinkCursor="1" UseLocalColors="0">
+ <MoTeC.TrackPos Version="100" Name="TrackPosCtrl.inner" PosPC="0,0,200,371" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="" ShowDataLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="0" LinkCursor="1" UseLocalColors="0">
   <ComponentColorScheme>
    <Entry Name="CptDataBackground">
     <RenderMode Mode="SCREEN" RGB="0,128,0"/>
@@ -73,7 +70,7 @@
   <Key Name="F7" Customised="0" Prompted="0"/>
   <Key Name="F8" Customised="0" Prompted="1"/>
  </QuickSelectKeys>
- <Workbooks Version="100" Name="My Workbooks" Active="Tyres &amp; Brakes">
+ <Workbooks Version="100" Name="My Workbooks" Active="General">
   <Workbook Name="General" XRef="Workbooks\General.i2wkb"/>
   <Workbook Name="Suspension" XRef="Workbooks\Suspension.i2wkb"/>
   <Workbook Name="Tyres &amp; Brakes" XRef="Workbooks\Tyres &amp; Brakes.i2wkb"/>
@@ -83,11 +80,11 @@
  </Workbooks>
  <DockWindows>
   <DockWindow Id="Alarms" Visible="0" IsDocked="1" IsPinned="1" DockOffset="0.25" DockSide="0" DockIndex="0" Height="160" Width="220"/>
-  <DockWindow Id="Data" Visible="1" IsDocked="1" IsPinned="0" DockOffset="0" DockSide="3" DockIndex="0" Height="854" Width="216"/>
+  <DockWindow Id="Data" Visible="1" IsDocked="1" IsPinned="0" DockOffset="0" DockSide="3" DockIndex="0" Height="685" Width="202"/>
   <DockWindow Id="Channels" Visible="1" IsDocked="1" IsPinned="1" DockOffset="0" DockSide="35" DockIndex="0" Height="110" Width="220"/>
   <DockWindow Id="Reports" Visible="1" IsDocked="1" IsPinned="1" DockOffset="0" DockSide="35" DockIndex="1" Height="110" Width="205"/>
   <DockWindow Id="Layouts" Visible="1" IsDocked="1" IsPinned="1" DockOffset="0" DockSide="35" DockIndex="2" Height="110" Width="220"/>
-  <DockWindow Id="Track" Visible="1" IsDocked="1" IsPinned="0" DockOffset="0.636768" DockSide="3" DockIndex="0" Height="485" Width="216"/>
+  <DockWindow Id="Track" Visible="1" IsDocked="1" IsPinned="0" DockOffset="0.630713" DockSide="3" DockIndex="0" Height="399" Width="202"/>
  </DockWindows>
  <TelemetrySettings/>
  <DataExport Path="C:\Users\lucaz\Downloads" Selection="1" Rate="0" Flags="2044"/>

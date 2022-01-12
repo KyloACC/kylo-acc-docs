@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Overrides Locale="English_Germany.0" DefaultLocale="C">
- <Override Id="ABS" DisplayColorIndex="1" AutoScale="1" DisplayMin="0,000000000000000" DisplayMax="1,000000000000000"/>
+ <Override Id="ABS" AutoScale="1" DisplayColorIndex="1" DisplayMin="0,000000000000000" DisplayMax="1,000000000000000"/>
  <Override Id="ABS in %" DisplayColorIndex="3"/>
  <Override Id="Air Temp Inlet" DisplayMax="332.149993999999992" DisplayMin="272.149993999999992" AutoScale="0"/>
  <Override Id="BRAKE" DisplayColorIndex="0"/>
@@ -36,17 +36,17 @@
  <Override Id="Lambda 1" DisplayMax="1.100000000000000" DisplayMin="0.800000000000000" AutoScale="0"/>
  <Override Id="Lambda 2" DisplayMax="1.100000000000000" DisplayMin="0.800000000000000" AutoScale="0"/>
  <Override Id="Manifold Pres" DisplayMax="249999.984375000000000" DisplayMin="0.000000000000000" AutoScale="0"/>
- <Override Id="Oversteer" DisplayMax="0.157079634086134" DisplayMin="-0.157079634086134" AutoScale="0" DisplayColorIndex="7"/>
+ <Override Id="Oversteer" DisplayMax="0.157079634086134" DisplayMin="-0.157079634086134" DisplayColorIndex="7" AutoScale="0"/>
  <Override Id="Pitch rate" DisplayColorIndex="6"/>
- <Override Id="ROTY" DisplayDPS="2" DisplayUnit="deg/s" DisplayMin="-1.745329267623711" AutoScale="0" DisplayColorIndex="2" DisplayMax="1.745329267623711"/>
+ <Override Id="ROTY" DisplayDPS="2" DisplayMin="-1.745329267623711" DisplayUnit="deg/s" DisplayColorIndex="2" AutoScale="0" DisplayMax="1.745329267623711"/>
  <Override Id="Rake angle" DisplayColorIndex="5"/>
  <Override Id="Rake angle smooth" DisplayColorIndex="6"/>
  <Override Id="Rake in degree" AutoScale="0" DisplayMin="-0,500000000000000" DisplayMax="1,500000000000000"/>
- <Override Id="Ride Height LF" DisplayColorIndex="4" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
+ <Override Id="Ride Height LF" AutoScale="0" DisplayColorIndex="4" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
  <Override Id="Ride Height LF correct" DisplayColorIndex="7"/>
- <Override Id="Ride Height LR" DisplayColorIndex="4" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
+ <Override Id="Ride Height LR" AutoScale="0" DisplayColorIndex="4" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
  <Override Id="Ride Height LR correct" DisplayColorIndex="3"/>
- <Override Id="Ride Height RF" DisplayColorIndex="4" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
+ <Override Id="Ride Height RF" AutoScale="0" DisplayColorIndex="4" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
  <Override Id="Ride Height RF correct" DisplayColorIndex="1"/>
  <Override Id="Ride Height RR" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="80,000000000000000"/>
  <Override Id="Ride Height RR correct" DisplayColorIndex="4"/>
@@ -56,10 +56,10 @@
  <Override Id="Roll in mm" DisplayDPS="5"/>
  <Override Id="Roll rate" DisplayColorIndex="1"/>
  <Override Id="SPEED" DisplayDPS="1" DisplayUnit="km/h" DisplayColorIndex="4"/>
- <Override Id="STEERANGLE" AutoScale="1" DisplayColorIndex="1" DisplayMin="-3.490658535247422" DisplayMax="3.490658535247422" DisplayDPS="2"/>
- <Override Id="SUS_TRAVEL_LF" DisplayDPS="2" DisplayColorIndex="3" AutoScale="1" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
- <Override Id="SUS_TRAVEL_LR" DisplayDPS="2" AutoScale="0" DisplayColorIndex="3" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
- <Override Id="SUS_TRAVEL_RF" DisplayDPS="2" DisplayColorIndex="3" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
+ <Override Id="STEERANGLE" DisplayColorIndex="1" AutoScale="1" DisplayMin="-3.490658535247422" DisplayMax="3.490658535247422" DisplayDPS="2"/>
+ <Override Id="SUS_TRAVEL_LF" DisplayDPS="2" AutoScale="1" DisplayColorIndex="3" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
+ <Override Id="SUS_TRAVEL_LR" DisplayDPS="2" DisplayColorIndex="3" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
+ <Override Id="SUS_TRAVEL_RF" DisplayDPS="2" AutoScale="0" DisplayColorIndex="3" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
  <Override Id="SUS_TRAVEL_RR" DisplayDPS="2" AutoScale="0" DisplayMin="0,000000000000000" DisplayMax="0,080000000000000"/>
  <Override Id="Smooth rake" DisplayColorIndex="2"/>
  <Override Id="Steered Angle" DisplayMax="0.174533000000000" DisplayMin="-0.174533000000000" AutoScale="0"/>
@@ -93,8 +93,8 @@
  <Override Id="Wheel Slip LR" DisplayColorIndex="3"/>
  <Override Id="Wheel Slip RR" DisplayColorIndex="4"/>
  <Override Id="Wheel Speed Diff" DisplayColorIndex="2"/>
- <Override Id="glat" AutoScale="1" DisplayColorIndex="4" DisplayMin="-29.419956144652041" DisplayMax="29.419956144652041"/>
- <Override Id="glong" AutoScale="1" DisplayColorIndex="3" DisplayMin="0.000000000000000" DisplayMax="9.806652048217348"/>
+ <Override Id="glat" DisplayColorIndex="4" AutoScale="1" DisplayMin="-29.419956144652041" DisplayMax="29.419956144652041"/>
+ <Override Id="glong" DisplayColorIndex="3" AutoScale="1" DisplayMin="0.000000000000000" DisplayMax="9.806652048217348"/>
  <Override Id="pitch rate" DisplayColorIndex="5"/>
  <Override Id="roll rate" DisplayColorIndex="2"/>
  <Override Id="steered angle" DisplayColorIndex="1"/>
