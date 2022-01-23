@@ -2,10 +2,10 @@
 
 **Step 1: Create a ps1 file, name it whatever you want and enter the following:**
 ```bash
-Get-ChildItem "C:\Users\lucaz\Documents\Assetto Corsa Competizione\MoTeC" -Recurse -File | Where CreationTime -lt  (Get-Date).AddDays(-21)  | Remove-Item -Force
+Get-ChildItem "C:\Users\$env:USERPROFILE\Documents\Assetto Corsa Competizione\MoTeC" -Recurse -File | Where CreationTime -lt  (Get-Date).AddDays(-21)  | Remove-Item -Force
 ```
-
-You will obviously have to change `lucaz` to your own Windows username.
+$env:USERPROFILE should lead to your user profile.
+~~You will obviously have to change `lucaz` to your own Windows username.~~
 
 
 **Step 2: Go to Task Scheduler**  
