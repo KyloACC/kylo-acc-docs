@@ -4,7 +4,7 @@
 ```bash
 Get-ChildItem "C:\Users\$env:USERPROFILE\Documents\Assetto Corsa Competizione\MoTeC" -Recurse -File | Where CreationTime -lt  (Get-Date).AddDays(-21)  | Remove-Item -Force
 ```
-$env:USERPROFILE should lead to your user profile.
+$env:USERPROFILE should lead to your user profile.  
 ~~You will obviously have to change `lucaz` to your own Windows username.~~
 
 
