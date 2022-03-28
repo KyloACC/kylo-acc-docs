@@ -1,0 +1,86 @@
+{
+	"carName": "bmw_m2_cs_racing",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 35, 27, 42, 36 ]
+		},
+		"alignment":
+		{
+			"camber": [ 5, 5, 2, 2 ],
+			"toe": [ 14, 14, 5, 5 ],
+			"staticCamber": [ -4.2859258651733398, -4.2877397537231445, -3.0246682167053223, -3.0296437740325928 ],
+			"toeOutLinear": [ -4.6311147343658376e-06, 2.4980606667668326e-06, 0.00015200345660559833, 0.00015227121184580028 ],
+			"casterLF": 0,
+			"casterRF": 0,
+			"steerRatio": 5
+		},
+		"electronics":
+		{
+			"tC1": 1,
+			"tC2": 0,
+			"abs": 1,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 8,
+			"nPitStops": 0,
+			"tyreSet": 1,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 35, 27, 42, 36 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 1.8999999761581421
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 2,
+			"aRBRear": 1,
+			"wheelRate": [ 0, 0, 2, 2 ],
+			"bumpStopRateUp": [ 0, 0, 0, 0 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 30, 30, 40, 40 ],
+			"brakeTorque": 20,
+			"brakeBias": 0
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 7, 7, 14, 14 ],
+			"bumpFast": [ 0, 0, 0, 0 ],
+			"reboundSlow": [ 11, 11, 14, 14 ],
+			"reboundFast": [ 0, 0, 0, 0 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 0, 15, 0 ],
+			"rodLength": [ -3.2222859859466553, -3.2222859859466553, 4.3367829322814941, 4.3367829322814941 ],
+			"splitter": 0,
+			"rearWing": 4,
+			"brakeDuct": [ 4, 4 ]
+		},
+		"drivetrain":
+		{
+			"preload": 0
+		}
+	},
+	"trackBopType": 43
+}
