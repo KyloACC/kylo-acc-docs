@@ -1,17 +1,5 @@
-Name: Timm Janzen
-Lap & Turn: 0, 9 
-Time & Date: BMW
-Link: https://streamable.com/rv7y08
-Text: Illegal overtake in quali which leads to crash.
-
-Name: Boris Garifullin
-Lap & Turn: 0, 10
-Time & Date: BMW
-Link: https://streamable.com/edluxs
-Text: Illegal overtake in quali which leads to crash. 
-
-Name: 
-Lap & Turn: 
-Time & Date: 
-Link: 
-Text: 
+Name: Marc-Antoine Landry
+Lap & Turn: 20
+Time & Date: 01 April 22:00
+Link: https://streamable.com/esn4au
+Text: Lambo turns in too much at first and hits me and then rejoins like a maniac and kills the Nissan and me.
