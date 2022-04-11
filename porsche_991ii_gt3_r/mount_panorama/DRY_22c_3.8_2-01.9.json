@@ -383,7 +383,7 @@
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 10, 10, 9, 9 ],
+			"bumpSlow": [ 10, 10, 10, 10 ],
 			"bumpFast": [ 12, 12, 7, 7 ],
 			"reboundSlow": [ 8, 8, 9, 9 ],
 			"reboundFast": [ 12, 12, 11, 11 ]
