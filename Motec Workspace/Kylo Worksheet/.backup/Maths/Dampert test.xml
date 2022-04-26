@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Maths Locale="German_Germany.1252" DefaultLocale="C" Id="Dampert test">
+ <MathConstants>
+  <MathConstant Name="PI" Value="3.14159265" Unit=""/>
+  <MathConstant Name="Wheel rate front" Value="137" Unit="N/mm"/>
+  <MathConstant Name="Wheel rate rear" Value="187" Unit="N/mm"/>
+ </MathConstants>
+ <MathItems>
+  <MathExpression Id="Sus Travel LF correct" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="'SUS_TRAVEL_LF' [mm] + 6.07" SampleRate="0" Unit=""/>
+  <MathExpression Id="Sus Travel LR correct" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="'SUS_TRAVEL_LR' [mm] + 5.60" SampleRate="0" Unit=""/>
+  <MathExpression Id="Sus Travel RF correct" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="'SUS_TRAVEL_RF' [mm] + 6.07" SampleRate="0" Unit=""/>
+  <MathExpression Id="Sus Travel RR correct" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="'SUS_TRAVEL_RR' [mm] + 5.60" SampleRate="0" Unit=""/>
+  <MathExpression Id="Ride Height LF correct" DisplayDPS="2" DisplayColorIndex="5" Interpolate="1" Script="'Ingame RH Front' - 'Sus Travel LF correct'" SampleRate="0" Unit=""/>
+  <MathExpression Id="Ride Height LR correct" DisplayDPS="2" DisplayColorIndex="6" Interpolate="1" Script="'Ingame RH Rear' - 'Sus Travel LR correct'" SampleRate="0" Unit=""/>
+  <MathExpression Id="Ride Height RF correct" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" Script="'Ingame RH Front' - 'Sus Travel RF correct'" SampleRate="0" Unit=""/>
+  <MathExpression Id="Ride Height RR correct" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="'Ingame RH Rear' - 'Sus Travel RR correct'" SampleRate="0" Unit=""/>
+  <MathExpression Id="Vdamper FL / Fspring" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" Script="'Damper Vel FL' [mm/s] / ('Sus Travel LF correct' * 'Wheel rate front' [N/mm])" SampleRate="0" Unit=""/>
+  <MathExpression Id="d/dx Vdamper FL / d" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" Script="derivative('Vdamper FL / Fspring')" SampleRate="0" Unit=""/>
+  <MathExpression Id="Vdamper FL / Fspring Gated" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script=" 'Vdamper FL / Fspring' * (('Roll Angle'  &lt;= 0.5)  AND ('Roll Angle'   &gt;=  -0.5))" SampleRate="0" Unit=""/>
+ </MathItems>
+</Maths>

@@ -1,0 +1,119 @@
+{
+	"carName": "mercedes_amg_gt3_evo",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 49, 61, 54, 62 ]
+		},
+		"alignment":
+		{
+			"camber": [ 4, 4, 2, 2 ],
+			"toe": [ 22, 22, 20, 20 ],
+			"staticCamber": [ -3.1733460426330566, -3.1656858921051025, -4.0531754493713379, -4.0466375350952148 ],
+			"toeOutLinear": [ 2.4268621928058565e-05, 2.4305574697791599e-05, -0.00029898073989897966, -0.00029879357316531241 ],
+			"casterLF": 35,
+			"casterRF": 35,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 4,
+			"tC2": 0,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 112,
+			"nPitStops": 0,
+			"tyreSet": 2,
+			"frontBrakePadCompound": 1,
+			"rearBrakePadCompound": 1,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 109,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 46, 59, 52, 59 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 109,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 47, 59, 53, 62 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 109,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 46, 59, 52, 62 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				},
+				{
+					"fuelToAdd": 109,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 47, 59, 51, 60 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 3.4500000476837158
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 5,
+			"aRBRear": 7,
+			"wheelRate": [ 2, 2, 5, 5 ],
+			"bumpStopRateUp": [ 8, 8, 11, 11 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 7, 7, 22, 22 ],
+			"brakeTorque": 20,
+			"brakeBias": 37
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 2, 2, 5, 5 ],
+			"bumpFast": [ 2, 2, 7, 7 ],
+			"reboundSlow": [ 8, 8, 9, 9 ],
+			"reboundFast": [ 7, 7, 5, 5 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 3, 6, 11, 18 ],
+			"rodLength": [ 9.8489570617675781, 9.8489570617675781, 71.431747436523438, 71.431747436523438 ],
+			"splitter": 10,
+			"rearWing": 10,
+			"brakeDuct": [ 5, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 7
+		}
+	},
+	"trackBopType": 27
+}

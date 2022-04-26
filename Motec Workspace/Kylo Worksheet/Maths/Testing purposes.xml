@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Maths Locale="English_Germany.0" DefaultLocale="C" Id="Testing purposes">
+ <MathConstants>
+  <MathConstant Name="PI" Value="3.14159265" Unit=""/>
+ </MathConstants>
+</Maths>

@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<Workbook Locale="English_Germany.0" DefaultLocale="C" Version="200" Name="Tyres &amp; Brakes" Profile="Circuit" Active="Worksheets">
+ <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Pressures">
+  <Worksheet Version="200" Name="Pressures" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="2" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="0" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="0" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Paul Ricard" BandMode="1" OverlapMode="1" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="27.1" ScaleMax="28.1">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="27.4" Color="0,0,248"/>
+        <Line Index="2" Enabled="1" Value="27.9" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="TYRE_PRESS_RR">
+        <Trace Id="TYRE_PRESS_LF" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_PRESS_RF" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_PRESS_LR" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_PRESS_RR" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Pressures (Wets)" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="2" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="0" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="0" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="1" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="28" ScaleMax="32">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="29.5" Color="0,0,248"/>
+        <Line Index="2" Enabled="1" Value="30.5" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="TYRE_PRESS_RR">
+        <Trace Id="TYRE_PRESS_LF" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_PRESS_RF" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_PRESS_LR" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_PRESS_RR" DisplayUnit=".." DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Pressures Track" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Track Report">
+    <MoTeC.TrackReport Version="100" Name="Track Report" PosPC="0,0,500,499" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="Brake Status" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="0" Continuous="0">
+       <ColorBand Flags="1" Min="0" Max="0" Color="255,0,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="G Force Long" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="-0.2" Max="-0.2" Color="255,128,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="Throttle Pos" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="15" Max="15" Color="100,100,100" Visible="1"/>
+       <ColorBand Flags="15" Min="15" Max="85" Color="0,0,255" Visible="1"/>
+       <ColorBand Flags="1" Min="85" Max="85" Color="0,200,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="TYRE_PRESS_LF" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="244,244,0" AxisChanColor="244,244,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="26.6" DataMax="28.6" BandWidth="0.2" BandCount="10">
+       <ColorBand Flags="2" Min="26.6" Max="26.6" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="26.6" Max="26.8" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="26.8" Max="27" Color="64,203,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27" Max="27.2" Color="64,255,236" Visible="1"/>
+       <ColorBand Flags="7" Min="27.2" Max="27.4" Color="64,255,169" Visible="1"/>
+       <ColorBand Flags="7" Min="27.4" Max="27.6" Color="64,255,98" Visible="1"/>
+       <ColorBand Flags="7" Min="27.6" Max="27.8" Color="98,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="27.8" Max="28" Color="169,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28" Max="28.2" Color="236,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.2" Max="28.4" Color="255,203,64" Visible="1"/>
+       <ColorBand Flags="15" Min="28.4" Max="28.6" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="1" Min="28.6" Max="28.6" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+    <MoTeC.TrackReport Version="100" Name="Track Report (1)" PosPC="500,0,1000,499" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="Brake Status" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="0" Continuous="0">
+       <ColorBand Flags="1" Min="0" Max="0" Color="255,0,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="G Force Long" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="-0.2" Max="-0.2" Color="255,128,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="Throttle Pos" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="15" Max="15" Color="100,100,100" Visible="1"/>
+       <ColorBand Flags="15" Min="15" Max="85" Color="0,0,255" Visible="1"/>
+       <ColorBand Flags="1" Min="85" Max="85" Color="0,200,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="TYRE_PRESS_RF" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="255,160,32" AxisChanColor="255,160,32" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="26.6" DataMax="28.6" BandWidth="0.2" BandCount="10">
+       <ColorBand Flags="2" Min="26.6" Max="26.6" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="26.6" Max="26.8" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="26.8" Max="27" Color="64,203,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27" Max="27.2" Color="64,255,236" Visible="1"/>
+       <ColorBand Flags="7" Min="27.2" Max="27.4" Color="64,255,169" Visible="1"/>
+       <ColorBand Flags="7" Min="27.4" Max="27.6" Color="64,255,98" Visible="1"/>
+       <ColorBand Flags="7" Min="27.6" Max="27.8" Color="98,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="27.8" Max="28" Color="169,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28" Max="28.2" Color="236,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.2" Max="28.4" Color="255,203,64" Visible="1"/>
+       <ColorBand Flags="15" Min="28.4" Max="28.6" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="1" Min="28.6" Max="28.6" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+    <MoTeC.TrackReport Version="100" Name="Track Report (3)" PosPC="500,499,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="Brake Status" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="0" Continuous="0">
+       <ColorBand Flags="1" Min="0" Max="0" Color="255,0,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="G Force Long" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="-0.2" Max="-0.2" Color="255,128,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="Throttle Pos" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="15" Max="15" Color="100,100,100" Visible="1"/>
+       <ColorBand Flags="15" Min="15" Max="85" Color="0,0,255" Visible="1"/>
+       <ColorBand Flags="1" Min="85" Max="85" Color="0,200,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="TYRE_PRESS_RR" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="47,151,255" AxisChanColor="47,151,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="27.1" DataMax="29.1" BandWidth="0.2" BandCount="10">
+       <ColorBand Flags="2" Min="27.1" Max="27.1" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27.1" Max="27.3" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27.3" Max="27.5" Color="64,203,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27.5" Max="27.7" Color="64,255,236" Visible="1"/>
+       <ColorBand Flags="7" Min="27.7" Max="27.9" Color="64,255,169" Visible="1"/>
+       <ColorBand Flags="7" Min="27.9" Max="28.1" Color="64,255,98" Visible="1"/>
+       <ColorBand Flags="7" Min="28.1" Max="28.3" Color="98,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.3" Max="28.5" Color="169,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.5" Max="28.7" Color="236,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.7" Max="28.9" Color="255,203,64" Visible="1"/>
+       <ColorBand Flags="15" Min="28.9" Max="29.1" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="1" Min="29.1" Max="29.1" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+    <MoTeC.TrackReport Version="100" Name="Track Report (2)" PosPC="0,499,500,1000" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="Brake Status" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="0" Continuous="0">
+       <ColorBand Flags="1" Min="0" Max="0" Color="255,0,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="G Force Long" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="-0.2" Max="-0.2" Color="255,128,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="Throttle Pos" Enabled="0" ScaleMode="0" UnitsMode="0">
+      <ArbitraryBandAxis PaletteMode="2" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0">
+       <ColorBand Flags="2" Min="15" Max="15" Color="100,100,100" Visible="1"/>
+       <ColorBand Flags="15" Min="15" Max="85" Color="0,0,255" Visible="1"/>
+       <ColorBand Flags="1" Min="85" Max="85" Color="0,200,0" Visible="1"/>
+      </ArbitraryBandAxis>
+     </ContourChannel>
+     <ContourChannel ID="TYRE_PRESS_LR" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="43,255,255" AxisChanColor="43,255,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="27.1" DataMax="29.1" BandWidth="0.2" BandCount="10">
+       <ColorBand Flags="2" Min="27.1" Max="27.1" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27.1" Max="27.3" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27.3" Max="27.5" Color="64,203,255" Visible="1"/>
+       <ColorBand Flags="7" Min="27.5" Max="27.7" Color="64,255,236" Visible="1"/>
+       <ColorBand Flags="7" Min="27.7" Max="27.9" Color="64,255,169" Visible="1"/>
+       <ColorBand Flags="7" Min="27.9" Max="28.1" Color="64,255,98" Visible="1"/>
+       <ColorBand Flags="7" Min="28.1" Max="28.3" Color="98,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.3" Max="28.5" Color="169,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.5" Max="28.7" Color="236,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="28.7" Max="28.9" Color="255,203,64" Visible="1"/>
+       <ColorBand Flags="15" Min="28.9" Max="29.1" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="1" Min="29.1" Max="29.1" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Temps" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="0" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="1" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="60" ScaleMax="100">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="76" Color="0,0,248"/>
+        <Line Index="2" Enabled="1" Value="90" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="TYRE_TAIR_RR">
+        <Trace Id="TYRE_TAIR_LF" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_TAIR_RF" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_TAIR_LR" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_TAIR_RR" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Temps (Wets)" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="0" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="1" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="25" ScaleMax="80">
+       <Edges Mode="0" TopEdge="0" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="25.4" Color="0,0,248"/>
+        <Line Index="2" Enabled="1" Value="65" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="TYRE_TAIR_RR">
+        <Trace Id="TYRE_TAIR_LF" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_TAIR_RF" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_TAIR_LR" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+        <Trace Id="TYRE_TAIR_RR" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Temps Track" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Track Report (3)">
+    <MoTeC.TrackReport Version="100" Name="Track Report (3)" PosPC="0,0,498,499" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="TYRE_TAIR_LF" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="244,244,0" AxisChanColor="244,244,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="0" DataMin="60" DataMax="100" BandWidth="2" BandCount="20">
+       <ColorBand Flags="2" Min="60" Max="60" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="60" Max="62" Color="64,102,255" Visible="1"/>
+       <ColorBand Flags="7" Min="62" Max="64" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="64" Max="66" Color="64,174,255" Visible="1"/>
+       <ColorBand Flags="7" Min="66" Max="68" Color="64,207,255" Visible="1"/>
+       <ColorBand Flags="7" Min="68" Max="70" Color="64,245,255" Visible="1"/>
+       <ColorBand Flags="7" Min="70" Max="72" Color="64,255,226" Visible="1"/>
+       <ColorBand Flags="7" Min="72" Max="74" Color="64,255,193" Visible="1"/>
+       <ColorBand Flags="7" Min="74" Max="76" Color="64,255,155" Visible="1"/>
+       <ColorBand Flags="7" Min="76" Max="78" Color="64,255,117" Visible="1"/>
+       <ColorBand Flags="7" Min="78" Max="80" Color="64,255,83" Visible="1"/>
+       <ColorBand Flags="7" Min="80" Max="82" Color="83,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="82" Max="84" Color="117,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="84" Max="86" Color="155,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="86" Max="88" Color="193,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="88" Max="90" Color="226,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="90" Max="92" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="92" Max="94" Color="255,207,64" Visible="1"/>
+       <ColorBand Flags="7" Min="94" Max="96" Color="255,174,64" Visible="1"/>
+       <ColorBand Flags="7" Min="96" Max="98" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="15" Min="98" Max="100" Color="255,102,64" Visible="1"/>
+       <ColorBand Flags="1" Min="100" Max="100" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+    <MoTeC.TrackReport Version="100" Name="Track Report (1)" PosPC="498,499,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="TYRE_TAIR_RR" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="47,151,255" AxisChanColor="47,151,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="0" DataMin="60" DataMax="100" BandWidth="2" BandCount="20">
+       <ColorBand Flags="2" Min="60" Max="60" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="60" Max="62" Color="64,102,255" Visible="1"/>
+       <ColorBand Flags="7" Min="62" Max="64" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="64" Max="66" Color="64,174,255" Visible="1"/>
+       <ColorBand Flags="7" Min="66" Max="68" Color="64,207,255" Visible="1"/>
+       <ColorBand Flags="7" Min="68" Max="70" Color="64,245,255" Visible="1"/>
+       <ColorBand Flags="7" Min="70" Max="72" Color="64,255,226" Visible="1"/>
+       <ColorBand Flags="7" Min="72" Max="74" Color="64,255,193" Visible="1"/>
+       <ColorBand Flags="7" Min="74" Max="76" Color="64,255,155" Visible="1"/>
+       <ColorBand Flags="7" Min="76" Max="78" Color="64,255,117" Visible="1"/>
+       <ColorBand Flags="7" Min="78" Max="80" Color="64,255,83" Visible="1"/>
+       <ColorBand Flags="7" Min="80" Max="82" Color="83,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="82" Max="84" Color="117,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="84" Max="86" Color="155,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="86" Max="88" Color="193,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="88" Max="90" Color="226,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="90" Max="92" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="92" Max="94" Color="255,207,64" Visible="1"/>
+       <ColorBand Flags="7" Min="94" Max="96" Color="255,174,64" Visible="1"/>
+       <ColorBand Flags="7" Min="96" Max="98" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="15" Min="98" Max="100" Color="255,102,64" Visible="1"/>
+       <ColorBand Flags="1" Min="100" Max="100" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+    <MoTeC.TrackReport Version="100" Name="Track Report" PosPC="0,499,498,1000" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="TYRE_TAIR_LR" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="43,255,255" AxisChanColor="43,255,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="0" DataMin="60" DataMax="100" BandWidth="2" BandCount="20">
+       <ColorBand Flags="2" Min="60" Max="60" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="60" Max="62" Color="64,102,255" Visible="1"/>
+       <ColorBand Flags="7" Min="62" Max="64" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="64" Max="66" Color="64,174,255" Visible="1"/>
+       <ColorBand Flags="7" Min="66" Max="68" Color="64,207,255" Visible="1"/>
+       <ColorBand Flags="7" Min="68" Max="70" Color="64,245,255" Visible="1"/>
+       <ColorBand Flags="7" Min="70" Max="72" Color="64,255,226" Visible="1"/>
+       <ColorBand Flags="7" Min="72" Max="74" Color="64,255,193" Visible="1"/>
+       <ColorBand Flags="7" Min="74" Max="76" Color="64,255,155" Visible="1"/>
+       <ColorBand Flags="7" Min="76" Max="78" Color="64,255,117" Visible="1"/>
+       <ColorBand Flags="7" Min="78" Max="80" Color="64,255,83" Visible="1"/>
+       <ColorBand Flags="7" Min="80" Max="82" Color="83,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="82" Max="84" Color="117,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="84" Max="86" Color="155,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="86" Max="88" Color="193,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="88" Max="90" Color="226,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="90" Max="92" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="92" Max="94" Color="255,207,64" Visible="1"/>
+       <ColorBand Flags="7" Min="94" Max="96" Color="255,174,64" Visible="1"/>
+       <ColorBand Flags="7" Min="96" Max="98" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="15" Min="98" Max="100" Color="255,102,64" Visible="1"/>
+       <ColorBand Flags="1" Min="100" Max="100" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+    <MoTeC.TrackReport Version="100" Name="Track Report (2)" PosPC="498,0,1000,499" ShowCaption="0" AutoCaption="0" LinkZoom="0" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1">
+     <TrackMapWindow>
+      <SizeScheme>
+       <SizeSchemeEntry Name="Cursor" INTValue="10"/>
+       <SizeSchemeEntry Name="Detail" INTValue="2"/>
+       <SizeSchemeEntry Name="Material" INTValue="6"/>
+      </SizeScheme>
+     </TrackMapWindow>
+     <ContourChannel ID="TYRE_TAIR_RF" Enabled="1" ScaleMode="1" UnitsMode="0">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="0" BandChanColor="255,160,32" AxisChanColor="255,160,32" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="0" DataMin="60" DataMax="100" BandWidth="2" BandCount="20">
+       <ColorBand Flags="2" Min="60" Max="60" Color="64,64,255" Visible="1"/>
+       <ColorBand Flags="7" Min="60" Max="62" Color="64,102,255" Visible="1"/>
+       <ColorBand Flags="7" Min="62" Max="64" Color="64,136,255" Visible="1"/>
+       <ColorBand Flags="7" Min="64" Max="66" Color="64,174,255" Visible="1"/>
+       <ColorBand Flags="7" Min="66" Max="68" Color="64,207,255" Visible="1"/>
+       <ColorBand Flags="7" Min="68" Max="70" Color="64,245,255" Visible="1"/>
+       <ColorBand Flags="7" Min="70" Max="72" Color="64,255,226" Visible="1"/>
+       <ColorBand Flags="7" Min="72" Max="74" Color="64,255,193" Visible="1"/>
+       <ColorBand Flags="7" Min="74" Max="76" Color="64,255,155" Visible="1"/>
+       <ColorBand Flags="7" Min="76" Max="78" Color="64,255,117" Visible="1"/>
+       <ColorBand Flags="7" Min="78" Max="80" Color="64,255,83" Visible="1"/>
+       <ColorBand Flags="7" Min="80" Max="82" Color="83,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="82" Max="84" Color="117,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="84" Max="86" Color="155,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="86" Max="88" Color="193,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="88" Max="90" Color="226,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="90" Max="92" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="92" Max="94" Color="255,207,64" Visible="1"/>
+       <ColorBand Flags="7" Min="94" Max="96" Color="255,174,64" Visible="1"/>
+       <ColorBand Flags="7" Min="96" Max="98" Color="255,136,64" Visible="1"/>
+       <ColorBand Flags="15" Min="98" Max="100" Color="255,102,64" Visible="1"/>
+       <ColorBand Flags="1" Min="100" Max="100" Color="255,64,64" Visible="1"/>
+      </EvenWidthBandAxis>
+     </ContourChannel>
+     <Notes ReportGroup="Outings:Laps:Track Sections:Default"/>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType="Straights">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Corr Speed" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.min" SectionType="Corners">
+      <ExtraChannels>
+       <Channel ID="Engine RPM"/>
+      </ExtraChannels>
+     </NoteChannel>
+     <NoteChannel ID="Gear" Enabled="0" FormulaClass="1" FormulaName="Delta" SectionType=""/>
+    </MoTeC.TrackReport>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Front Brakes" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="0" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Paul Ricard" BandMode="1" OverlapMode="1" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="100" ScaleMax="750">
+       <Edges Mode="0" TopEdge="0" BottomEdge="500"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="250" Color="255,0,128"/>
+        <Line Index="2" Enabled="1" Value="500" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="BRAKE_TEMP_LF">
+        <Trace Id="BRAKE_TEMP_LF" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+      <Graph Name="Group 2" ScaleMode="1" ScaleMin="100" ScaleMax="750">
+       <Edges Mode="0" TopEdge="500" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="0" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="250" Color="255,0,128"/>
+        <Line Index="2" Enabled="1" Value="600" Color="248,0,0"/>
+       </Lines>
+       <Traces ActiveTrace="BRAKE_TEMP_RF">
+        <Trace Id="BRAKE_TEMP_RF" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+  <Worksheet Version="200" Name="Rear Brakes" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
+   <Controls Active="Time/Distance Graph">
+    <MoTeC.TimeDistance Version="100" Name="Time/Distance Graph" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="0" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="1" VariancePos="0.25" VarianceAutoScale="1">
+     <Graphs ActivateChild="Group 1">
+      <Graph Name="Group 1" ScaleMode="1" ScaleMin="100" ScaleMax="800">
+       <Edges Mode="0" TopEdge="0" BottomEdge="498"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="0" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="150" Color="0,255,255"/>
+        <Line Index="2" Enabled="1" Value="600" Color="0,0,255"/>
+       </Lines>
+       <Traces ActiveTrace="BRAKE_TEMP_LR">
+        <Trace Id="BRAKE_TEMP_LR" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+      <Graph Name="Group 2" ScaleMode="1" ScaleMin="100" ScaleMax="800">
+       <Edges Mode="0" TopEdge="498" BottomEdge="1000"/>
+       <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
+       <Lines>
+        <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
+        <Line Index="1" Enabled="1" Value="150" Color="0,255,255"/>
+        <Line Index="2" Enabled="1" Value="600" Color="0,0,255"/>
+       </Lines>
+       <Traces ActiveTrace="BRAKE_TEMP_RR">
+        <Trace Id="BRAKE_TEMP_RR" DisplayUnit="C" DisplayDPS="2" Visible="1"/>
+       </Traces>
+      </Graph>
+     </Graphs>
+     <Cursor Version="1" Style="1" Snap="1"/>
+    </MoTeC.TimeDistance>
+   </Controls>
+  </Worksheet>
+ </Worksheets>
+</Workbook>

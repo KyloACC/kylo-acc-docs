@@ -1,0 +1,86 @@
+{
+	"carName": "lamborghini_gallardo_rex",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 61, 71, 57, 64 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 20, 20, 40, 40 ],
+			"staticCamber": [ -0.99798458814620972, -0.99469637870788574, -2.1905131340026855, -2.1846880912780762 ],
+			"toeOutLinear": [ -0.00020977073290850967, -0.0002097633114317432, 0.00021209545957390219, 0.00021203383221291006 ],
+			"casterLF": 15,
+			"casterRF": 15,
+			"steerRatio": 1
+		},
+		"electronics":
+		{
+			"tC1": 4,
+			"tC2": 0,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 33,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 55, 47, 52 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 3.7371578216552734
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 3,
+			"aRBRear": 1,
+			"wheelRate": [ 1, 1, 1, 1 ],
+			"bumpStopRateUp": [ 6, 6, 0, 1 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 1, 2, 10, 10 ],
+			"brakeTorque": 20,
+			"brakeBias": 20
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 22, 22, 34, 34 ],
+			"bumpFast": [ 10, 10, 16, 16 ],
+			"reboundSlow": [ 25, 25, 30, 30 ],
+			"reboundFast": [ 15, 15, 24, 24 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 14, 18 ],
+			"rodLength": [ -73.753501892089844, -73.753501892089844, -55.516559600830078, -55.516559600830078 ],
+			"splitter": 0,
+			"rearWing": 0,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 9
+		}
+	},
+	"trackBopType": 31
+}
