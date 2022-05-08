@@ -1,0 +1,33 @@
+Cut Video
+ffmpeg -i input.mp4 -ss 00:00:50.0 -codec copy -t 20 output.mp4
+
+Extract Audio
+ffmpeg -i output.mp4 -vn -ab 256k audio.mp3
+
+Remove Audio
+ffmpeg -i video.mp4 -an mute-video.mp4
+
+Join video files
+ffmpeg -i input1.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts input1.ts
+ffmpeg -i input2.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts input2.ts
+ffmpeg -i "concat:input1.ts|input2.ts" -c copy output.mp4
+
+Convert format
+ffmpeg -i youtube.flv -c:v libx264 filename.mp4n
+
+Split video
+ffmpeg -i video.mp4 -t 00:00:50 -c copy small-1.mp4 -ss 00:00:50 -codec copy small-2.mp4
+
+Convert to gif
+ffmpeg -i video.mp4 -vf scale=500:-1 -t 10 -r 10 image.gif
+
+Change Bitrate
+ffmpeg.exe -i .\input_video.mp4 -b:v 5M output_video.mp4
+
+Double Speed
+ffmpeg -i Tennogen.mp4 -r 16 -filter:v "setpts=0.5*PTS" 2xspeed.mp4
+
+Noise Reduction
+ffmpeg -i input.mp4 -af "afftdn=nf=-25" file1.mp4
+ffmpeg -i file1.mp4 -af "afftdn=nf=-25" file2.mp4
+ffmpeg -i file2.mp4 -af "highpass=f=200, lowpass=f=3000" file3.mp4
