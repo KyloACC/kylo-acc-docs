@@ -28,6 +28,6 @@ Double Speed
 ffmpeg -i Tennogen.mp4 -r 16 -filter:v "setpts=0.5*PTS" 2xspeed.mp4
 
 Noise Reduction
-ffmpeg -i input.mp4 -af "afftdn=nf=-25" file1.mp4
-ffmpeg -i file1.mp4 -af "afftdn=nf=-25" file2.mp4
-ffmpeg -i file2.mp4 -af "highpass=f=200, lowpass=f=3000" file3.mp4
+ffmpeg -i audio.mp3 -af "afftdn=nf=-25" file1.mp3
+ffmpeg -i file1.mp3 -af "afftdn=nf=-25" file2.mp3
+ffmpeg -i file2.mp3 -af "highpass=f=200, lowpass=f=3000" file3.mp3
