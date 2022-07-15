@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 61, 61, 54, 55 ]
+			"tyrePressure": [ 63, 66, 56, 57 ]
 		},
 		"alignment":
 		{
-			"camber": [ 5, 5, 0, 0 ],
+			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 20, 20, 20, 20 ],
-			"staticCamber": [ -4.5830464363098145, -4.5830459594726563, -0.94373887777328491, -0.94300192594528198 ],
-			"toeOutLinear": [ 0.000269965676125139, 0.00026996748056262732, -0.0043188007548451424, -0.0043187518604099751 ],
+			"staticCamber": [ -5.09112548828125, -5.0899028778076172, -0.9457937479019165, -0.94505393505096436 ],
+			"toeOutLinear": [ 0.00026801778585650027, 0.00026802651700563729, -0.0043176109902560711, -0.0043176463805139065 ],
 			"casterLF": 23,
 			"casterRF": 23,
 			"steerRatio": 3
@@ -30,7 +30,7 @@
 		{
 			"fuel": 12,
 			"nPitStops": 0,
-			"tyreSet": 3,
+			"tyreSet": 2,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,21 +365,21 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 3.4073388576507568
+			"fuelPerLap": 3.3548681735992432
 		}
 	},
 	"advancedSetup":
 	{
 		"mechanicalBalance":
 		{
-			"aRBFront": 4,
+			"aRBFront": 5,
 			"aRBRear": 1,
-			"wheelRate": [ 2, 2, 3, 3 ],
-			"bumpStopRateUp": [ 11, 11, 4, 4 ],
+			"wheelRate": [ 3, 3, 6, 6 ],
+			"bumpStopRateUp": [ 9, 9, 12, 12 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 20, 20, 20, 20 ],
+			"bumpStopWindow": [ 15, 15, 10, 10 ],
 			"brakeTorque": 20,
-			"brakeBias": 23
+			"brakeBias": 31
 		},
 		"dampers":
 		{
@@ -391,15 +391,15 @@
 		"aeroBalance":
 		{
 			"rideHeight": [ 0, 11, 23, 18 ],
-			"rodLength": [ 52.367012023925781, 52.367012023925781, -42.004459381103516, -42.004459381103516 ],
+			"rodLength": [ 52.101768493652344, 52.101768493652344, -44.319194793701172, -44.319194793701172 ],
 			"splitter": 0,
 			"rearWing": 12,
-			"brakeDuct": [ 3, 3 ]
+			"brakeDuct": [ 4, 4 ]
 		},
 		"drivetrain":
 		{
-			"preload": 7
+			"preload": 13
 		}
 	},
-	"trackBopType": 42
+	"trackBopType": 53
 }
