@@ -35,3 +35,5 @@ ffmpeg -i file2.mp3 -af "highpass=f=200, lowpass=f=3000" file3.mp3
 2 Videos next to each other
 ffmpeg -i s1.mp4 -i s2.mp4 -filter_complex "[1:v][0:v]scale2ref[wm][base];[base][wm]hstack=2" final.mp4
 
+Images to Video
+ffmpeg -framerate 1 -i 'Setup (%d).png' -c:v libx264 -r 30 -pix_fmt yuv420p output.mp4
