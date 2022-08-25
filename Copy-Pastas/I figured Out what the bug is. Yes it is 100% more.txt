@@ -1,0 +1,12 @@
+I figured Out what the bug is. Yes it is 100% more
+likely to trigger on keyboard but can do it on a
+wheel as well. What happens is that the wheels
+aren't entirely properly aligned and are steered in
+a little too much. Then throttle is applied which
+causes the push of the car to make the front
+wheels lose grip (understeer) and then at the
+same time the sim decides that the rear wheels
+are accelerated beyond their grip threshold and
+make the rear wheels lose grip (oversteer). One of
+these 2 is expected. of them happening at
+the same time is a bug.
