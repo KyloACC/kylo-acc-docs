@@ -13,9 +13,9 @@ Sleep, 69 ; sleep after clicking on the input field
 Send, {Enter} ; send enter to search
 Sleep, 1150 ; sleep 1.15s to find the lobbies, might be different for you.
 
-MouseClick, left, 961, 425 ; Set for 2560x1440, use AutoHotkey Window Spy "Window" to find your coordinates
+MouseClick, left, 1134, 550 ; Set for 2560x1440, use AutoHotkey Window Spy "Window" to find your coordinates
 
-MouseClick, left, 961, 425 ; Set for 2560x1440, use AutoHotkey Window Spy "Window" to find your coordinates
+MouseClick, left, 1957, 300 ; Set for 2560x1440, use AutoHotkey Window Spy "Window" to find your coordinates
 }
 
 
