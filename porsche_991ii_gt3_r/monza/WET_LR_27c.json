@@ -4,15 +4,15 @@
 	{
 		"tyres":
 		{
-			"tyreCompound": 0,
-			"tyrePressure": [ 62, 62, 60, 59 ]
+			"tyreCompound": 1,
+			"tyrePressure": [ 67, 72, 62, 67 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 20, 20, 20, 20 ],
-			"staticCamber": [ -5.0941023826599121, -5.0937981605529785, -0.94840943813323975, -0.94966769218444824 ],
-			"toeOutLinear": [ 0.00026708451332524419, 0.00026709592202678323, -0.0043155546300113201, -0.004315646830946207 ],
+			"staticCamber": [ -5.0899190902709961, -5.0876865386962891, 0.0068525355309247971, 0.011007996276021004 ],
+			"toeOutLinear": [ 0.00026869718567468226, 0.00026869200519286096, -0.0044546262361109257, -0.0044544367119669914 ],
 			"casterLF": 23,
 			"casterRF": 23,
 			"steerRatio": 3
@@ -28,9 +28,9 @@
 		},
 		"strategy":
 		{
-			"fuel": 13,
+			"fuel": 12,
 			"nPitStops": 0,
-			"tyreSet": 2,
+			"tyreSet": 0,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,21 +365,21 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.8653106689453125
+			"fuelPerLap": 3.4769027233123779
 		}
 	},
 	"advancedSetup":
 	{
 		"mechanicalBalance":
 		{
-			"aRBFront": 2,
-			"aRBRear": 5,
-			"wheelRate": [ 5, 5, 5, 5 ],
-			"bumpStopRateUp": [ 4, 4, 12, 12 ],
+			"aRBFront": 1,
+			"aRBRear": 4,
+			"wheelRate": [ 2, 2, 3, 3 ],
+			"bumpStopRateUp": [ 12, 12, 7, 7 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 15, 15, 0, 0 ],
+			"bumpStopWindow": [ 25, 25, 20, 20 ],
 			"brakeTorque": 20,
-			"brakeBias": 21
+			"brakeBias": 0
 		},
 		"dampers":
 		{
@@ -390,16 +390,16 @@
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 11, 23, 18 ],
-			"rodLength": [ 49.840621948242188, 49.840621948242188, -43.996620178222656, -43.996620178222656 ],
+			"rideHeight": [ 0, 11, 5, 18 ],
+			"rodLength": [ 53.041007995605469, 53.041007995605469, -59.504734039306641, -59.504734039306641 ],
 			"splitter": 0,
-			"rearWing": 12,
-			"brakeDuct": [ 2, 2 ]
+			"rearWing": 4,
+			"brakeDuct": [ 3, 3 ]
 		},
 		"drivetrain":
 		{
-			"preload": 19
+			"preload": 7
 		}
 	},
-	"trackBopType": 44
+	"trackBopType": 31
 }
