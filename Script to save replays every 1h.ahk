@@ -3,11 +3,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-^y::pause ; Ctrl + Y to pause, after finding the lobby usually
-!y:: ; Alt + Y to start the script.
+^y::
 
 Loop,
 {
-SendInput, m
+Send m
 Sleep, 3600000
 }
