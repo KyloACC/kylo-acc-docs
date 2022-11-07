@@ -5,14 +5,14 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 69, 71, 64, 65 ]
+			"tyrePressure": [ 67, 69, 63, 66 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 20, 20, 20, 20 ],
-			"staticCamber": [ -5.0909032821655273, -5.0900874137878418, -0.94240248203277588, -0.94151937961578369 ],
-			"toeOutLinear": [ 0.00026801929925568402, 0.00026801798958331347, -0.0043195639736950397, -0.0043195569887757301 ],
+			"staticCamber": [ -5.0912899971008301, -5.0904693603515625, -0.94304102659225464, -0.94039487838745117 ],
+			"toeOutLinear": [ 0.0002679289027582854, 0.00026791502023115754, -0.0043197660706937313, -0.0043196235783398151 ],
 			"casterLF": 23,
 			"casterRF": 23,
 			"steerRatio": 3
@@ -28,9 +28,9 @@
 		},
 		"strategy":
 		{
-			"fuel": 14,
+			"fuel": 12,
 			"nPitStops": 0,
-			"tyreSet": 3,
+			"tyreSet": 0,
 			"frontBrakePadCompound": 0,
 			"rearBrakePadCompound": 0,
 			"pitStrategy": [
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.7999999523162842
+			"fuelPerLap": 3.1588649749755859
 		}
 	},
 	"advancedSetup":
@@ -373,13 +373,13 @@
 		"mechanicalBalance":
 		{
 			"aRBFront": 3,
-			"aRBRear": 3,
-			"wheelRate": [ 3, 3, 4, 4 ],
-			"bumpStopRateUp": [ 10, 10, 9, 9 ],
+			"aRBRear": 1,
+			"wheelRate": [ 0, 0, 0, 0 ],
+			"bumpStopRateUp": [ 7, 7, 3, 4 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
-			"bumpStopWindow": [ 20, 20, 20, 20 ],
+			"bumpStopWindow": [ 10, 10, 10, 10 ],
 			"brakeTorque": 20,
-			"brakeBias": 23
+			"brakeBias": 16
 		},
 		"dampers":
 		{
@@ -391,14 +391,14 @@
 		"aeroBalance":
 		{
 			"rideHeight": [ 0, 11, 23, 18 ],
-			"rodLength": [ 52.247711181640625, 52.247711181640625, -42.898128509521484, -42.898128509521484 ],
+			"rodLength": [ 55.455589294433594, 55.455589294433594, -38.787841796875, -38.787841796875 ],
 			"splitter": 0,
 			"rearWing": 12,
-			"brakeDuct": [ 3, 3 ]
+			"brakeDuct": [ 2, 2 ]
 		},
 		"drivetrain":
 		{
-			"preload": 16
+			"preload": 22
 		}
 	},
 	"trackBopType": 34
