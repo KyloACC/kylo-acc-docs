@@ -31,66 +31,135 @@ data = json.loads(response.read())
 #    print(str(counter) + "/" + str(limit) + " tracks")
 # counter = 0
 
-unique_tracks = []
-try:
-    for x in range(limit):
-        if data[x]["track_name"] not in unique_tracks:
-            unique_tracks.append(data[x]["track_name"])
- #           print(data[x]["track_name"])
-except:
-    print()
-
-for x in unique_tracks:
-    print(x)
-
-tracks = []
-tracks.append(unique_tracks)
-track_counter = []
-
-for x in unique_tracks:
-    track_counter.append(int(0))
-
-try:
-    for x in range(limit):
-        if(data[x]["track_name"]) in unique_tracks:
-            # index = unique_tracks.index(data[x]["track_name"])
-            track_counter[unique_tracks.index(data[x]["track_name"])] += 1
-            # print(test =+ 1)
-            # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
-except:
-   print()
-
-for x in range(len(track_counter)):
-    print(unique_tracks[x] + " = " + str(track_counter[x]))
+def find_tracks():
+    unique_tracks = []
+    try:
+        for x in range(limit):
+            if data[x]["track_name"] not in unique_tracks:
+                unique_tracks.append(data[x]["track_name"])
+     #           print(data[x]["track_name"])
+    except:
+        print()
+    return unique_tracks    
 
 
-unique_cars = []
-try:
-    for x in range(limit):
-        if data[x]["car_name"] not in unique_cars:
-            unique_cars.append(data[x]["car_name"])
-except:
-    print()
+def count_tracks(unique_tracks):
+    track_counter = []
 
-for x in unique_cars:
-    print(x)
+    for x in unique_tracks:
+        track_counter.append(int(0))
 
-cars = []
-cars.append(unique_cars)
-car_counter = []
+    try:
+        for x in range(limit):
+            if(data[x]["track_name"]) in unique_tracks:
+                # index = unique_tracks.index(data[x]["track_name"])
+                track_counter[unique_tracks.index(data[x]["track_name"])] += 1
+                # print(test =+ 1)
+                # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
+    except:
+       print()
 
-for x in unique_cars:
-    car_counter.append(int(0))
+    return track_counter
 
-try:
-    for x in range(limit):
-        if(data[x]["car_name"]) in unique_cars:
-            # index = unique_tracks.index(data[x]["track_name"])
-            car_counter[unique_cars.index(data[x]["car_name"])] += 1
-            # print(test =+ 1)
-            # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
-except:
-   print()
+def find_cars():
+    unique_cars = []
+    try:
+        for x in range(limit):
+            if data[x]["car_name"] not in unique_cars:
+                unique_cars.append(data[x]["car_name"])
+    except:
+        print()
+    return unique_cars        
 
-for x in range(len(car_counter)):
-    print(unique_cars[x] + " = " + str(car_counter[x]))
+def count_cars(unique_cars):
+    car_counter = []
+
+    for x in unique_cars:
+        car_counter.append(int(0))
+
+    try:
+        for x in range(limit):
+            if(data[x]["car_name"]) in unique_cars:
+                # index = unique_tracks.index(data[x]["track_name"])
+                car_counter[unique_cars.index(data[x]["car_name"])] += 1
+                # print(test =+ 1)
+                # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
+    except:
+       print()
+
+    return car_counter
+
+def Convert(lst1, lst2):
+    it1 = iter(lst1)
+    it2 = iter(lst2)
+    res_dct = dict(zip(it1, it2))
+    return res_dct
+
+def Convert3(lst1, lst2, lst3):
+    it1 = iter(lst1)
+    it2 = iter(lst2)
+    it3 = iter(lst3)
+    res_dct = dict(zip(zip(it1, it2), it3))
+    return res_dct    
+
+def count_tracks_and_cars(unique_tracks, unique_cars):
+    counter = []
+
+    for x in unique_tracks:
+        for y in unique_cars:
+            counter.append(int(0))
+
+    try:
+        for x in range(limit):
+            if(data[x]["track_name"]) in unique_tracks:
+                if(data[x]["car_name"] in unique_cars):
+                # index = unique_tracks.index(data[x]["track_name"])
+                    counter[(unique_cars.index(data[x]["car_name"])) * (len(unique_tracks)) + (unique_tracks.index(data[x]["track_name"]))] += 1
+                # print(test =+ 1)
+                # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
+    except:
+       print()
+
+#    for x in range(len(track_counter)):
+#        print(unique_tracks[x] + " = " + str(track_counter[x]))
+
+    return counter
+
+def find_car_track(cars, tracks):
+    lst = []
+    for x in tracks:
+        for y in cars:
+            input = (x + " at " + y)
+            if input not in lst:
+                lst.append(input)
+    return lst;        
+
+
+def Sort(dictio):
+    dic2=dict(sorted(dictio.items(),key= lambda x:x[1], reverse=True))
+    return dic2
+
+def main():
+    unique_tracks = find_tracks()
+    unique_cars = find_cars()
+    unique_car_and_track = find_car_track(unique_tracks, unique_cars)
+
+    track_counter = count_tracks(unique_tracks)
+    car_counter = count_cars(unique_cars)
+    car_and_track = count_tracks_and_cars(unique_tracks, unique_cars)
+
+    print(json.dumps(Sort(Convert(unique_tracks, track_counter)), indent=4))
+    print(json.dumps(Sort(Convert(unique_cars, car_counter)), indent=4))
+    print(json.dumps(Sort(Convert(unique_car_and_track, car_and_track)), indent=4))
+
+#    print(json.dumps(Convert(unique_tracks, track_counter), indent=4))
+#    print(json.dumps(Convert(unique_cars, car_counter), indent=4))
+#    print(json.dumps(Convert(unique_car_and_track, car_and_track), indent=4))
+
+
+
+
+   # print(Convert(unique_cars, car_counter))
+
+if __name__ == "__main__":
+    main()        
