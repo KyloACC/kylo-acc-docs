@@ -1,8 +1,9 @@
 import json
 # import urllib library
 from urllib.request import urlopen 
+import sys
 
-user_id = 1704
+user_id = int(sys.argv[1])
 limit = 1000
 url = "https://api2.lowfuelmotorsport.com/api/users/getUsersPastRaces/" + str(user_id) + "?start=0&limit=" + str(limit)
   
@@ -125,6 +126,52 @@ def count_tracks_and_cars(unique_tracks, unique_cars):
 
     return counter
 
+def count_elo(unique_tracks, unique_cars):
+    counter = []
+
+    for x in unique_tracks:
+        for y in unique_cars:
+            counter.append(int(0))
+
+    try:
+        for x in range(limit):
+            if(data[x]["track_name"]) in unique_tracks:
+                if(data[x]["car_name"] in unique_cars):
+                # index = unique_tracks.index(data[x]["track_name"])
+                    counter[(unique_cars.index(data[x]["car_name"])) * (len(unique_tracks)) + (unique_tracks.index(data[x]["track_name"]))] += data[x]["rating_change"]
+                # print(test =+ 1)
+                # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
+    except:
+       print()
+
+#    for x in range(len(track_counter)):
+#        print(unique_tracks[x] + " = " + str(track_counter[x]))
+
+    return counter    
+
+def count_sr(unique_tracks, unique_cars):
+    counter = []
+
+    for x in unique_tracks:
+        for y in unique_cars:
+            counter.append(int(0))
+
+    try:
+        for x in range(limit):
+            if(data[x]["track_name"]) in unique_tracks:
+                if(data[x]["car_name"] in unique_cars):
+                # index = unique_tracks.index(data[x]["track_name"])
+                    counter[(unique_cars.index(data[x]["car_name"])) * (len(unique_tracks)) + (unique_tracks.index(data[x]["track_name"]))] += data[x]["sr_change"]
+                # print(test =+ 1)
+                # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
+    except:
+       print()
+
+#    for x in range(len(track_counter)):
+#        print(unique_tracks[x] + " = " + str(track_counter[x]))
+
+    return counter    
+
 def find_car_track(cars, tracks):
     lst = []
     for x in tracks:
@@ -139,6 +186,15 @@ def Sort(dictio):
     dic2=dict(sorted(dictio.items(),key= lambda x:x[1], reverse=True))
     return dic2
 
+def PruneDict(MyDict):
+    MyDict = {key:val for key, val in MyDict.items() if val != 0}
+    return MyDict
+
+def PruneNDict(MyDict, n):
+    MyDict = dict(list(MyDict.items())[:n])
+    return MyDict
+
+
 def main():
     unique_tracks = find_tracks()
     unique_cars = find_cars()
@@ -147,10 +203,40 @@ def main():
     track_counter = count_tracks(unique_tracks)
     car_counter = count_cars(unique_cars)
     car_and_track = count_tracks_and_cars(unique_tracks, unique_cars)
+    elo_car_track = count_elo(unique_tracks, unique_cars)
+    sr_car_track = count_sr(unique_tracks, unique_cars)
 
+
+    print("All")
+    print("Races done in given track, car or track & car combo\n")
     print(json.dumps(Sort(Convert(unique_tracks, track_counter)), indent=4))
     print(json.dumps(Sort(Convert(unique_cars, car_counter)), indent=4))
-    print(json.dumps(Sort(Convert(unique_car_and_track, car_and_track)), indent=4))
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, car_and_track))), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Elo gain or loss per car & track combo\n")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, elo_car_track))), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Safety Rating gain or loss per car & track combo\n")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, sr_car_track))), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Top 5")
+    print("Races done in given track, car or track & car combo\n")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_tracks, track_counter)),5), indent=4))
+    print(json.dumps(PruneNDict(Sort(Convert(unique_cars, car_counter)),5), indent=4))
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, car_and_track)),5), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Elo gain or loss per car & track combo\n")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, elo_car_track)),5), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Safety Rating gain or loss per car & track combo\n")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, sr_car_track)),5), indent=4))
+    print("_____________________________________________________________\n")
+
 
 #    print(json.dumps(Convert(unique_tracks, track_counter), indent=4))
 #    print(json.dumps(Convert(unique_cars, car_counter), indent=4))
