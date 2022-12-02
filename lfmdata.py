@@ -126,7 +126,7 @@ def count_tracks_and_cars(unique_tracks, unique_cars):
 
     return counter
 
-def count_elo(unique_tracks, unique_cars):
+def count_something(unique_tracks, unique_cars, something):
     counter = []
 
     for x in unique_tracks:
@@ -138,7 +138,8 @@ def count_elo(unique_tracks, unique_cars):
             if(data[x]["track_name"]) in unique_tracks:
                 if(data[x]["car_name"] in unique_cars):
                 # index = unique_tracks.index(data[x]["track_name"])
-                    counter[(unique_cars.index(data[x]["car_name"])) * (len(unique_tracks)) + (unique_tracks.index(data[x]["track_name"]))] += data[x]["rating_change"]
+                    counter[(unique_cars.index(data[x]["car_name"])) * (len(unique_tracks)) + (unique_tracks.index(data[x]["track_name"]))] += data[x][something]
+
                 # print(test =+ 1)
                 # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
     except:
@@ -146,31 +147,12 @@ def count_elo(unique_tracks, unique_cars):
 
 #    for x in range(len(track_counter)):
 #        print(unique_tracks[x] + " = " + str(track_counter[x]))
+    i = range(len(counter))
+    for j in i:
+          counter[j] = round(counter[j], 3)
+    
+    return counter
 
-    return counter    
-
-def count_sr(unique_tracks, unique_cars):
-    counter = []
-
-    for x in unique_tracks:
-        for y in unique_cars:
-            counter.append(int(0))
-
-    try:
-        for x in range(limit):
-            if(data[x]["track_name"]) in unique_tracks:
-                if(data[x]["car_name"] in unique_cars):
-                # index = unique_tracks.index(data[x]["track_name"])
-                    counter[(unique_cars.index(data[x]["car_name"])) * (len(unique_tracks)) + (unique_tracks.index(data[x]["track_name"]))] += data[x]["sr_change"]
-                # print(test =+ 1)
-                # print(data[x]["track_name"] + " " + str(track_counter[unique_tracks.index(data[x]["track_name"])]))
-    except:
-       print()
-
-#    for x in range(len(track_counter)):
-#        print(unique_tracks[x] + " = " + str(track_counter[x]))
-
-    return counter    
 
 def find_car_track(cars, tracks):
     lst = []
@@ -179,15 +161,37 @@ def find_car_track(cars, tracks):
             input = (x + " at " + y)
             if input not in lst:
                 lst.append(input)
-    return lst;        
+    return lst;
 
+def per_race(key, count, data):
+    values = []
+    length = range(len(key)-1)
+    for x in length:
+        if(count[x] >= 3):
+            values.append(round(data[x] / count[x], 3))
+
+        else:
+            values.append(-10000)
+
+    return values
+
+def start_finish(start, finish):
+    values = []
+    length = range(len(start)-1)
+    for x in length:
+        values.append(round(finish[x] - start[x], 3))
+    return values;        
 
 def Sort(dictio):
     dic2=dict(sorted(dictio.items(),key= lambda x:x[1], reverse=True))
     return dic2
 
-def PruneDict(MyDict):
-    MyDict = {key:val for key, val in MyDict.items() if val != 0}
+def Sort_inverse(dictio):
+    dic2=dict(sorted(dictio.items(),key= lambda x:x[1], reverse=False))
+    return dic2    
+
+def PruneDict(MyDict, number):
+    MyDict = {key:val for key, val in MyDict.items() if val != number}
     return MyDict
 
 def PruneNDict(MyDict, n):
@@ -203,23 +207,55 @@ def main():
     track_counter = count_tracks(unique_tracks)
     car_counter = count_cars(unique_cars)
     car_and_track = count_tracks_and_cars(unique_tracks, unique_cars)
-    elo_car_track = count_elo(unique_tracks, unique_cars)
-    sr_car_track = count_sr(unique_tracks, unique_cars)
+    
+    elo_car_track = count_something(unique_tracks, unique_cars, "rating_change")
+    sr_car_track = count_something(unique_tracks, unique_cars, "sr_change")
+    ip_car_track = count_something(unique_tracks, unique_cars, "incidents")
+    start_car_track = count_something(unique_tracks, unique_cars, "start_pos")
+    finish_car_track = count_something(unique_tracks, unique_cars, "finishing_pos")
+
+    elo_car_track_per_race = per_race(unique_car_and_track, car_and_track, elo_car_track)
+    ip_car_track_per_race = per_race(unique_car_and_track, car_and_track, ip_car_track)
+    sr_car_track_per_race = per_race(unique_car_and_track, car_and_track, sr_car_track)
+    start_car_track_per_race = per_race(unique_car_and_track, car_and_track, start_car_track)
+    finish_car_track_per_race = per_race(unique_car_and_track, car_and_track, finish_car_track)
+
+    start_finish_data = start_finish(start_car_track_per_race, finish_car_track_per_race)
 
 
     print("All")
     print("Races done in given track, car or track & car combo\n")
     print(json.dumps(Sort(Convert(unique_tracks, track_counter)), indent=4))
     print(json.dumps(Sort(Convert(unique_cars, car_counter)), indent=4))
-    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, car_and_track))), indent=4))
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, car_and_track)), 0), indent=4))
     print("_____________________________________________________________\n")
 
     print("Elo gain or loss per car & track combo\n")
-    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, elo_car_track))), indent=4))
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, elo_car_track)), 0), indent=4))
     print("_____________________________________________________________\n")
 
     print("Safety Rating gain or loss per car & track combo\n")
-    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, sr_car_track))), indent=4))
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, sr_car_track)), 0), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Incident Points per car & track combo\n")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, ip_car_track)), 0), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Elo gain/loss per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, elo_car_track_per_race)), -10000), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Incident Points per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, ip_car_track_per_race)), -10000), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Safety Rating gain/loss per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, sr_car_track_per_race)), -10000), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Difference Start -> Finish Position per race for car+track with more or equal than 3 races")
+    print(json.dumps(Sort(Convert(unique_car_and_track, start_finish_data)), indent=4))
     print("_____________________________________________________________\n")
 
     print("Top 5")
@@ -231,10 +267,32 @@ def main():
 
     print("Elo gain or loss per car & track combo\n")
     print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, elo_car_track)),5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, elo_car_track)), -10000), 5), indent=4))
     print("_____________________________________________________________\n")
 
     print("Safety Rating gain or loss per car & track combo\n")
     print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, sr_car_track)),5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, sr_car_track)), -10000), 5), indent=4))
+    print("_____________________________________________________________\n")
+
+    print("Elo gain/loss per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, elo_car_track_per_race)), 5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, elo_car_track_per_race)), -10000), 5), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Incident Points per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, ip_car_track_per_race)), 5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, ip_car_track_per_race)), -10000), 5), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Safety Rating gain/loss per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, sr_car_track_per_race)), 5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, sr_car_track_per_race)), -10000), 5), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Difference Start -> Finish Position per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, start_finish_data)), 5), indent=4))
+    print(json.dumps(PruneNDict(Sort_inverse(Convert(unique_car_and_track, start_finish_data)), 5), indent=4))
     print("_____________________________________________________________\n")
 
 
