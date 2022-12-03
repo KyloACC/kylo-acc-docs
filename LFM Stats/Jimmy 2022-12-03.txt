@@ -1,0 +1,443 @@
+LFM ID: 5553
+ Loading...
+
+
+
+
+
+
+
+
+
+
+
+All
+Races done in given track, car or track & car combo
+
+{
+    "Circuit de Paul Ricard": 24,
+    "Silverstone": 13,
+    "Autodromo Enzo e Dino Ferrari": 11,
+    "Circuit Of The Americas": 8,
+    "Oulton Park": 7,
+    "Hungaroring": 6,
+    "Autodromo Nazionale di Monza": 6,
+    "Laguna Seca": 5,
+    "Circuit de Catalunya": 5,
+    "Donington Park": 5,
+    "Zolder": 3,
+    "Mount Panorama Circuit": 3,
+    "Suzuka Circuit": 3,
+    "Watkins Glen": 2,
+    "Snetterton": 2,
+    "Circuit de Spa Francorchamps": 1,
+    "Zandvoort": 1,
+    "N\u00fcrburgring": 1
+}
+{
+    "Honda NSX GT3 Evo": 57,
+    "McLaren 720S GT3": 49
+}
+{
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 17,
+    "Honda NSX GT3 Evo at Silverstone": 11,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 9,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 8,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 7,
+    "McLaren 720S GT3 at Hungaroring": 6,
+    "McLaren 720S GT3 at Autodromo Nazionale di Monza": 6,
+    "McLaren 720S GT3 at Laguna Seca": 5,
+    "McLaren 720S GT3 at Circuit de Catalunya": 5,
+    "McLaren 720S GT3 at Donington Park": 5,
+    "Honda NSX GT3 Evo at Oulton Park": 4,
+    "Honda NSX GT3 Evo at Zolder": 3,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 3,
+    "McLaren 720S GT3 at Oulton Park": 3,
+    "McLaren 720S GT3 at Suzuka Circuit": 3,
+    "Honda NSX GT3 Evo at Watkins Glen": 2,
+    "McLaren 720S GT3 at Silverstone": 2,
+    "McLaren 720S GT3 at Autodromo Enzo e Dino Ferrari": 2,
+    "McLaren 720S GT3 at Snetterton": 2,
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": 1,
+    "McLaren 720S GT3 at Zandvoort": 1,
+    "McLaren 720S GT3 at N\u00fcrburgring": 1
+}
+_____________________________________________________________
+
+Elo gain or loss per car & track combo
+
+{
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 321,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 239,
+    "McLaren 720S GT3 at Autodromo Nazionale di Monza": 200,
+    "Honda NSX GT3 Evo at Watkins Glen": 141,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 119,
+    "Honda NSX GT3 Evo at Silverstone": 115,
+    "Honda NSX GT3 Evo at Oulton Park": 83,
+    "Honda NSX GT3 Evo at Zolder": 79,
+    "McLaren 720S GT3 at Autodromo Enzo e Dino Ferrari": 68,
+    "McLaren 720S GT3 at Hungaroring": 67,
+    "McLaren 720S GT3 at Snetterton": 59,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 55,
+    "McLaren 720S GT3 at Suzuka Circuit": 43,
+    "McLaren 720S GT3 at Laguna Seca": 42,
+    "McLaren 720S GT3 at Zandvoort": 30,
+    "McLaren 720S GT3 at Circuit de Catalunya": 10,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": -5,
+    "McLaren 720S GT3 at N\u00fcrburgring": -8,
+    "McLaren 720S GT3 at Oulton Park": -14,
+    "McLaren 720S GT3 at Silverstone": -34,
+    "McLaren 720S GT3 at Donington Park": -38,
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": -167
+}
+_____________________________________________________________
+
+Safety Rating gain or loss per car & track combo
+
+{
+    "McLaren 720S GT3 at Autodromo Nazionale di Monza": 1.17,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 0.94,
+    "McLaren 720S GT3 at Circuit de Catalunya": 0.73,
+    "McLaren 720S GT3 at Suzuka Circuit": 0.73,
+    "McLaren 720S GT3 at Laguna Seca": 0.66,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 0.63,
+    "McLaren 720S GT3 at Donington Park": 0.55,
+    "Honda NSX GT3 Evo at Oulton Park": 0.4,
+    "McLaren 720S GT3 at Autodromo Enzo e Dino Ferrari": 0.39,
+    "McLaren 720S GT3 at Zandvoort": 0.36,
+    "McLaren 720S GT3 at Snetterton": 0.36,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 0.35,
+    "Honda NSX GT3 Evo at Watkins Glen": 0.24,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 0.12,
+    "McLaren 720S GT3 at Hungaroring": 0.12,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 0.09,
+    "McLaren 720S GT3 at N\u00fcrburgring": 0.09,
+    "Honda NSX GT3 Evo at Zolder": -0.09,
+    "McLaren 720S GT3 at Silverstone": -0.38,
+    "McLaren 720S GT3 at Oulton Park": -0.54,
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": -0.6
+}
+_____________________________________________________________
+
+Incident Points per car & track combo
+
+{
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 109,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 88,
+    "Honda NSX GT3 Evo at Silverstone": 76,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 43,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 39,
+    "McLaren 720S GT3 at Silverstone": 35,
+    "McLaren 720S GT3 at Hungaroring": 35,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 34,
+    "McLaren 720S GT3 at Oulton Park": 32,
+    "McLaren 720S GT3 at Donington Park": 31,
+    "Honda NSX GT3 Evo at Zolder": 30,
+    "Honda NSX GT3 Evo at Oulton Park": 29,
+    "McLaren 720S GT3 at Laguna Seca": 26,
+    "McLaren 720S GT3 at Autodromo Nazionale di Monza": 26,
+    "Honda NSX GT3 Evo at Watkins Glen": 18,
+    "McLaren 720S GT3 at Circuit de Catalunya": 18,
+    "McLaren 720S GT3 at Autodromo Enzo e Dino Ferrari": 17,
+    "McLaren 720S GT3 at N\u00fcrburgring": 13,
+    "McLaren 720S GT3 at Suzuka Circuit": 9,
+    "McLaren 720S GT3 at Snetterton": 8,
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": 6
+}
+_____________________________________________________________
+
+Elo gain/loss per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 35.667,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 29.875,
+    "Honda NSX GT3 Evo at Zolder": 26.333,
+    "Honda NSX GT3 Evo at Oulton Park": 20.75,
+    "McLaren 720S GT3 at Suzuka Circuit": 14.333,
+    "McLaren 720S GT3 at Hungaroring": 11.167,
+    "Honda NSX GT3 Evo at Silverstone": 10.455,
+    "McLaren 720S GT3 at Laguna Seca": 8.4,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 7.857,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 7.0,
+    "McLaren 720S GT3 at Circuit de Catalunya": 2.0,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": -1.667,
+    "McLaren 720S GT3 at Oulton Park": -4.667,
+    "McLaren 720S GT3 at Donington Park": -7.6
+}
+_____________________________________________________________
+
+Incident Points per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 13.0,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 11.0,
+    "McLaren 720S GT3 at Oulton Park": 10.667,
+    "Honda NSX GT3 Evo at Zolder": 10.0,
+    "Honda NSX GT3 Evo at Oulton Park": 7.25,
+    "Honda NSX GT3 Evo at Silverstone": 6.909,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 6.412,
+    "McLaren 720S GT3 at Donington Park": 6.2,
+    "McLaren 720S GT3 at Hungaroring": 5.833,
+    "McLaren 720S GT3 at Laguna Seca": 5.2,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 4.857,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 4.778,
+    "McLaren 720S GT3 at Circuit de Catalunya": 3.6,
+    "McLaren 720S GT3 at Suzuka Circuit": 3.0
+}
+_____________________________________________________________
+
+Safety Rating gain/loss per race for car+track with more or equal than 3 races
+{
+    "McLaren 720S GT3 at Suzuka Circuit": 0.243,
+    "McLaren 720S GT3 at Circuit de Catalunya": 0.146,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 0.134,
+    "McLaren 720S GT3 at Laguna Seca": 0.132,
+    "McLaren 720S GT3 at Donington Park": 0.11,
+    "Honda NSX GT3 Evo at Oulton Park": 0.1,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 0.044,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 0.04,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 0.037,
+    "McLaren 720S GT3 at Hungaroring": 0.02,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 0.01,
+    "Honda NSX GT3 Evo at Silverstone": 0.0,
+    "Honda NSX GT3 Evo at Zolder": -0.03,
+    "McLaren 720S GT3 at Oulton Park": -0.18
+}
+_____________________________________________________________
+
+Average Start position per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 9.588,
+    "McLaren 720S GT3 at Laguna Seca": 9.2,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 7.75,
+    "McLaren 720S GT3 at Suzuka Circuit": 7.0,
+    "Honda NSX GT3 Evo at Zolder": 6.667,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 6.333,
+    "Honda NSX GT3 Evo at Silverstone": 5.818,
+    "McLaren 720S GT3 at Oulton Park": 5.667,
+    "Honda NSX GT3 Evo at Oulton Park": 5.5,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 3.667,
+    "McLaren 720S GT3 at Hungaroring": 3.167,
+    "McLaren 720S GT3 at Donington Park": 3.0,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 2.571,
+    "McLaren 720S GT3 at Circuit de Catalunya": 1.8
+}
+_____________________________________________________________
+
+Average Finish position per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 14.333,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 11.176,
+    "Honda NSX GT3 Evo at Zolder": 10.667,
+    "Honda NSX GT3 Evo at Oulton Park": 10.0,
+    "Honda NSX GT3 Evo at Silverstone": 9.091,
+    "McLaren 720S GT3 at Laguna Seca": 7.8,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 7.5,
+    "McLaren 720S GT3 at Donington Park": 7.0,
+    "McLaren 720S GT3 at Circuit de Catalunya": 6.0,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 5.778,
+    "McLaren 720S GT3 at Suzuka Circuit": 5.0,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 4.857,
+    "McLaren 720S GT3 at Oulton Park": 4.667,
+    "McLaren 720S GT3 at Hungaroring": 3.333
+}
+_____________________________________________________________
+
+Difference Start -> Finish Position per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 8.0,
+    "Honda NSX GT3 Evo at Oulton Park": 4.5,
+    "McLaren 720S GT3 at Circuit de Catalunya": 4.2,
+    "Honda NSX GT3 Evo at Zolder": 4.0,
+    "McLaren 720S GT3 at Donington Park": 4.0,
+    "Honda NSX GT3 Evo at Silverstone": 3.273,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 2.286,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 2.111,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 1.588,
+    "McLaren 720S GT3 at Hungaroring": 0.166,
+    "Honda NSX GT3 Evo at Watkins Glen": 0,
+    "Honda NSX GT3 Evo at Circuit de Spa Francorchamps": 0,
+    "Honda NSX GT3 Evo at Laguna Seca": 0,
+    "Honda NSX GT3 Evo at Zandvoort": 0,
+    "Honda NSX GT3 Evo at Circuit de Catalunya": 0,
+    "Honda NSX GT3 Evo at Suzuka Circuit": 0,
+    "Honda NSX GT3 Evo at Donington Park": 0,
+    "Honda NSX GT3 Evo at Hungaroring": 0,
+    "Honda NSX GT3 Evo at Snetterton": 0,
+    "Honda NSX GT3 Evo at N\u00fcrburgring": 0,
+    "Honda NSX GT3 Evo at Autodromo Nazionale di Monza": 0,
+    "McLaren 720S GT3 at Silverstone": 0,
+    "McLaren 720S GT3 at Autodromo Enzo e Dino Ferrari": 0,
+    "McLaren 720S GT3 at Circuit Of The Americas": 0,
+    "McLaren 720S GT3 at Zolder": 0,
+    "McLaren 720S GT3 at Mount Panorama Circuit": 0,
+    "McLaren 720S GT3 at Watkins Glen": 0,
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": 0,
+    "McLaren 720S GT3 at Zandvoort": 0,
+    "McLaren 720S GT3 at Snetterton": 0,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": -0.25,
+    "McLaren 720S GT3 at Oulton Park": -1.0,
+    "McLaren 720S GT3 at Laguna Seca": -1.4,
+    "McLaren 720S GT3 at Suzuka Circuit": -2.0
+}
+_____________________________________________________________
+
+Top 5
+Races done in given track, car or track & car combo
+
+{
+    "Circuit de Paul Ricard": 24,
+    "Silverstone": 13,
+    "Autodromo Enzo e Dino Ferrari": 11,
+    "Circuit Of The Americas": 8,
+    "Oulton Park": 7
+}
+{
+    "Honda NSX GT3 Evo": 57,
+    "McLaren 720S GT3": 49
+}
+{
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 17,
+    "Honda NSX GT3 Evo at Silverstone": 11,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 9,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 8,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 7
+}
+_____________________________________________________________
+
+Elo gain or loss per car & track combo
+
+{
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 321,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 239,
+    "McLaren 720S GT3 at Autodromo Nazionale di Monza": 200,
+    "Honda NSX GT3 Evo at Watkins Glen": 141,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 119
+}
+{
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": -167,
+    "McLaren 720S GT3 at Donington Park": -38,
+    "McLaren 720S GT3 at Silverstone": -34,
+    "McLaren 720S GT3 at Oulton Park": -14,
+    "McLaren 720S GT3 at N\u00fcrburgring": -8
+}
+_____________________________________________________________
+
+Safety Rating gain or loss per car & track combo
+
+{
+    "McLaren 720S GT3 at Autodromo Nazionale di Monza": 1.17,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 0.94,
+    "McLaren 720S GT3 at Circuit de Catalunya": 0.73,
+    "McLaren 720S GT3 at Suzuka Circuit": 0.73,
+    "McLaren 720S GT3 at Laguna Seca": 0.66
+}
+{
+    "McLaren 720S GT3 at Circuit de Spa Francorchamps": -0.6,
+    "McLaren 720S GT3 at Oulton Park": -0.54,
+    "McLaren 720S GT3 at Silverstone": -0.38,
+    "Honda NSX GT3 Evo at Zolder": -0.09,
+    "Honda NSX GT3 Evo at Silverstone": 0.0
+}
+_____________________________________________________________
+
+Elo gain/loss per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 35.667,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 29.875,
+    "Honda NSX GT3 Evo at Zolder": 26.333,
+    "Honda NSX GT3 Evo at Oulton Park": 20.75,
+    "McLaren 720S GT3 at Suzuka Circuit": 14.333
+}
+{
+    "McLaren 720S GT3 at Donington Park": -7.6,
+    "McLaren 720S GT3 at Oulton Park": -4.667,
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": -1.667,
+    "McLaren 720S GT3 at Circuit de Catalunya": 2.0,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 7.0
+}
+_____________________________________________________________
+
+Incident Points per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 13.0,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 11.0,
+    "McLaren 720S GT3 at Oulton Park": 10.667,
+    "Honda NSX GT3 Evo at Zolder": 10.0,
+    "Honda NSX GT3 Evo at Oulton Park": 7.25
+}
+{
+    "McLaren 720S GT3 at Suzuka Circuit": 3.0,
+    "McLaren 720S GT3 at Circuit de Catalunya": 3.6,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 4.778,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 4.857,
+    "McLaren 720S GT3 at Laguna Seca": 5.2
+}
+_____________________________________________________________
+
+Safety Rating gain/loss per race for car+track with more or equal than 3 races
+{
+    "McLaren 720S GT3 at Suzuka Circuit": 0.243,
+    "McLaren 720S GT3 at Circuit de Catalunya": 0.146,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 0.134,
+    "McLaren 720S GT3 at Laguna Seca": 0.132,
+    "McLaren 720S GT3 at Donington Park": 0.11
+}
+{
+    "McLaren 720S GT3 at Oulton Park": -0.18,
+    "Honda NSX GT3 Evo at Zolder": -0.03,
+    "Honda NSX GT3 Evo at Silverstone": 0.0,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 0.01,
+    "McLaren 720S GT3 at Hungaroring": 0.02
+}
+_____________________________________________________________
+
+Average Start position per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 9.588,
+    "McLaren 720S GT3 at Laguna Seca": 9.2,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": 7.75,
+    "McLaren 720S GT3 at Suzuka Circuit": 7.0,
+    "Honda NSX GT3 Evo at Zolder": 6.667
+}
+{
+    "McLaren 720S GT3 at Circuit de Catalunya": 1.8,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 2.571,
+    "McLaren 720S GT3 at Donington Park": 3.0,
+    "McLaren 720S GT3 at Hungaroring": 3.167,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 3.667
+}
+_____________________________________________________________
+
+Average Finish position per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 14.333,
+    "Honda NSX GT3 Evo at Circuit de Paul Ricard": 11.176,
+    "Honda NSX GT3 Evo at Zolder": 10.667,
+    "Honda NSX GT3 Evo at Oulton Park": 10.0,
+    "Honda NSX GT3 Evo at Silverstone": 9.091
+}
+{
+    "McLaren 720S GT3 at Hungaroring": 3.333,
+    "McLaren 720S GT3 at Oulton Park": 4.667,
+    "McLaren 720S GT3 at Circuit de Paul Ricard": 4.857,
+    "McLaren 720S GT3 at Suzuka Circuit": 5.0,
+    "Honda NSX GT3 Evo at Autodromo Enzo e Dino Ferrari": 5.778
+}
+_____________________________________________________________
+
+Difference Start -> Finish Position per race for car+track with more or equal than 3 races
+{
+    "Honda NSX GT3 Evo at Mount Panorama Circuit": 8.0,
+    "Honda NSX GT3 Evo at Oulton Park": 4.5,
+    "McLaren 720S GT3 at Circuit de Catalunya": 4.2,
+    "Honda NSX GT3 Evo at Zolder": 4.0,
+    "McLaren 720S GT3 at Donington Park": 4.0
+}
+{
+    "McLaren 720S GT3 at Suzuka Circuit": -2.0,
+    "McLaren 720S GT3 at Laguna Seca": -1.4,
+    "McLaren 720S GT3 at Oulton Park": -1.0,
+    "Honda NSX GT3 Evo at Circuit Of The Americas": -0.25,
+    "Honda NSX GT3 Evo at Watkins Glen": 0
+}
+_____________________________________________________________
+
