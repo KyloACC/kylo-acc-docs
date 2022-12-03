@@ -1,0 +1,328 @@
+LFM ID: 2767
+ Loading...
+
+
+
+
+
+
+
+
+
+
+
+All
+Races done in given track, car or track & car combo
+
+{
+    "Kyalami": 19,
+    "N\u00fcrburgring": 13,
+    "Circuit de Paul Ricard": 6,
+    "Zolder": 6,
+    "Donington Park": 4,
+    "Circuit de Spa Francorchamps": 4,
+    "Zandvoort": 4,
+    "Misano": 4,
+    "Silverstone": 3,
+    "Autodromo Enzo e Dino Ferrari": 1
+}
+{
+    "Bentley Continental": 64
+}
+{
+    "Bentley Continental at Kyalami": 19,
+    "Bentley Continental at N\u00fcrburgring": 13,
+    "Bentley Continental at Circuit de Paul Ricard": 6,
+    "Bentley Continental at Zolder": 6,
+    "Bentley Continental at Donington Park": 4,
+    "Bentley Continental at Circuit de Spa Francorchamps": 4,
+    "Bentley Continental at Zandvoort": 4,
+    "Bentley Continental at Misano": 4,
+    "Bentley Continental at Silverstone": 3,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 1
+}
+_____________________________________________________________
+
+Elo gain or loss per car & track combo
+
+{
+    "Bentley Continental at Zolder": 274,
+    "Bentley Continental at Zandvoort": 73,
+    "Bentley Continental at N\u00fcrburgring": 22,
+    "Bentley Continental at Silverstone": 15,
+    "Bentley Continental at Misano": 13,
+    "Bentley Continental at Kyalami": 10,
+    "Bentley Continental at Circuit de Spa Francorchamps": 3,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": -21,
+    "Bentley Continental at Circuit de Paul Ricard": -57
+}
+_____________________________________________________________
+
+Safety Rating gain or loss per car & track combo
+
+{
+    "Bentley Continental at Zandvoort": 1.6,
+    "Bentley Continental at Circuit de Spa Francorchamps": 1.21,
+    "Bentley Continental at Misano": 1.03,
+    "Bentley Continental at N\u00fcrburgring": 1.01,
+    "Bentley Continental at Zolder": 0.3,
+    "Bentley Continental at Circuit de Paul Ricard": 0.23,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 0.16,
+    "Bentley Continental at Donington Park": 0.11,
+    "Bentley Continental at Kyalami": -0.41
+}
+_____________________________________________________________
+
+Incident Points per car & track combo
+
+{
+    "Bentley Continental at Kyalami": 163,
+    "Bentley Continental at N\u00fcrburgring": 50,
+    "Bentley Continental at Circuit de Paul Ricard": 42,
+    "Bentley Continental at Donington Park": 28,
+    "Bentley Continental at Zolder": 28,
+    "Bentley Continental at Silverstone": 21,
+    "Bentley Continental at Misano": 12,
+    "Bentley Continental at Circuit de Spa Francorchamps": 10,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 6
+}
+_____________________________________________________________
+
+Elo gain/loss per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Zolder": 45.667,
+    "Bentley Continental at Zandvoort": 18.25,
+    "Bentley Continental at Silverstone": 5.0,
+    "Bentley Continental at N\u00fcrburgring": 1.692,
+    "Bentley Continental at Circuit de Spa Francorchamps": 0.75,
+    "Bentley Continental at Kyalami": 0.526,
+    "Bentley Continental at Donington Park": 0.0,
+    "Bentley Continental at Circuit de Paul Ricard": -9.5
+}
+_____________________________________________________________
+
+Incident Points per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Kyalami": 8.579,
+    "Bentley Continental at Donington Park": 7.0,
+    "Bentley Continental at Circuit de Paul Ricard": 7.0,
+    "Bentley Continental at Silverstone": 7.0,
+    "Bentley Continental at Zolder": 4.667,
+    "Bentley Continental at N\u00fcrburgring": 3.846,
+    "Bentley Continental at Circuit de Spa Francorchamps": 2.5,
+    "Bentley Continental at Zandvoort": 0.0
+}
+_____________________________________________________________
+
+Safety Rating gain/loss per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Zandvoort": 0.4,
+    "Bentley Continental at Circuit de Spa Francorchamps": 0.302,
+    "Bentley Continental at N\u00fcrburgring": 0.078,
+    "Bentley Continental at Zolder": 0.05,
+    "Bentley Continental at Circuit de Paul Ricard": 0.038,
+    "Bentley Continental at Donington Park": 0.028,
+    "Bentley Continental at Silverstone": -0.0,
+    "Bentley Continental at Kyalami": -0.022
+}
+_____________________________________________________________
+
+Average Start position per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Circuit de Spa Francorchamps": 16.5,
+    "Bentley Continental at Circuit de Paul Ricard": 16.167,
+    "Bentley Continental at Kyalami": 14.0,
+    "Bentley Continental at Donington Park": 10.25,
+    "Bentley Continental at Silverstone": 9.0,
+    "Bentley Continental at N\u00fcrburgring": 5.154,
+    "Bentley Continental at Zandvoort": 4.75,
+    "Bentley Continental at Zolder": 4.167
+}
+_____________________________________________________________
+
+Average Finish position per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Circuit de Paul Ricard": 15.333,
+    "Bentley Continental at Kyalami": 14.684,
+    "Bentley Continental at Circuit de Spa Francorchamps": 12.25,
+    "Bentley Continental at Donington Park": 11.0,
+    "Bentley Continental at Silverstone": 8.333,
+    "Bentley Continental at N\u00fcrburgring": 7.385,
+    "Bentley Continental at Zandvoort": 3.75,
+    "Bentley Continental at Zolder": 2.833
+}
+_____________________________________________________________
+
+Difference Start -> Finish Position per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at N\u00fcrburgring": 2.231,
+    "Bentley Continental at Donington Park": 0.75,
+    "Bentley Continental at Kyalami": 0.684,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 0,
+    "Bentley Continental at Silverstone": -0.667,
+    "Bentley Continental at Circuit de Paul Ricard": -0.834,
+    "Bentley Continental at Zolder": -1.334,
+    "Bentley Continental at Circuit de Spa Francorchamps": -4.25
+}
+_____________________________________________________________
+
+Top 5
+Races done in given track, car or track & car combo
+
+{
+    "Kyalami": 19,
+    "N\u00fcrburgring": 13,
+    "Circuit de Paul Ricard": 6,
+    "Zolder": 6,
+    "Donington Park": 4
+}
+{
+    "Bentley Continental": 64
+}
+{
+    "Bentley Continental at Kyalami": 19,
+    "Bentley Continental at N\u00fcrburgring": 13,
+    "Bentley Continental at Circuit de Paul Ricard": 6,
+    "Bentley Continental at Zolder": 6,
+    "Bentley Continental at Donington Park": 4
+}
+_____________________________________________________________
+
+Elo gain or loss per car & track combo
+
+{
+    "Bentley Continental at Zolder": 274,
+    "Bentley Continental at Zandvoort": 73,
+    "Bentley Continental at N\u00fcrburgring": 22,
+    "Bentley Continental at Silverstone": 15,
+    "Bentley Continental at Misano": 13
+}
+{
+    "Bentley Continental at Circuit de Paul Ricard": -57,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": -21,
+    "Bentley Continental at Donington Park": 0,
+    "Bentley Continental at Circuit de Spa Francorchamps": 3,
+    "Bentley Continental at Kyalami": 10
+}
+_____________________________________________________________
+
+Safety Rating gain or loss per car & track combo
+
+{
+    "Bentley Continental at Zandvoort": 1.6,
+    "Bentley Continental at Circuit de Spa Francorchamps": 1.21,
+    "Bentley Continental at Misano": 1.03,
+    "Bentley Continental at N\u00fcrburgring": 1.01,
+    "Bentley Continental at Zolder": 0.3
+}
+{
+    "Bentley Continental at Kyalami": -0.41,
+    "Bentley Continental at Silverstone": -0.0,
+    "Bentley Continental at Donington Park": 0.11,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 0.16,
+    "Bentley Continental at Circuit de Paul Ricard": 0.23
+}
+_____________________________________________________________
+
+Elo gain/loss per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Zolder": 45.667,
+    "Bentley Continental at Zandvoort": 18.25,
+    "Bentley Continental at Silverstone": 5.0,
+    "Bentley Continental at N\u00fcrburgring": 1.692,
+    "Bentley Continental at Circuit de Spa Francorchamps": 0.75
+}
+{
+    "Bentley Continental at Circuit de Paul Ricard": -9.5,
+    "Bentley Continental at Donington Park": 0.0,
+    "Bentley Continental at Kyalami": 0.526,
+    "Bentley Continental at Circuit de Spa Francorchamps": 0.75,
+    "Bentley Continental at N\u00fcrburgring": 1.692
+}
+_____________________________________________________________
+
+Incident Points per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Kyalami": 8.579,
+    "Bentley Continental at Donington Park": 7.0,
+    "Bentley Continental at Circuit de Paul Ricard": 7.0,
+    "Bentley Continental at Silverstone": 7.0,
+    "Bentley Continental at Zolder": 4.667
+}
+{
+    "Bentley Continental at Zandvoort": 0.0,
+    "Bentley Continental at Circuit de Spa Francorchamps": 2.5,
+    "Bentley Continental at N\u00fcrburgring": 3.846,
+    "Bentley Continental at Zolder": 4.667,
+    "Bentley Continental at Donington Park": 7.0
+}
+_____________________________________________________________
+
+Safety Rating gain/loss per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Zandvoort": 0.4,
+    "Bentley Continental at Circuit de Spa Francorchamps": 0.302,
+    "Bentley Continental at N\u00fcrburgring": 0.078,
+    "Bentley Continental at Zolder": 0.05,
+    "Bentley Continental at Circuit de Paul Ricard": 0.038
+}
+{
+    "Bentley Continental at Kyalami": -0.022,
+    "Bentley Continental at Silverstone": -0.0,
+    "Bentley Continental at Donington Park": 0.028,
+    "Bentley Continental at Circuit de Paul Ricard": 0.038,
+    "Bentley Continental at Zolder": 0.05
+}
+_____________________________________________________________
+
+Average Start position per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Circuit de Spa Francorchamps": 16.5,
+    "Bentley Continental at Circuit de Paul Ricard": 16.167,
+    "Bentley Continental at Kyalami": 14.0,
+    "Bentley Continental at Donington Park": 10.25,
+    "Bentley Continental at Silverstone": 9.0
+}
+{
+    "Bentley Continental at Zolder": 4.167,
+    "Bentley Continental at Zandvoort": 4.75,
+    "Bentley Continental at N\u00fcrburgring": 5.154,
+    "Bentley Continental at Silverstone": 9.0,
+    "Bentley Continental at Donington Park": 10.25
+}
+_____________________________________________________________
+
+Average Finish position per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at Circuit de Paul Ricard": 15.333,
+    "Bentley Continental at Kyalami": 14.684,
+    "Bentley Continental at Circuit de Spa Francorchamps": 12.25,
+    "Bentley Continental at Donington Park": 11.0,
+    "Bentley Continental at Silverstone": 8.333
+}
+{
+    "Bentley Continental at Zolder": 2.833,
+    "Bentley Continental at Zandvoort": 3.75,
+    "Bentley Continental at N\u00fcrburgring": 7.385,
+    "Bentley Continental at Silverstone": 8.333,
+    "Bentley Continental at Donington Park": 11.0
+}
+_____________________________________________________________
+
+Difference Start -> Finish Position per race for car+track with more or equal than 3 races
+{
+    "Bentley Continental at N\u00fcrburgring": 2.231,
+    "Bentley Continental at Donington Park": 0.75,
+    "Bentley Continental at Kyalami": 0.684,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 0,
+    "Bentley Continental at Silverstone": -0.667
+}
+{
+    "Bentley Continental at Circuit de Spa Francorchamps": -4.25,
+    "Bentley Continental at Zolder": -1.334,
+    "Bentley Continental at Circuit de Paul Ricard": -0.834,
+    "Bentley Continental at Silverstone": -0.667,
+    "Bentley Continental at Autodromo Enzo e Dino Ferrari": 0
+}
+_____________________________________________________________
+

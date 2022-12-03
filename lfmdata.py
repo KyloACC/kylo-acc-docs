@@ -200,6 +200,13 @@ def PruneNDict(MyDict, n):
 
 
 def main():
+    try:
+        if(len(sys.argv) > 1):
+            print("LFM ID: " + sys.argv[1] + "\n Loading...\n")
+    except:
+        print("Did you forget your lfm id?")
+        return
+
     unique_tracks = find_tracks()
     unique_cars = find_cars()
     unique_car_and_track = find_car_track(unique_tracks, unique_cars)
@@ -254,6 +261,14 @@ def main():
     print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, sr_car_track_per_race)), -10000), indent=4))
     print("_____________________________________________________________\n")
     
+    print("Average Start position per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, start_car_track_per_race)), -10000), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Average Finish position per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneDict(Sort(Convert(unique_car_and_track, finish_car_track_per_race)), -10000), indent=4))
+    print("_____________________________________________________________\n")
+    
     print("Difference Start -> Finish Position per race for car+track with more or equal than 3 races")
     print(json.dumps(Sort(Convert(unique_car_and_track, start_finish_data)), indent=4))
     print("_____________________________________________________________\n")
@@ -288,6 +303,16 @@ def main():
     print("Safety Rating gain/loss per race for car+track with more or equal than 3 races")
     print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, sr_car_track_per_race)), 5), indent=4))
     print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, sr_car_track_per_race)), -10000), 5), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Average Start position per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, start_car_track_per_race)), 5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, start_car_track_per_race)), -10000), 5), indent=4))
+    print("_____________________________________________________________\n")
+    
+    print("Average Finish position per race for car+track with more or equal than 3 races")
+    print(json.dumps(PruneNDict(Sort(Convert(unique_car_and_track, finish_car_track_per_race)), 5), indent=4))
+    print(json.dumps(PruneNDict(PruneDict(Sort_inverse(Convert(unique_car_and_track, finish_car_track_per_race)), -10000), 5), indent=4))
     print("_____________________________________________________________\n")
     
     print("Difference Start -> Finish Position per race for car+track with more or equal than 3 races")
