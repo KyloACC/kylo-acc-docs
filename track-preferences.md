@@ -24,10 +24,10 @@
 | Zolder				| ---			| ---			| nay
 _____
 Counts:
-Porsche:	12 | 04
-Honda:		06 | 04.5	
-Ferrari:	01 | 01
-Mercedes:	00 | 01.5
-McLaren:	00 | 01
-
+Porsche:	12 | 04   
+Honda:		06 | 04.5	   
+Ferrari:	01 | 01   
+Mercedes:	00 | 01.5   
+McLaren:	00 | 01   
+ 
 GT4 yay/nay:	17 | 5
