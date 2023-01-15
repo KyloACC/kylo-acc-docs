@@ -1,8 +1,8 @@
 Cut Video
-ffmpeg -i input.mp4 -ss 00:00:50.0 -codec copy -t 20 output.mp4
+ffmpeg -i input.mp4 -ss 00:00:4.5 -codec copy -t 2 output.mp4
 
 Extract Audio
-ffmpeg -i output.mp4 -vn -ab 256k audio.mp3
+ffmpeg -i output.mp4 -vn -ab 256k audio.wav
 
 Remove Audio
 ffmpeg -i video.mp4 -an mute-video.mp4
