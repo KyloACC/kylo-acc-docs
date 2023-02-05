@@ -1,9 +1,17 @@
 #!/bin/bash
 
-SeriesName=$1
-Track=$4
-Car=$5
+echo "Series Name?"
+read SeriesName
+echo "Track?"
+read Track
+echo "Car?"
+read Car
+echo "Season?"
+read Season
+echo "Week?"
+read Week
+
 n=$(py "C:\Users\lucaz\Documents\Assetto Corsa Competizione\Setups\starts.py")
 
-echo "LFM - $SeriesName - Race $n - Season $2 Week $3 - $Track in $Car"
+echo "LFM - $SeriesName - Race $n - Season $Season Week $Week - $Track in $Car"
 read
