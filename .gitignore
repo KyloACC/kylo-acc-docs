@@ -4,10 +4,7 @@ Foch*
 sirfoch*
 gwatch.exe
 ukog*
-headwuend*
-*[sS]chubert[A-Za-z-_]*.json
 *flicker*
-*schubert*.json
 *mp4
 *mp3
 *mkv
@@ -25,10 +22,8 @@ Geert*
 GO*
 HYMO*
 Felix*
-Teemu*
 *foch*
 !Sound bits
 !Sound bits/*.mp3
 !Sound bits/*.mp4
-headwig*
 Teemu*
