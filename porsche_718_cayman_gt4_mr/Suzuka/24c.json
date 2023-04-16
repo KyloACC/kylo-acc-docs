@@ -5,21 +5,21 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 55, 57, 61, 63 ]
+			"tyrePressure": [ 40, 42, 47, 49 ]
 		},
 		"alignment":
 		{
 			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 20, 20, 20, 20 ],
-			"staticCamber": [ -5.438270092010498, -5.4269809722900391, -5.9763059616088867, -5.9728460311889648 ],
-			"toeOutLinear": [ 0.00087866844842210412, 0.00085238146129995584, -0.00081081467214971781, -0.00080249150050804019 ],
+			"staticCamber": [ -5.2957191467285156, -5.2847676277160645, -5.9693708419799805, -5.9663095474243164 ],
+			"toeOutLinear": [ 0.00076787051511928439, 0.00074764085002243519, -0.00080764893209561706, -0.00080062344204634428 ],
 			"casterLF": 17,
 			"casterRF": 17,
 			"steerRatio": 3
 		},
 		"electronics":
 		{
-			"tC1": 2,
+			"tC1": 1,
 			"tC2": 0,
 			"abs": 1,
 			"eCUMap": 0,
@@ -365,41 +365,41 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.4274163246154785
+			"fuelPerLap": 2.4312565326690674
 		}
 	},
 	"advancedSetup":
 	{
 		"mechanicalBalance":
 		{
-			"aRBFront": 3,
+			"aRBFront": 4,
 			"aRBRear": 1,
 			"wheelRate": [ 0, 0, 4, 4 ],
-			"bumpStopRateUp": [ 7, 7, 0, 0 ],
+			"bumpStopRateUp": [ 0, 0, 0, 0 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 0, 0, 0, 0 ],
 			"brakeTorque": 20,
-			"brakeBias": 10
+			"brakeBias": 23
 		},
 		"dampers":
 		{
-			"bumpSlow": [ 2, 2, 12, 12 ],
+			"bumpSlow": [ 11, 11, 12, 12 ],
 			"bumpFast": [ 9, 9, 11, 11 ],
-			"reboundSlow": [ 15, 15, 6, 6 ],
+			"reboundSlow": [ 13, 13, 14, 14 ],
 			"reboundFast": [ 0, 0, 0, 0 ]
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 11, 36, 18 ],
-			"rodLength": [ 40.215236663818359, 40.215236663818359, 47.253673553466797, 47.253673553466797 ],
+			"rideHeight": [ 0, 11, 41, 18 ],
+			"rodLength": [ 35.517749786376953, 35.517749786376953, 47.305755615234375, 47.305755615234375 ],
 			"splitter": 0,
-			"rearWing": 2,
-			"brakeDuct": [ 4, 4 ]
+			"rearWing": 4,
+			"brakeDuct": [ 4, 3 ]
 		},
 		"drivetrain":
 		{
-			"preload": 4
+			"preload": 1
 		}
 	},
-	"trackBopType": 10
+	"trackBopType": 14
 }
