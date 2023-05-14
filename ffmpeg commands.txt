@@ -20,6 +20,7 @@ ffmpeg -i video.mp4 -t 00:00:50 -c copy small-1.mp4 -ss 00:00:50 -codec copy sma
 
 Convert to gif
 ffmpeg -i video.mp4 -vf scale=500:-1 -t 10 -r 10 image.gif
+ffmpeg -i output.mp4 -filter_complex "[0:v] fps=15,scale=720:-1,split [a][b];[a] palettegen [p];[b][p] paletteuse" -fs 50M -loop 0 output.gif
 
 Change Bitrate
 ffmpeg.exe -i .\input_video.mp4 -b:v 5M output_video.mp4
