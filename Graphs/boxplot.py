@@ -7,6 +7,9 @@ import sys
 # Read csv file
 df = pd.read_csv(sys.argv[1] + ".csv")
 
+# Change resolution
+fig, ax = plt.subplots(figsize=(int(sys.argv[5]), 4.5)) 
+
 # Filter out lap times that are 10000ms slower than the stint average
 df = df[df["laptime_in_ms"] <= df.groupby("stint")["laptime_in_ms"].transform("mean") + int(float(sys.argv[4])*1000)]
 
@@ -20,7 +23,7 @@ sns.boxplot(data=df, x="x_label", y="laptime_in_ms")
 plt.title(sys.argv[3])
 
 # Rotate the x axis labels for better readability
-plt.xticks(rotation=int(sys.argv[5]))
+plt.xticks(rotation=int(sys.argv[5]), fontsize=8) 
 
 # Show the plot
 plt.show()

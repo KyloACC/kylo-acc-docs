@@ -13,7 +13,7 @@ stints = data["stint"].unique()
 colors = plt.cm.Set1(np.linspace(0, 1, len(stints)))
 
 # Create a new figure and axis for the plot
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(int(sys.argv[5]), 4.5)) 
 
 # Loop over each stint and plot the moving average lap times for that stint, filtering out outliers
 for i, stint in enumerate(stints):

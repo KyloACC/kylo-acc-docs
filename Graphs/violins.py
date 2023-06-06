@@ -7,11 +7,14 @@ import sys
 # Read csv file
 df = pd.read_csv(sys.argv[1] + ".csv")
 
+# Change resolution
+fig, ax = plt.subplots(figsize=(int(sys.argv[5]), 4.5)) 
+
 # Filter out lap times that are 10000ms slower than the stint average
 df = df[df["laptime_in_ms"] <= df.groupby("stint")["laptime_in_ms"].transform("mean") + int(float(sys.argv[3])*1000)]
 
 # Create a violin plot with hue as stint and color as driver
-sns.violinplot(data=df, x="stint", y="laptime_in_ms", hue="driver", palette="Set2", cut=0)
+sns.violinplot(data=df, x="stint", y="laptime_in_ms", hue="driver", palette="Set3", cut=0)
 
 # Add the name of the driver and the amount of laps somewhere
 plt.title(f"{df['driver'].iloc[0]} - {len(df)} laps")
