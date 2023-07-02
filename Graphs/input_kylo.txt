@@ -1,3 +1,5 @@
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,     
+"Luca Ziege"
 "1 ", Porsche 992 GT3 R, no,"0", "01:31.5303", "27.1153", "31.1600", "33.2550",     
 "2 ", Porsche 992 GT3 R, no,"0", "01:23.8450", "22.1720", "28.8400", "32.8320",     
 "3 ", Porsche 992 GT3 R, no,"0", "01:23.7120", "21.9450", "28.7920", "32.9750",     
