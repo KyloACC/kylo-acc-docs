@@ -5,21 +5,21 @@
 		"tyres":
 		{
 			"tyreCompound": 0,
-			"tyrePressure": [ 44, 48, 51, 53 ]
+			"tyrePressure": [ 44, 45, 49, 50 ]
 		},
 		"alignment":
 		{
-			"camber": [ 0, 0, 5, 5 ],
+			"camber": [ 0, 0, 0, 0 ],
 			"toe": [ 20, 20, 20, 20 ],
-			"staticCamber": [ -5.2937312126159668, -5.2814421653747559, -5.2936348915100098, -5.2902512550354004 ],
-			"toeOutLinear": [ 0.00076485116733238101, 0.00074562861118465662, -0.00075911660678684711, -0.00075460190419107676 ],
+			"staticCamber": [ -5.4291887283325195, -5.4185676574707031, -5.8024749755859375, -5.7998781204223633 ],
+			"toeOutLinear": [ 0.00087081157835200429, 0.00084751762915402651, -0.00076088827336207032, -0.00075683434261009097 ],
 			"casterLF": 17,
 			"casterRF": 17,
 			"steerRatio": 3
 		},
 		"electronics":
 		{
-			"tC1": 2,
+			"tC1": 1,
 			"tC2": 0,
 			"abs": 3,
 			"eCUMap": 0,
@@ -28,7 +28,7 @@
 		},
 		"strategy":
 		{
-			"fuel": 8,
+			"fuel": 10,
 			"nPitStops": 0,
 			"tyreSet": 1,
 			"frontBrakePadCompound": 0,
@@ -365,7 +365,7 @@
 					"rearBrakePadCompound": 0
 				}
 			],
-			"fuelPerLap": 2.3855712413787842
+			"fuelPerLap": 2.8749325275421143
 		}
 	},
 	"advancedSetup":
@@ -374,12 +374,12 @@
 		{
 			"aRBFront": 5,
 			"aRBRear": 5,
-			"wheelRate": [ 0, 0, 4, 4 ],
+			"wheelRate": [ 0, 0, 1, 1 ],
 			"bumpStopRateUp": [ 0, 0, 0, 0 ],
 			"bumpStopRateDn": [ 0, 0, 10, 10 ],
 			"bumpStopWindow": [ 0, 0, 0, 0 ],
 			"brakeTorque": 20,
-			"brakeBias": 15
+			"brakeBias": 20
 		},
 		"dampers":
 		{
@@ -390,16 +390,16 @@
 		},
 		"aeroBalance":
 		{
-			"rideHeight": [ 0, 11, 36, 18 ],
-			"rodLength": [ 35.231353759765625, 35.231353759765625, 42.306129455566406, 42.306129455566406 ],
+			"rideHeight": [ 0, 11, 31, 18 ],
+			"rodLength": [ 39.796913146972656, 39.796913146972656, 47.342273712158203, 47.342273712158203 ],
 			"splitter": 0,
-			"rearWing": 4,
-			"brakeDuct": [ 4, 3 ]
+			"rearWing": 1,
+			"brakeDuct": [ 3, 4 ]
 		},
 		"drivetrain":
 		{
 			"preload": 5
 		}
 	},
-	"trackBopType": 8
+	"trackBopType": 10
 }
