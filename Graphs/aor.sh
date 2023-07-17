@@ -1,7 +1,12 @@
 #!/bin/bash
 
-python3 aor.py kylo
-python3 aor.py jimmy
-python3 aor.py kargulu
+files=("kylo" "jimmy" "kargulu")
 
-python3 aor_all.py $1 $2
+for file in "${files[@]}"
+do
+        echo "$file"
+        python3 aor_t1.py "$file"
+        python3 average.py "$file" > "output2_$file.txt"
+done
+
+python3 aor_all.py "$1" $2
